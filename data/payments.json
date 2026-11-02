@@ -1,0 +1,8794 @@
+[
+  {
+    "id": "PAY-0001",
+    "booked_at": "2025-10-07",
+    "amount": 7200,
+    "reference": "INV-0758",
+    "invoice_id": "INV-0758"
+  },
+  {
+    "id": "PAY-0002",
+    "booked_at": "2025-10-07",
+    "amount": 9400,
+    "reference": "INV-1178",
+    "invoice_id": "INV-1178"
+  },
+  {
+    "id": "PAY-0003",
+    "booked_at": "2025-10-10",
+    "amount": 13900,
+    "reference": "INV-0061",
+    "invoice_id": "INV-0061"
+  },
+  {
+    "id": "PAY-0004",
+    "booked_at": "2025-10-11",
+    "amount": 8500,
+    "reference": "INV-0361",
+    "invoice_id": "INV-0361"
+  },
+  {
+    "id": "PAY-0005",
+    "booked_at": "2025-10-12",
+    "amount": 7200,
+    "reference": "husleje schmidt",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0006",
+    "booked_at": "2025-10-16",
+    "amount": 8900,
+    "reference": "INV-0638",
+    "invoice_id": "INV-0638"
+  },
+  {
+    "id": "PAY-0007",
+    "booked_at": "2025-10-16",
+    "amount": 10200,
+    "reference": "INV-0301",
+    "invoice_id": "INV-0301"
+  },
+  {
+    "id": "PAY-0008",
+    "booked_at": "2025-10-17",
+    "amount": 11800,
+    "reference": "INV-0445",
+    "invoice_id": "INV-0445"
+  },
+  {
+    "id": "PAY-0009",
+    "booked_at": "2025-10-18",
+    "amount": 7200,
+    "reference": "INV-0818",
+    "invoice_id": "INV-0818"
+  },
+  {
+    "id": "PAY-0010",
+    "booked_at": "2025-10-19",
+    "amount": 13900,
+    "reference": "INV-1154",
+    "invoice_id": "INV-1154"
+  },
+  {
+    "id": "PAY-0011",
+    "booked_at": "2025-10-22",
+    "amount": 9400,
+    "reference": "2025-11 rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0012",
+    "booked_at": "2025-10-29",
+    "amount": 10200,
+    "reference": "INV-0565",
+    "invoice_id": "INV-0565"
+  },
+  {
+    "id": "PAY-0013",
+    "booked_at": "2025-10-29",
+    "amount": 7900,
+    "reference": "INV-0962",
+    "invoice_id": "INV-0962"
+  },
+  {
+    "id": "PAY-0014",
+    "booked_at": "2025-10-29",
+    "amount": 12500,
+    "reference": "INV-0746",
+    "invoice_id": "INV-0746"
+  },
+  {
+    "id": "PAY-0015",
+    "booked_at": "2025-10-29",
+    "amount": 11000,
+    "reference": "INV-0421",
+    "invoice_id": "INV-0421"
+  },
+  {
+    "id": "PAY-0016",
+    "booked_at": "2025-10-29",
+    "amount": 8900,
+    "reference": "INV-1190",
+    "invoice_id": "INV-1190"
+  },
+  {
+    "id": "PAY-0017",
+    "booked_at": "2025-10-29",
+    "amount": 7200,
+    "reference": "INV-1118",
+    "invoice_id": "INV-1118"
+  },
+  {
+    "id": "PAY-0018",
+    "booked_at": "2025-10-29",
+    "amount": 12500,
+    "reference": "INV-1142",
+    "invoice_id": "INV-1142"
+  },
+  {
+    "id": "PAY-0019",
+    "booked_at": "2025-10-29",
+    "amount": 10200,
+    "reference": "INV-0349",
+    "invoice_id": "INV-0349"
+  },
+  {
+    "id": "PAY-0020",
+    "booked_at": "2025-10-29",
+    "amount": 12500,
+    "reference": "INV-0830",
+    "invoice_id": "INV-0830"
+  },
+  {
+    "id": "PAY-0021",
+    "booked_at": "2025-10-29",
+    "amount": 8900,
+    "reference": "INV-1058",
+    "invoice_id": "INV-1058"
+  },
+  {
+    "id": "PAY-0022",
+    "booked_at": "2025-10-29",
+    "amount": 11000,
+    "reference": "INV-0169",
+    "invoice_id": "INV-0169"
+  },
+  {
+    "id": "PAY-0023",
+    "booked_at": "2025-10-29",
+    "amount": 8900,
+    "reference": "INV-0662",
+    "invoice_id": "INV-0662"
+  },
+  {
+    "id": "PAY-0024",
+    "booked_at": "2025-10-29",
+    "amount": 7900,
+    "reference": "INV-0217",
+    "invoice_id": "INV-0217"
+  },
+  {
+    "id": "PAY-0025",
+    "booked_at": "2025-10-29",
+    "amount": 10200,
+    "reference": "INV-0950",
+    "invoice_id": "INV-0950"
+  },
+  {
+    "id": "PAY-0026",
+    "booked_at": "2025-10-29",
+    "amount": 7200,
+    "reference": "INV-0577",
+    "invoice_id": "INV-0577"
+  },
+  {
+    "id": "PAY-0027",
+    "booked_at": "2025-10-29",
+    "amount": 7900,
+    "reference": "INV-0914",
+    "invoice_id": "INV-0914"
+  },
+  {
+    "id": "PAY-0028",
+    "booked_at": "2025-10-29",
+    "amount": 12500,
+    "reference": "INV-0001",
+    "invoice_id": "INV-0001"
+  },
+  {
+    "id": "PAY-0029",
+    "booked_at": "2025-10-29",
+    "amount": 12500,
+    "reference": "INV-0890",
+    "invoice_id": "INV-0890"
+  },
+  {
+    "id": "PAY-0030",
+    "booked_at": "2025-10-29",
+    "amount": 9400,
+    "reference": "INV-0037",
+    "invoice_id": "INV-0037"
+  },
+  {
+    "id": "PAY-0031",
+    "booked_at": "2025-10-29",
+    "amount": 12500,
+    "reference": "INV-0926",
+    "invoice_id": "INV-0926"
+  },
+  {
+    "id": "PAY-0032",
+    "booked_at": "2025-10-30",
+    "amount": 8500,
+    "reference": "INV-0589",
+    "invoice_id": "INV-0589"
+  },
+  {
+    "id": "PAY-0033",
+    "booked_at": "2025-10-30",
+    "amount": 7900,
+    "reference": "INV-1070",
+    "invoice_id": "INV-1070"
+  },
+  {
+    "id": "PAY-0034",
+    "booked_at": "2025-10-30",
+    "amount": 13900,
+    "reference": "INV-0613",
+    "invoice_id": "INV-0613"
+  },
+  {
+    "id": "PAY-0035",
+    "booked_at": "2025-10-30",
+    "amount": 10200,
+    "reference": "INV-0553",
+    "invoice_id": "INV-0553"
+  },
+  {
+    "id": "PAY-0036",
+    "booked_at": "2025-10-30",
+    "amount": 10200,
+    "reference": "INV-1094",
+    "invoice_id": "INV-1094"
+  },
+  {
+    "id": "PAY-0037",
+    "booked_at": "2025-10-30",
+    "amount": 13900,
+    "reference": "INV-0049",
+    "invoice_id": "INV-0049"
+  },
+  {
+    "id": "PAY-0038",
+    "booked_at": "2025-10-30",
+    "amount": 7200,
+    "reference": "INV-0986",
+    "invoice_id": "INV-0986"
+  },
+  {
+    "id": "PAY-0039",
+    "booked_at": "2025-10-30",
+    "amount": 8500,
+    "reference": "INV-0097",
+    "invoice_id": "INV-0097"
+  },
+  {
+    "id": "PAY-0040",
+    "booked_at": "2025-10-30",
+    "amount": 10200,
+    "reference": "INV-0265",
+    "invoice_id": "INV-0265"
+  },
+  {
+    "id": "PAY-0041",
+    "booked_at": "2025-10-30",
+    "amount": 12500,
+    "reference": "INV-1010",
+    "invoice_id": "INV-1010"
+  },
+  {
+    "id": "PAY-0042",
+    "booked_at": "2025-10-30",
+    "amount": 13900,
+    "reference": "INV-0866",
+    "invoice_id": "INV-0866"
+  },
+  {
+    "id": "PAY-0043",
+    "booked_at": "2025-10-30",
+    "amount": 11800,
+    "reference": "INV-0181",
+    "invoice_id": "INV-0181"
+  },
+  {
+    "id": "PAY-0044",
+    "booked_at": "2025-10-30",
+    "amount": 8900,
+    "reference": "INV-0541",
+    "invoice_id": "INV-0541"
+  },
+  {
+    "id": "PAY-0045",
+    "booked_at": "2025-10-30",
+    "amount": 12500,
+    "reference": "INV-0794",
+    "invoice_id": "INV-0794"
+  },
+  {
+    "id": "PAY-0046",
+    "booked_at": "2025-10-30",
+    "amount": 10200,
+    "reference": "INV-0481",
+    "invoice_id": "INV-0481"
+  },
+  {
+    "id": "PAY-0047",
+    "booked_at": "2025-10-30",
+    "amount": 10200,
+    "reference": "INV-0109",
+    "invoice_id": "INV-0109"
+  },
+  {
+    "id": "PAY-0048",
+    "booked_at": "2025-10-30",
+    "amount": 8900,
+    "reference": "INV-0313",
+    "invoice_id": "INV-0313"
+  },
+  {
+    "id": "PAY-0049",
+    "booked_at": "2025-10-31",
+    "amount": 9400,
+    "reference": "INV-0145",
+    "invoice_id": "INV-0145"
+  },
+  {
+    "id": "PAY-0050",
+    "booked_at": "2025-10-31",
+    "amount": 3950,
+    "reference": "INV-0974",
+    "invoice_id": "INV-0974"
+  },
+  {
+    "id": "PAY-0051",
+    "booked_at": "2025-10-31",
+    "amount": 10200,
+    "reference": "Karen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0052",
+    "booked_at": "2025-10-31",
+    "amount": 12500,
+    "reference": "INV-1046",
+    "invoice_id": "INV-1046"
+  },
+  {
+    "id": "PAY-0053",
+    "booked_at": "2025-10-31",
+    "amount": 3600,
+    "reference": "INV-0878",
+    "invoice_id": "INV-0878"
+  },
+  {
+    "id": "PAY-0054",
+    "booked_at": "2025-10-31",
+    "amount": 3600,
+    "reference": "INV-0722",
+    "invoice_id": "INV-0722"
+  },
+  {
+    "id": "PAY-0055",
+    "booked_at": "2025-10-31",
+    "amount": 13900,
+    "reference": "INV-0325",
+    "invoice_id": "INV-0325"
+  },
+  {
+    "id": "PAY-0056",
+    "booked_at": "2025-10-31",
+    "amount": 4700,
+    "reference": "INV-0529",
+    "invoice_id": "INV-0529"
+  },
+  {
+    "id": "PAY-0057",
+    "booked_at": "2025-10-31",
+    "amount": 7900,
+    "reference": "INV-0373",
+    "invoice_id": "INV-0373"
+  },
+  {
+    "id": "PAY-0058",
+    "booked_at": "2025-10-31",
+    "amount": 11000,
+    "reference": "INV-1166",
+    "invoice_id": "INV-1166"
+  },
+  {
+    "id": "PAY-0059",
+    "booked_at": "2025-10-31",
+    "amount": 12500,
+    "reference": "INV-0205",
+    "invoice_id": "INV-0205"
+  },
+  {
+    "id": "PAY-0060",
+    "booked_at": "2025-10-31",
+    "amount": 8500,
+    "reference": "INV-0601",
+    "invoice_id": "INV-0601"
+  },
+  {
+    "id": "PAY-0061",
+    "booked_at": "2025-10-31",
+    "amount": 13900,
+    "reference": "2025-11 rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0062",
+    "booked_at": "2025-10-31",
+    "amount": 13900,
+    "reference": "INV-0229",
+    "invoice_id": "INV-0229"
+  },
+  {
+    "id": "PAY-0063",
+    "booked_at": "2025-10-31",
+    "amount": 7900,
+    "reference": "INV-0013",
+    "invoice_id": "INV-0013"
+  },
+  {
+    "id": "PAY-0064",
+    "booked_at": "2025-10-31",
+    "amount": 8500,
+    "reference": "INV-0385",
+    "invoice_id": "INV-0385"
+  },
+  {
+    "id": "PAY-0065",
+    "booked_at": "2025-10-31",
+    "amount": 10200,
+    "reference": "INV-0734",
+    "invoice_id": "INV-0734"
+  },
+  {
+    "id": "PAY-0066",
+    "booked_at": "2025-10-31",
+    "amount": 7200,
+    "reference": "INV-1082",
+    "invoice_id": "INV-1082"
+  },
+  {
+    "id": "PAY-0067",
+    "booked_at": "2025-10-31",
+    "amount": 10200,
+    "reference": "INV-0085",
+    "invoice_id": "INV-0085"
+  },
+  {
+    "id": "PAY-0068",
+    "booked_at": "2025-10-31",
+    "amount": 6250,
+    "reference": "INV-1130",
+    "invoice_id": "INV-1130"
+  },
+  {
+    "id": "PAY-0069",
+    "booked_at": "2025-10-31",
+    "amount": 3600,
+    "reference": "INV-0938",
+    "invoice_id": "INV-0938"
+  },
+  {
+    "id": "PAY-0070",
+    "booked_at": "2025-10-31",
+    "amount": 6950,
+    "reference": "INV-0193",
+    "invoice_id": "INV-0193"
+  },
+  {
+    "id": "PAY-0071",
+    "booked_at": "2025-11-01",
+    "amount": 7900,
+    "reference": "2025-11 rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0072",
+    "booked_at": "2025-11-01",
+    "amount": 11800,
+    "reference": "INV-0337",
+    "invoice_id": "INV-0337"
+  },
+  {
+    "id": "PAY-0073",
+    "booked_at": "2025-11-01",
+    "amount": 11800,
+    "reference": "Kasper",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0074",
+    "booked_at": "2025-11-01",
+    "amount": 13900,
+    "reference": "INV-0025",
+    "invoice_id": "INV-0025"
+  },
+  {
+    "id": "PAY-0075",
+    "booked_at": "2025-11-01",
+    "amount": 8900,
+    "reference": "Ida Johansen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0076",
+    "booked_at": "2025-11-01",
+    "amount": 7900,
+    "reference": "INV-0457",
+    "invoice_id": "INV-0457"
+  },
+  {
+    "id": "PAY-0077",
+    "booked_at": "2025-11-01",
+    "amount": 9400,
+    "reference": "INV-0626",
+    "invoice_id": "INV-0626"
+  },
+  {
+    "id": "PAY-0078",
+    "booked_at": "2025-11-01",
+    "amount": 11800,
+    "reference": "INV-0253",
+    "invoice_id": "INV-0253"
+  },
+  {
+    "id": "PAY-0079",
+    "booked_at": "2025-11-01",
+    "amount": 11000,
+    "reference": "INV-0241",
+    "invoice_id": "INV-0241"
+  },
+  {
+    "id": "PAY-0080",
+    "booked_at": "2025-11-01",
+    "amount": 8500,
+    "reference": "INV-0505",
+    "invoice_id": "INV-0505"
+  },
+  {
+    "id": "PAY-0081",
+    "booked_at": "2025-11-01",
+    "amount": 7200,
+    "reference": "INV-0469",
+    "invoice_id": "INV-0469"
+  },
+  {
+    "id": "PAY-0082",
+    "booked_at": "2025-11-03",
+    "amount": 7900,
+    "reference": "Louise",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0083",
+    "booked_at": "2025-11-05",
+    "amount": 8500,
+    "reference": "Alma Andersen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0084",
+    "booked_at": "2025-11-05",
+    "amount": 8500,
+    "reference": "Noah Nowak",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0085",
+    "booked_at": "2025-11-06",
+    "amount": 9400,
+    "reference": "rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0086",
+    "booked_at": "2025-11-06",
+    "amount": 8500,
+    "reference": "INV-0650",
+    "invoice_id": "INV-0650"
+  },
+  {
+    "id": "PAY-0087",
+    "booked_at": "2025-11-06",
+    "amount": 3600,
+    "reference": "INV-0722",
+    "invoice_id": "INV-0722"
+  },
+  {
+    "id": "PAY-0088",
+    "booked_at": "2025-11-06",
+    "amount": 11800,
+    "reference": "INV-0446",
+    "invoice_id": "INV-0446"
+  },
+  {
+    "id": "PAY-0089",
+    "booked_at": "2025-11-07",
+    "amount": 6250,
+    "reference": "INV-1130",
+    "invoice_id": "INV-1130"
+  },
+  {
+    "id": "PAY-0090",
+    "booked_at": "2025-11-07",
+    "amount": 3950,
+    "reference": "INV-0974",
+    "invoice_id": "INV-0974"
+  },
+  {
+    "id": "PAY-0091",
+    "booked_at": "2025-11-07",
+    "amount": 10200,
+    "reference": "INV-0073",
+    "invoice_id": "INV-0073"
+  },
+  {
+    "id": "PAY-0092",
+    "booked_at": "2025-11-07",
+    "amount": 12500,
+    "reference": "INV-0998",
+    "invoice_id": "INV-0998"
+  },
+  {
+    "id": "PAY-0093",
+    "booked_at": "2025-11-07",
+    "amount": 6950,
+    "reference": "INV-0193",
+    "invoice_id": "INV-0193"
+  },
+  {
+    "id": "PAY-0094",
+    "booked_at": "2025-11-08",
+    "amount": 3600,
+    "reference": "INV-0938",
+    "invoice_id": "INV-0938"
+  },
+  {
+    "id": "PAY-0095",
+    "booked_at": "2025-11-09",
+    "amount": 8900,
+    "reference": "INV-0686",
+    "invoice_id": "INV-0686"
+  },
+  {
+    "id": "PAY-0096",
+    "booked_at": "2025-11-10",
+    "amount": 8900,
+    "reference": "INV-0639",
+    "invoice_id": "INV-0639"
+  },
+  {
+    "id": "PAY-0097",
+    "booked_at": "2025-11-10",
+    "amount": 3600,
+    "reference": "INV-0878",
+    "invoice_id": "INV-0878"
+  },
+  {
+    "id": "PAY-0098",
+    "booked_at": "2025-11-10",
+    "amount": 8900,
+    "reference": "INV-0517",
+    "invoice_id": "INV-0517"
+  },
+  {
+    "id": "PAY-0099",
+    "booked_at": "2025-11-12",
+    "amount": 8500,
+    "reference": "INV-0362",
+    "invoice_id": "INV-0362"
+  },
+  {
+    "id": "PAY-0100",
+    "booked_at": "2025-11-14",
+    "amount": 7200,
+    "reference": "INV-0819",
+    "invoice_id": "INV-0819"
+  },
+  {
+    "id": "PAY-0101",
+    "booked_at": "2025-11-14",
+    "amount": 7200,
+    "reference": "INV-0759",
+    "invoice_id": "INV-0759"
+  },
+  {
+    "id": "PAY-0102",
+    "booked_at": "2025-11-14",
+    "amount": 13900,
+    "reference": "INV-0062",
+    "invoice_id": "INV-0062"
+  },
+  {
+    "id": "PAY-0103",
+    "booked_at": "2025-11-15",
+    "amount": 11000,
+    "reference": "INV-0433",
+    "invoice_id": "INV-0433"
+  },
+  {
+    "id": "PAY-0104",
+    "booked_at": "2025-11-15",
+    "amount": 7200,
+    "reference": "husleje schmidt",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0105",
+    "booked_at": "2025-11-17",
+    "amount": 7900,
+    "reference": "INV-0698",
+    "invoice_id": "INV-0698"
+  },
+  {
+    "id": "PAY-0106",
+    "booked_at": "2025-11-17",
+    "amount": 9400,
+    "reference": "INV-1179",
+    "invoice_id": "INV-1179"
+  },
+  {
+    "id": "PAY-0107",
+    "booked_at": "2025-11-18",
+    "amount": 10200,
+    "reference": "INV-0302",
+    "invoice_id": "INV-0302"
+  },
+  {
+    "id": "PAY-0108",
+    "booked_at": "2025-11-19",
+    "amount": 13900,
+    "reference": "INV-1155",
+    "invoice_id": "INV-1155"
+  },
+  {
+    "id": "PAY-0109",
+    "booked_at": "2025-11-21",
+    "amount": 8900,
+    "reference": "INV-0493",
+    "invoice_id": "INV-0493"
+  },
+  {
+    "id": "PAY-0110",
+    "booked_at": "2025-11-21",
+    "amount": 9400,
+    "reference": "INV-0711",
+    "invoice_id": "INV-0711"
+  },
+  {
+    "id": "PAY-0111",
+    "booked_at": "2025-11-22",
+    "amount": 9400,
+    "reference": "INV-1022",
+    "invoice_id": "INV-1022"
+  },
+  {
+    "id": "PAY-0112",
+    "booked_at": "2025-11-22",
+    "amount": 9400,
+    "reference": "INV-0289",
+    "invoice_id": "INV-0289"
+  },
+  {
+    "id": "PAY-0113",
+    "booked_at": "2025-11-23",
+    "amount": 11000,
+    "reference": "Piotr",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0114",
+    "booked_at": "2025-11-24",
+    "amount": 8500,
+    "reference": "INV-0277",
+    "invoice_id": "INV-0277"
+  },
+  {
+    "id": "PAY-0115",
+    "booked_at": "2025-11-28",
+    "amount": 8900,
+    "reference": "Ida Johansen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0116",
+    "booked_at": "2025-11-28",
+    "amount": 7200,
+    "reference": "INV-0470",
+    "invoice_id": "INV-0470"
+  },
+  {
+    "id": "PAY-0117",
+    "booked_at": "2025-11-28",
+    "amount": 12500,
+    "reference": "INV-1047",
+    "invoice_id": "INV-1047"
+  },
+  {
+    "id": "PAY-0118",
+    "booked_at": "2025-11-28",
+    "amount": 10200,
+    "reference": "INV-0735",
+    "invoice_id": "INV-0735"
+  },
+  {
+    "id": "PAY-0119",
+    "booked_at": "2025-11-28",
+    "amount": 7900,
+    "reference": "INV-0374",
+    "invoice_id": "INV-0374"
+  },
+  {
+    "id": "PAY-0120",
+    "booked_at": "2025-11-28",
+    "amount": 11000,
+    "reference": "INV-0242",
+    "invoice_id": "INV-0242"
+  },
+  {
+    "id": "PAY-0121",
+    "booked_at": "2025-11-28",
+    "amount": 8500,
+    "reference": "INV-0506",
+    "invoice_id": "INV-0506"
+  },
+  {
+    "id": "PAY-0122",
+    "booked_at": "2025-11-28",
+    "amount": 7900,
+    "reference": "INV-0963",
+    "invoice_id": "INV-0963"
+  },
+  {
+    "id": "PAY-0123",
+    "booked_at": "2025-11-28",
+    "amount": 11000,
+    "reference": "INV-0422",
+    "invoice_id": "INV-0422"
+  },
+  {
+    "id": "PAY-0124",
+    "booked_at": "2025-11-28",
+    "amount": 13900,
+    "reference": "INV-0614",
+    "invoice_id": "INV-0614"
+  },
+  {
+    "id": "PAY-0125",
+    "booked_at": "2025-11-28",
+    "amount": 8500,
+    "reference": "INV-0602",
+    "invoice_id": "INV-0602"
+  },
+  {
+    "id": "PAY-0126",
+    "booked_at": "2025-11-28",
+    "amount": 11800,
+    "reference": "INV-0338",
+    "invoice_id": "INV-0338"
+  },
+  {
+    "id": "PAY-0127",
+    "booked_at": "2025-11-28",
+    "amount": 11800,
+    "reference": "INV-0182",
+    "invoice_id": "INV-0182"
+  },
+  {
+    "id": "PAY-0128",
+    "booked_at": "2025-11-29",
+    "amount": 10200,
+    "reference": "INV-1095",
+    "invoice_id": "INV-1095"
+  },
+  {
+    "id": "PAY-0129",
+    "booked_at": "2025-11-29",
+    "amount": 9400,
+    "reference": "INV-0038",
+    "invoice_id": "INV-0038"
+  },
+  {
+    "id": "PAY-0130",
+    "booked_at": "2025-11-29",
+    "amount": 9400,
+    "reference": "INV-0146",
+    "invoice_id": "INV-0146"
+  },
+  {
+    "id": "PAY-0131",
+    "booked_at": "2025-11-29",
+    "amount": 13900,
+    "reference": "INV-0026",
+    "invoice_id": "INV-0026"
+  },
+  {
+    "id": "PAY-0132",
+    "booked_at": "2025-11-29",
+    "amount": 8900,
+    "reference": "INV-0542",
+    "invoice_id": "INV-0542"
+  },
+  {
+    "id": "PAY-0133",
+    "booked_at": "2025-11-29",
+    "amount": 12500,
+    "reference": "INV-0002",
+    "invoice_id": "INV-0002"
+  },
+  {
+    "id": "PAY-0134",
+    "booked_at": "2025-11-29",
+    "amount": 10200,
+    "reference": "INV-0350",
+    "invoice_id": "INV-0350"
+  },
+  {
+    "id": "PAY-0135",
+    "booked_at": "2025-11-29",
+    "amount": 7900,
+    "reference": "INV-0843",
+    "invoice_id": "INV-0843"
+  },
+  {
+    "id": "PAY-0136",
+    "booked_at": "2025-11-29",
+    "amount": 7900,
+    "reference": "INV-0915",
+    "invoice_id": "INV-0915"
+  },
+  {
+    "id": "PAY-0137",
+    "booked_at": "2025-11-29",
+    "amount": 13900,
+    "reference": "INV-0230",
+    "invoice_id": "INV-0230"
+  },
+  {
+    "id": "PAY-0138",
+    "booked_at": "2025-11-29",
+    "amount": 8900,
+    "reference": "INV-1106",
+    "invoice_id": "INV-1106"
+  },
+  {
+    "id": "PAY-0139",
+    "booked_at": "2025-11-29",
+    "amount": 7900,
+    "reference": "INV-0458",
+    "invoice_id": "INV-0458"
+  },
+  {
+    "id": "PAY-0140",
+    "booked_at": "2025-11-29",
+    "amount": 12500,
+    "reference": "INV-0747",
+    "invoice_id": "INV-0747"
+  },
+  {
+    "id": "PAY-0141",
+    "booked_at": "2025-11-29",
+    "amount": 10200,
+    "reference": "INV-0266",
+    "invoice_id": "INV-0266"
+  },
+  {
+    "id": "PAY-0142",
+    "booked_at": "2025-11-29",
+    "amount": 7900,
+    "reference": "INV-1071",
+    "invoice_id": "INV-1071"
+  },
+  {
+    "id": "PAY-0143",
+    "booked_at": "2025-11-29",
+    "amount": 11000,
+    "reference": "INV-0157",
+    "invoice_id": "INV-0157"
+  },
+  {
+    "id": "PAY-0144",
+    "booked_at": "2025-11-29",
+    "amount": 7900,
+    "reference": "INV-0218",
+    "invoice_id": "INV-0218"
+  },
+  {
+    "id": "PAY-0145",
+    "booked_at": "2025-11-29",
+    "amount": 10200,
+    "reference": "INV-0086",
+    "invoice_id": "INV-0086"
+  },
+  {
+    "id": "PAY-0146",
+    "booked_at": "2025-11-30",
+    "amount": 3600,
+    "reference": "INV-0939",
+    "invoice_id": "INV-0939"
+  },
+  {
+    "id": "PAY-0147",
+    "booked_at": "2025-11-30",
+    "amount": 8500,
+    "reference": "Sofie Pedersen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0148",
+    "booked_at": "2025-11-30",
+    "amount": 10200,
+    "reference": "INV-0566",
+    "invoice_id": "INV-0566"
+  },
+  {
+    "id": "PAY-0149",
+    "booked_at": "2025-11-30",
+    "amount": 3950,
+    "reference": "INV-0975",
+    "invoice_id": "INV-0975"
+  },
+  {
+    "id": "PAY-0150",
+    "booked_at": "2025-11-30",
+    "amount": 3600,
+    "reference": "INV-0879",
+    "invoice_id": "INV-0879"
+  },
+  {
+    "id": "PAY-0151",
+    "booked_at": "2025-11-30",
+    "amount": 10200,
+    "reference": "Karen Nowak",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0152",
+    "booked_at": "2025-11-30",
+    "amount": 10200,
+    "reference": "INV-0951",
+    "invoice_id": "INV-0951"
+  },
+  {
+    "id": "PAY-0153",
+    "booked_at": "2025-11-30",
+    "amount": 10200,
+    "reference": "INV-0482",
+    "invoice_id": "INV-0482"
+  },
+  {
+    "id": "PAY-0154",
+    "booked_at": "2025-11-30",
+    "amount": 3600,
+    "reference": "INV-0723",
+    "invoice_id": "INV-0723"
+  },
+  {
+    "id": "PAY-0155",
+    "booked_at": "2025-11-30",
+    "amount": 6250,
+    "reference": "INV-1131",
+    "invoice_id": "INV-1131"
+  },
+  {
+    "id": "PAY-0156",
+    "booked_at": "2025-11-30",
+    "amount": 7900,
+    "reference": "INV-0014",
+    "invoice_id": "INV-0014"
+  },
+  {
+    "id": "PAY-0157",
+    "booked_at": "2025-11-30",
+    "amount": 7200,
+    "reference": "INV-1119",
+    "invoice_id": "INV-1119"
+  },
+  {
+    "id": "PAY-0158",
+    "booked_at": "2025-11-30",
+    "amount": 11800,
+    "reference": "INV-0674",
+    "invoice_id": "INV-0674"
+  },
+  {
+    "id": "PAY-0159",
+    "booked_at": "2025-11-30",
+    "amount": 8900,
+    "reference": "rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0160",
+    "booked_at": "2025-11-30",
+    "amount": 12500,
+    "reference": "INV-0831",
+    "invoice_id": "INV-0831"
+  },
+  {
+    "id": "PAY-0161",
+    "booked_at": "2025-11-30",
+    "amount": 12500,
+    "reference": "INV-1011",
+    "invoice_id": "INV-1011"
+  },
+  {
+    "id": "PAY-0162",
+    "booked_at": "2025-11-30",
+    "amount": 8900,
+    "reference": "INV-0663",
+    "invoice_id": "INV-0663"
+  },
+  {
+    "id": "PAY-0163",
+    "booked_at": "2025-11-30",
+    "amount": 6950,
+    "reference": "INV-0194",
+    "invoice_id": "INV-0194"
+  },
+  {
+    "id": "PAY-0164",
+    "booked_at": "2025-11-30",
+    "amount": 4700,
+    "reference": "INV-0530",
+    "invoice_id": "INV-0530"
+  },
+  {
+    "id": "PAY-0165",
+    "booked_at": "2025-12-01",
+    "amount": 12500,
+    "reference": "INV-0206",
+    "invoice_id": "INV-0206"
+  },
+  {
+    "id": "PAY-0166",
+    "booked_at": "2025-12-01",
+    "amount": 7200,
+    "reference": "INV-0987",
+    "invoice_id": "INV-0987"
+  },
+  {
+    "id": "PAY-0167",
+    "booked_at": "2025-12-01",
+    "amount": 11800,
+    "reference": "Kasper",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0168",
+    "booked_at": "2025-12-01",
+    "amount": 7200,
+    "reference": "INV-1083",
+    "invoice_id": "INV-1083"
+  },
+  {
+    "id": "PAY-0169",
+    "booked_at": "2025-12-01",
+    "amount": 12500,
+    "reference": "INV-0927",
+    "invoice_id": "INV-0927"
+  },
+  {
+    "id": "PAY-0170",
+    "booked_at": "2025-12-01",
+    "amount": 11000,
+    "reference": "INV-0170",
+    "invoice_id": "INV-0170"
+  },
+  {
+    "id": "PAY-0171",
+    "booked_at": "2025-12-01",
+    "amount": 13900,
+    "reference": "INV-0867",
+    "invoice_id": "INV-0867"
+  },
+  {
+    "id": "PAY-0172",
+    "booked_at": "2025-12-01",
+    "amount": 8500,
+    "reference": "INV-0590",
+    "invoice_id": "INV-0590"
+  },
+  {
+    "id": "PAY-0173",
+    "booked_at": "2025-12-01",
+    "amount": 12500,
+    "reference": "INV-0795",
+    "invoice_id": "INV-0795"
+  },
+  {
+    "id": "PAY-0174",
+    "booked_at": "2025-12-01",
+    "amount": 13900,
+    "reference": "rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0175",
+    "booked_at": "2025-12-01",
+    "amount": 10200,
+    "reference": "INV-0554",
+    "invoice_id": "INV-0554"
+  },
+  {
+    "id": "PAY-0176",
+    "booked_at": "2025-12-01",
+    "amount": 12500,
+    "reference": "INV-1143",
+    "invoice_id": "INV-1143"
+  },
+  {
+    "id": "PAY-0177",
+    "booked_at": "2025-12-01",
+    "amount": 9400,
+    "reference": "INV-0627",
+    "invoice_id": "INV-0627"
+  },
+  {
+    "id": "PAY-0178",
+    "booked_at": "2025-12-01",
+    "amount": 12500,
+    "reference": "INV-0891",
+    "invoice_id": "INV-0891"
+  },
+  {
+    "id": "PAY-0179",
+    "booked_at": "2025-12-01",
+    "amount": 8500,
+    "reference": "INV-0386",
+    "invoice_id": "INV-0386"
+  },
+  {
+    "id": "PAY-0180",
+    "booked_at": "2025-12-01",
+    "amount": 8900,
+    "reference": "INV-1191",
+    "invoice_id": "INV-1191"
+  },
+  {
+    "id": "PAY-0181",
+    "booked_at": "2025-12-01",
+    "amount": 13900,
+    "reference": "Karen Jørgensen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0182",
+    "booked_at": "2025-12-01",
+    "amount": 7200,
+    "reference": "INV-0578",
+    "invoice_id": "INV-0578"
+  },
+  {
+    "id": "PAY-0183",
+    "booked_at": "2025-12-01",
+    "amount": 8900,
+    "reference": "INV-0314",
+    "invoice_id": "INV-0314"
+  },
+  {
+    "id": "PAY-0184",
+    "booked_at": "2025-12-01",
+    "amount": 10200,
+    "reference": "INV-0110",
+    "invoice_id": "INV-0110"
+  },
+  {
+    "id": "PAY-0185",
+    "booked_at": "2025-12-01",
+    "amount": 11800,
+    "reference": "INV-0254",
+    "invoice_id": "INV-0254"
+  },
+  {
+    "id": "PAY-0186",
+    "booked_at": "2025-12-01",
+    "amount": 13900,
+    "reference": "INV-0326",
+    "invoice_id": "INV-0326"
+  },
+  {
+    "id": "PAY-0187",
+    "booked_at": "2025-12-01",
+    "amount": 11000,
+    "reference": "INV-1167",
+    "invoice_id": "INV-1167"
+  },
+  {
+    "id": "PAY-0188",
+    "booked_at": "2025-12-03",
+    "amount": 8500,
+    "reference": "INV-0651",
+    "invoice_id": "INV-0651"
+  },
+  {
+    "id": "PAY-0189",
+    "booked_at": "2025-12-03",
+    "amount": 12500,
+    "reference": "INV-0999",
+    "invoice_id": "INV-0999"
+  },
+  {
+    "id": "PAY-0190",
+    "booked_at": "2025-12-05",
+    "amount": 8900,
+    "reference": "INV-0518",
+    "invoice_id": "INV-0518"
+  },
+  {
+    "id": "PAY-0191",
+    "booked_at": "2025-12-07",
+    "amount": 6250,
+    "reference": "INV-1131",
+    "invoice_id": "INV-1131"
+  },
+  {
+    "id": "PAY-0192",
+    "booked_at": "2025-12-07",
+    "amount": 10200,
+    "reference": "INV-0074",
+    "invoice_id": "INV-0074"
+  },
+  {
+    "id": "PAY-0193",
+    "booked_at": "2025-12-08",
+    "amount": 8900,
+    "reference": "INV-0687",
+    "invoice_id": "INV-0687"
+  },
+  {
+    "id": "PAY-0194",
+    "booked_at": "2025-12-08",
+    "amount": 8500,
+    "reference": "husleje andersen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0195",
+    "booked_at": "2025-12-09",
+    "amount": 8500,
+    "reference": "Noah",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0196",
+    "booked_at": "2025-12-09",
+    "amount": 7900,
+    "reference": "Louise Hansen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0197",
+    "booked_at": "2025-12-10",
+    "amount": 9400,
+    "reference": "INV-1035",
+    "invoice_id": "INV-1035"
+  },
+  {
+    "id": "PAY-0198",
+    "booked_at": "2025-12-10",
+    "amount": 9400,
+    "reference": "INV-0712",
+    "invoice_id": "INV-0712"
+  },
+  {
+    "id": "PAY-0199",
+    "booked_at": "2025-12-10",
+    "amount": 3600,
+    "reference": "INV-0939",
+    "invoice_id": "INV-0939"
+  },
+  {
+    "id": "PAY-0200",
+    "booked_at": "2025-12-10",
+    "amount": 10200,
+    "reference": "INV-0303",
+    "invoice_id": "INV-0303"
+  },
+  {
+    "id": "PAY-0201",
+    "booked_at": "2025-12-10",
+    "amount": 6950,
+    "reference": "INV-0194",
+    "invoice_id": "INV-0194"
+  },
+  {
+    "id": "PAY-0202",
+    "booked_at": "2025-12-11",
+    "amount": 3600,
+    "reference": "INV-0879",
+    "invoice_id": "INV-0879"
+  },
+  {
+    "id": "PAY-0203",
+    "booked_at": "2025-12-11",
+    "amount": 3600,
+    "reference": "INV-0723",
+    "invoice_id": "INV-0723"
+  },
+  {
+    "id": "PAY-0204",
+    "booked_at": "2025-12-11",
+    "amount": 3950,
+    "reference": "INV-0975",
+    "invoice_id": "INV-0975"
+  },
+  {
+    "id": "PAY-0205",
+    "booked_at": "2025-12-12",
+    "amount": 11800,
+    "reference": "INV-0447",
+    "invoice_id": "INV-0447"
+  },
+  {
+    "id": "PAY-0206",
+    "booked_at": "2025-12-12",
+    "amount": 9400,
+    "reference": "INV-1180",
+    "invoice_id": "INV-1180"
+  },
+  {
+    "id": "PAY-0207",
+    "booked_at": "2025-12-13",
+    "amount": 8900,
+    "reference": "INV-0640",
+    "invoice_id": "INV-0640"
+  },
+  {
+    "id": "PAY-0208",
+    "booked_at": "2025-12-15",
+    "amount": 9400,
+    "reference": "2025-12 rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0209",
+    "booked_at": "2025-12-16",
+    "amount": 8900,
+    "reference": "INV-1107",
+    "invoice_id": "INV-1107"
+  },
+  {
+    "id": "PAY-0210",
+    "booked_at": "2025-12-18",
+    "amount": 11000,
+    "reference": "husleje sørensen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0211",
+    "booked_at": "2025-12-18",
+    "amount": 7200,
+    "reference": "husleje schmidt",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0212",
+    "booked_at": "2025-12-18",
+    "amount": 7200,
+    "reference": "INV-0760",
+    "invoice_id": "INV-0760"
+  },
+  {
+    "id": "PAY-0213",
+    "booked_at": "2025-12-19",
+    "amount": 7200,
+    "reference": "INV-0820",
+    "invoice_id": "INV-0820"
+  },
+  {
+    "id": "PAY-0214",
+    "booked_at": "2025-12-21",
+    "amount": 13900,
+    "reference": "INV-0063",
+    "invoice_id": "INV-0063"
+  },
+  {
+    "id": "PAY-0215",
+    "booked_at": "2025-12-21",
+    "amount": 8500,
+    "reference": "INV-0363",
+    "invoice_id": "INV-0363"
+  },
+  {
+    "id": "PAY-0216",
+    "booked_at": "2025-12-22",
+    "amount": 11000,
+    "reference": "INV-0434",
+    "invoice_id": "INV-0434"
+  },
+  {
+    "id": "PAY-0217",
+    "booked_at": "2025-12-22",
+    "amount": 13900,
+    "reference": "INV-1156",
+    "invoice_id": "INV-1156"
+  },
+  {
+    "id": "PAY-0218",
+    "booked_at": "2025-12-23",
+    "amount": 9400,
+    "reference": "INV-0290",
+    "invoice_id": "INV-0290"
+  },
+  {
+    "id": "PAY-0219",
+    "booked_at": "2025-12-24",
+    "amount": 11800,
+    "reference": "INV-0675",
+    "invoice_id": "INV-0675"
+  },
+  {
+    "id": "PAY-0220",
+    "booked_at": "2025-12-29",
+    "amount": 12500,
+    "reference": "INV-0748",
+    "invoice_id": "INV-0748"
+  },
+  {
+    "id": "PAY-0221",
+    "booked_at": "2025-12-29",
+    "amount": 9400,
+    "reference": "INV-0039",
+    "invoice_id": "INV-0039"
+  },
+  {
+    "id": "PAY-0222",
+    "booked_at": "2025-12-29",
+    "amount": 11000,
+    "reference": "INV-0171",
+    "invoice_id": "INV-0171"
+  },
+  {
+    "id": "PAY-0223",
+    "booked_at": "2025-12-29",
+    "amount": 8500,
+    "reference": "INV-0099",
+    "invoice_id": "INV-0099"
+  },
+  {
+    "id": "PAY-0224",
+    "booked_at": "2025-12-29",
+    "amount": 12500,
+    "reference": "INV-1144",
+    "invoice_id": "INV-1144"
+  },
+  {
+    "id": "PAY-0225",
+    "booked_at": "2025-12-29",
+    "amount": 13900,
+    "reference": "INV-0327",
+    "invoice_id": "INV-0327"
+  },
+  {
+    "id": "PAY-0226",
+    "booked_at": "2025-12-29",
+    "amount": 13900,
+    "reference": "INV-0027",
+    "invoice_id": "INV-0027"
+  },
+  {
+    "id": "PAY-0227",
+    "booked_at": "2025-12-29",
+    "amount": 10200,
+    "reference": "INV-0736",
+    "invoice_id": "INV-0736"
+  },
+  {
+    "id": "PAY-0228",
+    "booked_at": "2025-12-29",
+    "amount": 12500,
+    "reference": "INV-1012",
+    "invoice_id": "INV-1012"
+  },
+  {
+    "id": "PAY-0229",
+    "booked_at": "2025-12-29",
+    "amount": 8900,
+    "reference": "Ida",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0230",
+    "booked_at": "2025-12-29",
+    "amount": 13900,
+    "reference": "INV-0231",
+    "invoice_id": "INV-0231"
+  },
+  {
+    "id": "PAY-0231",
+    "booked_at": "2025-12-29",
+    "amount": 8900,
+    "reference": "INV-0543",
+    "invoice_id": "INV-0543"
+  },
+  {
+    "id": "PAY-0232",
+    "booked_at": "2025-12-29",
+    "amount": 12500,
+    "reference": "INV-0832",
+    "invoice_id": "INV-0832"
+  },
+  {
+    "id": "PAY-0233",
+    "booked_at": "2025-12-29",
+    "amount": 7900,
+    "reference": "INV-1072",
+    "invoice_id": "INV-1072"
+  },
+  {
+    "id": "PAY-0234",
+    "booked_at": "2025-12-30",
+    "amount": 8900,
+    "reference": "INV-0494",
+    "invoice_id": "INV-0494"
+  },
+  {
+    "id": "PAY-0235",
+    "booked_at": "2025-12-30",
+    "amount": 10200,
+    "reference": "INV-0111",
+    "invoice_id": "INV-0111"
+  },
+  {
+    "id": "PAY-0236",
+    "booked_at": "2025-12-30",
+    "amount": 10200,
+    "reference": "INV-0952",
+    "invoice_id": "INV-0952"
+  },
+  {
+    "id": "PAY-0237",
+    "booked_at": "2025-12-30",
+    "amount": 7900,
+    "reference": "INV-0916",
+    "invoice_id": "INV-0916"
+  },
+  {
+    "id": "PAY-0238",
+    "booked_at": "2025-12-30",
+    "amount": 7900,
+    "reference": "INV-0015",
+    "invoice_id": "INV-0015"
+  },
+  {
+    "id": "PAY-0239",
+    "booked_at": "2025-12-30",
+    "amount": 8500,
+    "reference": "INV-0387",
+    "invoice_id": "INV-0387"
+  },
+  {
+    "id": "PAY-0240",
+    "booked_at": "2025-12-30",
+    "amount": 12500,
+    "reference": "INV-1048",
+    "invoice_id": "INV-1048"
+  },
+  {
+    "id": "PAY-0241",
+    "booked_at": "2025-12-30",
+    "amount": 12500,
+    "reference": "INV-0796",
+    "invoice_id": "INV-0796"
+  },
+  {
+    "id": "PAY-0242",
+    "booked_at": "2025-12-30",
+    "amount": 9400,
+    "reference": "INV-0628",
+    "invoice_id": "INV-0628"
+  },
+  {
+    "id": "PAY-0243",
+    "booked_at": "2025-12-30",
+    "amount": 11000,
+    "reference": "INV-1168",
+    "invoice_id": "INV-1168"
+  },
+  {
+    "id": "PAY-0244",
+    "booked_at": "2025-12-30",
+    "amount": 10200,
+    "reference": "INV-0555",
+    "invoice_id": "INV-0555"
+  },
+  {
+    "id": "PAY-0245",
+    "booked_at": "2025-12-30",
+    "amount": 11800,
+    "reference": "INV-0339",
+    "invoice_id": "INV-0339"
+  },
+  {
+    "id": "PAY-0246",
+    "booked_at": "2025-12-30",
+    "amount": 10200,
+    "reference": "INV-0087",
+    "invoice_id": "INV-0087"
+  },
+  {
+    "id": "PAY-0247",
+    "booked_at": "2025-12-30",
+    "amount": 11800,
+    "reference": "INV-0183",
+    "invoice_id": "INV-0183"
+  },
+  {
+    "id": "PAY-0248",
+    "booked_at": "2025-12-31",
+    "amount": 6250,
+    "reference": "INV-1132",
+    "invoice_id": "INV-1132"
+  },
+  {
+    "id": "PAY-0249",
+    "booked_at": "2025-12-31",
+    "amount": 3600,
+    "reference": "INV-0724",
+    "invoice_id": "INV-0724"
+  },
+  {
+    "id": "PAY-0250",
+    "booked_at": "2025-12-31",
+    "amount": 7200,
+    "reference": "INV-0988",
+    "invoice_id": "INV-0988"
+  },
+  {
+    "id": "PAY-0251",
+    "booked_at": "2025-12-31",
+    "amount": 3950,
+    "reference": "INV-0976",
+    "invoice_id": "INV-0976"
+  },
+  {
+    "id": "PAY-0252",
+    "booked_at": "2025-12-31",
+    "amount": 13900,
+    "reference": "INV-0868",
+    "invoice_id": "INV-0868"
+  },
+  {
+    "id": "PAY-0253",
+    "booked_at": "2025-12-31",
+    "amount": 4700,
+    "reference": "INV-0531",
+    "invoice_id": "INV-0531"
+  },
+  {
+    "id": "PAY-0254",
+    "booked_at": "2025-12-31",
+    "amount": 8500,
+    "reference": "INV-0603",
+    "invoice_id": "INV-0603"
+  },
+  {
+    "id": "PAY-0255",
+    "booked_at": "2025-12-31",
+    "amount": 12500,
+    "reference": "INV-0928",
+    "invoice_id": "INV-0928"
+  },
+  {
+    "id": "PAY-0256",
+    "booked_at": "2025-12-31",
+    "amount": 7900,
+    "reference": "INV-0375",
+    "invoice_id": "INV-0375"
+  },
+  {
+    "id": "PAY-0257",
+    "booked_at": "2025-12-31",
+    "amount": 3600,
+    "reference": "INV-0940",
+    "invoice_id": "INV-0940"
+  },
+  {
+    "id": "PAY-0258",
+    "booked_at": "2025-12-31",
+    "amount": 7900,
+    "reference": "INV-0219",
+    "invoice_id": "INV-0219"
+  },
+  {
+    "id": "PAY-0259",
+    "booked_at": "2025-12-31",
+    "amount": 10200,
+    "reference": "INV-0567",
+    "invoice_id": "INV-0567"
+  },
+  {
+    "id": "PAY-0260",
+    "booked_at": "2025-12-31",
+    "amount": 7900,
+    "reference": "INV-0459",
+    "invoice_id": "INV-0459"
+  },
+  {
+    "id": "PAY-0261",
+    "booked_at": "2025-12-31",
+    "amount": 7200,
+    "reference": "INV-0471",
+    "invoice_id": "INV-0471"
+  },
+  {
+    "id": "PAY-0262",
+    "booked_at": "2025-12-31",
+    "amount": 11000,
+    "reference": "INV-0158",
+    "invoice_id": "INV-0158"
+  },
+  {
+    "id": "PAY-0263",
+    "booked_at": "2025-12-31",
+    "amount": 7200,
+    "reference": "INV-0579",
+    "invoice_id": "INV-0579"
+  },
+  {
+    "id": "PAY-0264",
+    "booked_at": "2025-12-31",
+    "amount": 7200,
+    "reference": "INV-1120",
+    "invoice_id": "INV-1120"
+  },
+  {
+    "id": "PAY-0265",
+    "booked_at": "2025-12-31",
+    "amount": 11000,
+    "reference": "INV-0243",
+    "invoice_id": "INV-0243"
+  },
+  {
+    "id": "PAY-0266",
+    "booked_at": "2025-12-31",
+    "amount": 10200,
+    "reference": "INV-0351",
+    "invoice_id": "INV-0351"
+  },
+  {
+    "id": "PAY-0267",
+    "booked_at": "2025-12-31",
+    "amount": 8500,
+    "reference": "INV-0278",
+    "invoice_id": "INV-0278"
+  },
+  {
+    "id": "PAY-0268",
+    "booked_at": "2025-12-31",
+    "amount": 7900,
+    "reference": "INV-0699",
+    "invoice_id": "INV-0699"
+  },
+  {
+    "id": "PAY-0269",
+    "booked_at": "2025-12-31",
+    "amount": 3600,
+    "reference": "INV-0880",
+    "invoice_id": "INV-0880"
+  },
+  {
+    "id": "PAY-0270",
+    "booked_at": "2025-12-31",
+    "amount": 10200,
+    "reference": "INV-1096",
+    "invoice_id": "INV-1096"
+  },
+  {
+    "id": "PAY-0271",
+    "booked_at": "2025-12-31",
+    "amount": 10200,
+    "reference": "INV-0483",
+    "invoice_id": "INV-0483"
+  },
+  {
+    "id": "PAY-0272",
+    "booked_at": "2025-12-31",
+    "amount": 13900,
+    "reference": "INV-0772",
+    "invoice_id": "INV-0772"
+  },
+  {
+    "id": "PAY-0273",
+    "booked_at": "2025-12-31",
+    "amount": 6950,
+    "reference": "INV-0195",
+    "invoice_id": "INV-0195"
+  },
+  {
+    "id": "PAY-0274",
+    "booked_at": "2025-12-31",
+    "amount": 12500,
+    "reference": "INV-0003",
+    "invoice_id": "INV-0003"
+  },
+  {
+    "id": "PAY-0275",
+    "booked_at": "2025-12-31",
+    "amount": 8900,
+    "reference": "INV-0315",
+    "invoice_id": "INV-0315"
+  },
+  {
+    "id": "PAY-0276",
+    "booked_at": "2025-12-31",
+    "amount": 8500,
+    "reference": "2026-01 rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0277",
+    "booked_at": "2025-12-31",
+    "amount": 10200,
+    "reference": "INV-0267",
+    "invoice_id": "INV-0267"
+  },
+  {
+    "id": "PAY-0278",
+    "booked_at": "2026-01-01",
+    "amount": 11800,
+    "reference": "Kasper",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0279",
+    "booked_at": "2026-01-01",
+    "amount": 13900,
+    "reference": "INV-0615",
+    "invoice_id": "INV-0615"
+  },
+  {
+    "id": "PAY-0280",
+    "booked_at": "2026-01-01",
+    "amount": 7900,
+    "reference": "INV-0844",
+    "invoice_id": "INV-0844"
+  },
+  {
+    "id": "PAY-0281",
+    "booked_at": "2026-01-01",
+    "amount": 8500,
+    "reference": "INV-0507",
+    "invoice_id": "INV-0507"
+  },
+  {
+    "id": "PAY-0282",
+    "booked_at": "2026-01-01",
+    "amount": 11800,
+    "reference": "INV-0255",
+    "invoice_id": "INV-0255"
+  },
+  {
+    "id": "PAY-0283",
+    "booked_at": "2026-01-01",
+    "amount": 13900,
+    "reference": "INV-0051",
+    "invoice_id": "INV-0051"
+  },
+  {
+    "id": "PAY-0284",
+    "booked_at": "2026-01-01",
+    "amount": 8900,
+    "reference": "INV-0664",
+    "invoice_id": "INV-0664"
+  },
+  {
+    "id": "PAY-0285",
+    "booked_at": "2026-01-01",
+    "amount": 11000,
+    "reference": "INV-0423",
+    "invoice_id": "INV-0423"
+  },
+  {
+    "id": "PAY-0286",
+    "booked_at": "2026-01-01",
+    "amount": 12500,
+    "reference": "INV-0892",
+    "invoice_id": "INV-0892"
+  },
+  {
+    "id": "PAY-0287",
+    "booked_at": "2026-01-01",
+    "amount": 12500,
+    "reference": "INV-0207",
+    "invoice_id": "INV-0207"
+  },
+  {
+    "id": "PAY-0288",
+    "booked_at": "2026-01-01",
+    "amount": 10200,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0289",
+    "booked_at": "2026-01-01",
+    "amount": 9400,
+    "reference": "INV-0147",
+    "invoice_id": "INV-0147"
+  },
+  {
+    "id": "PAY-0290",
+    "booked_at": "2026-01-01",
+    "amount": 8900,
+    "reference": "INV-1060",
+    "invoice_id": "INV-1060"
+  },
+  {
+    "id": "PAY-0291",
+    "booked_at": "2026-01-01",
+    "amount": 7900,
+    "reference": "INV-0964",
+    "invoice_id": "INV-0964"
+  },
+  {
+    "id": "PAY-0292",
+    "booked_at": "2026-01-01",
+    "amount": 7200,
+    "reference": "INV-1084",
+    "invoice_id": "INV-1084"
+  },
+  {
+    "id": "PAY-0293",
+    "booked_at": "2026-01-01",
+    "amount": 8900,
+    "reference": "INV-1192",
+    "invoice_id": "INV-1192"
+  },
+  {
+    "id": "PAY-0294",
+    "booked_at": "2026-01-03",
+    "amount": 9400,
+    "reference": "INV-1036",
+    "invoice_id": "INV-1036"
+  },
+  {
+    "id": "PAY-0295",
+    "booked_at": "2026-01-03",
+    "amount": 8900,
+    "reference": "INV-0519",
+    "invoice_id": "INV-0519"
+  },
+  {
+    "id": "PAY-0296",
+    "booked_at": "2026-01-04",
+    "amount": 8500,
+    "reference": "INV-0652",
+    "invoice_id": "INV-0652"
+  },
+  {
+    "id": "PAY-0297",
+    "booked_at": "2026-01-04",
+    "amount": 12500,
+    "reference": "INV-1000",
+    "invoice_id": "INV-1000"
+  },
+  {
+    "id": "PAY-0298",
+    "booked_at": "2026-01-06",
+    "amount": 6950,
+    "reference": "INV-0195",
+    "invoice_id": "INV-0195"
+  },
+  {
+    "id": "PAY-0299",
+    "booked_at": "2026-01-07",
+    "amount": 10200,
+    "reference": "INV-0075",
+    "invoice_id": "INV-0075"
+  },
+  {
+    "id": "PAY-0300",
+    "booked_at": "2026-01-07",
+    "amount": 8900,
+    "reference": "INV-0641",
+    "invoice_id": "INV-0641"
+  },
+  {
+    "id": "PAY-0301",
+    "booked_at": "2026-01-08",
+    "amount": 11800,
+    "reference": "INV-0448",
+    "invoice_id": "INV-0448"
+  },
+  {
+    "id": "PAY-0302",
+    "booked_at": "2026-01-08",
+    "amount": 7900,
+    "reference": "Louise",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0303",
+    "booked_at": "2026-01-08",
+    "amount": 8900,
+    "reference": "INV-0688",
+    "invoice_id": "INV-0688"
+  },
+  {
+    "id": "PAY-0304",
+    "booked_at": "2026-01-08",
+    "amount": 3600,
+    "reference": "INV-0940",
+    "invoice_id": "INV-0940"
+  },
+  {
+    "id": "PAY-0305",
+    "booked_at": "2026-01-08",
+    "amount": 4700,
+    "reference": "INV-0531",
+    "invoice_id": "INV-0531"
+  },
+  {
+    "id": "PAY-0306",
+    "booked_at": "2026-01-08",
+    "amount": 8500,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0307",
+    "booked_at": "2026-01-10",
+    "amount": 6250,
+    "reference": "INV-1132",
+    "invoice_id": "INV-1132"
+  },
+  {
+    "id": "PAY-0308",
+    "booked_at": "2026-01-10",
+    "amount": 3600,
+    "reference": "INV-0880",
+    "invoice_id": "INV-0880"
+  },
+  {
+    "id": "PAY-0309",
+    "booked_at": "2026-01-10",
+    "amount": 3600,
+    "reference": "INV-0724",
+    "invoice_id": "INV-0724"
+  },
+  {
+    "id": "PAY-0310",
+    "booked_at": "2026-01-10",
+    "amount": 8500,
+    "reference": "Alma",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0311",
+    "booked_at": "2026-01-12",
+    "amount": 8500,
+    "reference": "INV-0364",
+    "invoice_id": "INV-0364"
+  },
+  {
+    "id": "PAY-0312",
+    "booked_at": "2026-01-12",
+    "amount": 13900,
+    "reference": "INV-0064",
+    "invoice_id": "INV-0064"
+  },
+  {
+    "id": "PAY-0313",
+    "booked_at": "2026-01-14",
+    "amount": 7200,
+    "reference": "INV-0761",
+    "invoice_id": "INV-0761"
+  },
+  {
+    "id": "PAY-0314",
+    "booked_at": "2026-01-17",
+    "amount": 7200,
+    "reference": "INV-0821",
+    "invoice_id": "INV-0821"
+  },
+  {
+    "id": "PAY-0315",
+    "booked_at": "2026-01-19",
+    "amount": 9400,
+    "reference": "INV-0291",
+    "invoice_id": "INV-0291"
+  },
+  {
+    "id": "PAY-0316",
+    "booked_at": "2026-01-20",
+    "amount": 13900,
+    "reference": "INV-1157",
+    "invoice_id": "INV-1157"
+  },
+  {
+    "id": "PAY-0317",
+    "booked_at": "2026-01-20",
+    "amount": 11000,
+    "reference": "INV-0435",
+    "invoice_id": "INV-0435"
+  },
+  {
+    "id": "PAY-0318",
+    "booked_at": "2026-01-21",
+    "amount": 7200,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0319",
+    "booked_at": "2026-01-21",
+    "amount": 8900,
+    "reference": "INV-0495",
+    "invoice_id": "INV-0495"
+  },
+  {
+    "id": "PAY-0320",
+    "booked_at": "2026-01-21",
+    "amount": 9400,
+    "reference": "INV-1181",
+    "invoice_id": "INV-1181"
+  },
+  {
+    "id": "PAY-0321",
+    "booked_at": "2026-01-21",
+    "amount": 11000,
+    "reference": "husleje sørensen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0322",
+    "booked_at": "2026-01-22",
+    "amount": 10200,
+    "reference": "INV-0304",
+    "invoice_id": "INV-0304"
+  },
+  {
+    "id": "PAY-0323",
+    "booked_at": "2026-01-22",
+    "amount": 9400,
+    "reference": "INV-1024",
+    "invoice_id": "INV-1024"
+  },
+  {
+    "id": "PAY-0324",
+    "booked_at": "2026-01-22",
+    "amount": 8500,
+    "reference": "INV-0279",
+    "invoice_id": "INV-0279"
+  },
+  {
+    "id": "PAY-0325",
+    "booked_at": "2026-01-22",
+    "amount": 9400,
+    "reference": "INV-0713",
+    "invoice_id": "INV-0713"
+  },
+  {
+    "id": "PAY-0326",
+    "booked_at": "2026-01-24",
+    "amount": 11800,
+    "reference": "INV-0676",
+    "invoice_id": "INV-0676"
+  },
+  {
+    "id": "PAY-0327",
+    "booked_at": "2026-01-24",
+    "amount": 7900,
+    "reference": "INV-0700",
+    "invoice_id": "INV-0700"
+  },
+  {
+    "id": "PAY-0328",
+    "booked_at": "2026-01-26",
+    "amount": 8900,
+    "reference": "INV-1108",
+    "invoice_id": "INV-1108"
+  },
+  {
+    "id": "PAY-0329",
+    "booked_at": "2026-01-29",
+    "amount": 7900,
+    "reference": "INV-0917",
+    "invoice_id": "INV-0917"
+  },
+  {
+    "id": "PAY-0330",
+    "booked_at": "2026-01-29",
+    "amount": 8900,
+    "reference": "INV-1193",
+    "invoice_id": "INV-1193"
+  },
+  {
+    "id": "PAY-0331",
+    "booked_at": "2026-01-29",
+    "amount": 12500,
+    "reference": "INV-1049",
+    "invoice_id": "INV-1049"
+  },
+  {
+    "id": "PAY-0332",
+    "booked_at": "2026-01-29",
+    "amount": 10200,
+    "reference": "INV-0352",
+    "invoice_id": "INV-0352"
+  },
+  {
+    "id": "PAY-0333",
+    "booked_at": "2026-01-29",
+    "amount": 10200,
+    "reference": "INV-0556",
+    "invoice_id": "INV-0556"
+  },
+  {
+    "id": "PAY-0334",
+    "booked_at": "2026-01-29",
+    "amount": 8900,
+    "reference": "INV-1061",
+    "invoice_id": "INV-1061"
+  },
+  {
+    "id": "PAY-0335",
+    "booked_at": "2026-01-29",
+    "amount": 13900,
+    "reference": "INV-0052",
+    "invoice_id": "INV-0052"
+  },
+  {
+    "id": "PAY-0336",
+    "booked_at": "2026-01-29",
+    "amount": 9400,
+    "reference": "rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0337",
+    "booked_at": "2026-01-29",
+    "amount": 7900,
+    "reference": "INV-0016",
+    "invoice_id": "INV-0016"
+  },
+  {
+    "id": "PAY-0338",
+    "booked_at": "2026-01-29",
+    "amount": 13900,
+    "reference": "2026-02 rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0339",
+    "booked_at": "2026-01-29",
+    "amount": 12500,
+    "reference": "INV-1145",
+    "invoice_id": "INV-1145"
+  },
+  {
+    "id": "PAY-0340",
+    "booked_at": "2026-01-29",
+    "amount": 7900,
+    "reference": "INV-0460",
+    "invoice_id": "INV-0460"
+  },
+  {
+    "id": "PAY-0341",
+    "booked_at": "2026-01-29",
+    "amount": 12500,
+    "reference": "INV-0208",
+    "invoice_id": "INV-0208"
+  },
+  {
+    "id": "PAY-0342",
+    "booked_at": "2026-01-29",
+    "amount": 8500,
+    "reference": "rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0343",
+    "booked_at": "2026-01-29",
+    "amount": 10200,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0344",
+    "booked_at": "2026-01-29",
+    "amount": 12500,
+    "reference": "INV-0004",
+    "invoice_id": "INV-0004"
+  },
+  {
+    "id": "PAY-0345",
+    "booked_at": "2026-01-29",
+    "amount": 8500,
+    "reference": "INV-0388",
+    "invoice_id": "INV-0388"
+  },
+  {
+    "id": "PAY-0346",
+    "booked_at": "2026-01-29",
+    "amount": 9400,
+    "reference": "INV-0148",
+    "invoice_id": "INV-0148"
+  },
+  {
+    "id": "PAY-0347",
+    "booked_at": "2026-01-29",
+    "amount": 13900,
+    "reference": "INV-0328",
+    "invoice_id": "INV-0328"
+  },
+  {
+    "id": "PAY-0348",
+    "booked_at": "2026-01-30",
+    "amount": 11000,
+    "reference": "INV-0172",
+    "invoice_id": "INV-0172"
+  },
+  {
+    "id": "PAY-0349",
+    "booked_at": "2026-01-30",
+    "amount": 12500,
+    "reference": "INV-1013",
+    "invoice_id": "INV-1013"
+  },
+  {
+    "id": "PAY-0350",
+    "booked_at": "2026-01-30",
+    "amount": 7900,
+    "reference": "INV-1073",
+    "invoice_id": "INV-1073"
+  },
+  {
+    "id": "PAY-0351",
+    "booked_at": "2026-01-30",
+    "amount": 7900,
+    "reference": "INV-0965",
+    "invoice_id": "INV-0965"
+  },
+  {
+    "id": "PAY-0352",
+    "booked_at": "2026-01-30",
+    "amount": 12500,
+    "reference": "INV-0833",
+    "invoice_id": "INV-0833"
+  },
+  {
+    "id": "PAY-0353",
+    "booked_at": "2026-01-30",
+    "amount": 11000,
+    "reference": "INV-0159",
+    "invoice_id": "INV-0159"
+  },
+  {
+    "id": "PAY-0354",
+    "booked_at": "2026-01-30",
+    "amount": 10200,
+    "reference": "INV-0484",
+    "invoice_id": "INV-0484"
+  },
+  {
+    "id": "PAY-0355",
+    "booked_at": "2026-01-30",
+    "amount": 7200,
+    "reference": "INV-0580",
+    "invoice_id": "INV-0580"
+  },
+  {
+    "id": "PAY-0356",
+    "booked_at": "2026-01-30",
+    "amount": 10200,
+    "reference": "INV-1097",
+    "invoice_id": "INV-1097"
+  },
+  {
+    "id": "PAY-0357",
+    "booked_at": "2026-01-30",
+    "amount": 11800,
+    "reference": "Kasper",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0358",
+    "booked_at": "2026-01-31",
+    "amount": 13900,
+    "reference": "INV-0616",
+    "invoice_id": "INV-0616"
+  },
+  {
+    "id": "PAY-0359",
+    "booked_at": "2026-01-31",
+    "amount": 8500,
+    "reference": "INV-0508",
+    "invoice_id": "INV-0508"
+  },
+  {
+    "id": "PAY-0360",
+    "booked_at": "2026-01-31",
+    "amount": 8500,
+    "reference": "INV-0100",
+    "invoice_id": "INV-0100"
+  },
+  {
+    "id": "PAY-0361",
+    "booked_at": "2026-01-31",
+    "amount": 13900,
+    "reference": "INV-0869",
+    "invoice_id": "INV-0869"
+  },
+  {
+    "id": "PAY-0362",
+    "booked_at": "2026-01-31",
+    "amount": 8900,
+    "reference": "INV-0316",
+    "invoice_id": "INV-0316"
+  },
+  {
+    "id": "PAY-0363",
+    "booked_at": "2026-01-31",
+    "amount": 11800,
+    "reference": "INV-0184",
+    "invoice_id": "INV-0184"
+  },
+  {
+    "id": "PAY-0364",
+    "booked_at": "2026-01-31",
+    "amount": 3950,
+    "reference": "INV-0977",
+    "invoice_id": "INV-0977"
+  },
+  {
+    "id": "PAY-0365",
+    "booked_at": "2026-01-31",
+    "amount": 6950,
+    "reference": "INV-0196",
+    "invoice_id": "INV-0196"
+  },
+  {
+    "id": "PAY-0366",
+    "booked_at": "2026-01-31",
+    "amount": 6250,
+    "reference": "INV-1133",
+    "invoice_id": "INV-1133"
+  },
+  {
+    "id": "PAY-0367",
+    "booked_at": "2026-01-31",
+    "amount": 3600,
+    "reference": "INV-0725",
+    "invoice_id": "INV-0725"
+  },
+  {
+    "id": "PAY-0368",
+    "booked_at": "2026-01-31",
+    "amount": 10200,
+    "reference": "INV-0268",
+    "invoice_id": "INV-0268"
+  },
+  {
+    "id": "PAY-0369",
+    "booked_at": "2026-01-31",
+    "amount": 10200,
+    "reference": "William Petersen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0370",
+    "booked_at": "2026-01-31",
+    "amount": 10200,
+    "reference": "INV-0953",
+    "invoice_id": "INV-0953"
+  },
+  {
+    "id": "PAY-0371",
+    "booked_at": "2026-01-31",
+    "amount": 4700,
+    "reference": "INV-0532",
+    "invoice_id": "INV-0532"
+  },
+  {
+    "id": "PAY-0372",
+    "booked_at": "2026-01-31",
+    "amount": 9400,
+    "reference": "INV-0629",
+    "invoice_id": "INV-0629"
+  },
+  {
+    "id": "PAY-0373",
+    "booked_at": "2026-01-31",
+    "amount": 10200,
+    "reference": "INV-0568",
+    "invoice_id": "INV-0568"
+  },
+  {
+    "id": "PAY-0374",
+    "booked_at": "2026-01-31",
+    "amount": 3600,
+    "reference": "INV-0941",
+    "invoice_id": "INV-0941"
+  },
+  {
+    "id": "PAY-0375",
+    "booked_at": "2026-01-31",
+    "amount": 11000,
+    "reference": "INV-0424",
+    "invoice_id": "INV-0424"
+  },
+  {
+    "id": "PAY-0376",
+    "booked_at": "2026-01-31",
+    "amount": 3600,
+    "reference": "INV-0881",
+    "invoice_id": "INV-0881"
+  },
+  {
+    "id": "PAY-0377",
+    "booked_at": "2026-01-31",
+    "amount": 7200,
+    "reference": "INV-0472",
+    "invoice_id": "INV-0472"
+  },
+  {
+    "id": "PAY-0378",
+    "booked_at": "2026-01-31",
+    "amount": 12500,
+    "reference": "INV-0929",
+    "invoice_id": "INV-0929"
+  },
+  {
+    "id": "PAY-0379",
+    "booked_at": "2026-01-31",
+    "amount": 7200,
+    "reference": "2026-02 rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0380",
+    "booked_at": "2026-02-01",
+    "amount": 11000,
+    "reference": "INV-1169",
+    "invoice_id": "INV-1169"
+  },
+  {
+    "id": "PAY-0381",
+    "booked_at": "2026-02-01",
+    "amount": 7200,
+    "reference": "INV-1085",
+    "invoice_id": "INV-1085"
+  },
+  {
+    "id": "PAY-0382",
+    "booked_at": "2026-02-01",
+    "amount": 10200,
+    "reference": "INV-0088",
+    "invoice_id": "INV-0088"
+  },
+  {
+    "id": "PAY-0383",
+    "booked_at": "2026-02-01",
+    "amount": 12500,
+    "reference": "INV-0797",
+    "invoice_id": "INV-0797"
+  },
+  {
+    "id": "PAY-0384",
+    "booked_at": "2026-02-01",
+    "amount": 7200,
+    "reference": "INV-0989",
+    "invoice_id": "INV-0989"
+  },
+  {
+    "id": "PAY-0385",
+    "booked_at": "2026-02-01",
+    "amount": 7900,
+    "reference": "INV-0220",
+    "invoice_id": "INV-0220"
+  },
+  {
+    "id": "PAY-0386",
+    "booked_at": "2026-02-01",
+    "amount": 11800,
+    "reference": "INV-0256",
+    "invoice_id": "INV-0256"
+  },
+  {
+    "id": "PAY-0387",
+    "booked_at": "2026-02-01",
+    "amount": 8900,
+    "reference": "INV-0544",
+    "invoice_id": "INV-0544"
+  },
+  {
+    "id": "PAY-0388",
+    "booked_at": "2026-02-01",
+    "amount": 13900,
+    "reference": "INV-0232",
+    "invoice_id": "INV-0232"
+  },
+  {
+    "id": "PAY-0389",
+    "booked_at": "2026-02-01",
+    "amount": 7900,
+    "reference": "INV-0376",
+    "invoice_id": "INV-0376"
+  },
+  {
+    "id": "PAY-0390",
+    "booked_at": "2026-02-01",
+    "amount": 11800,
+    "reference": "INV-0340",
+    "invoice_id": "INV-0340"
+  },
+  {
+    "id": "PAY-0391",
+    "booked_at": "2026-02-01",
+    "amount": 7900,
+    "reference": "INV-0845",
+    "invoice_id": "INV-0845"
+  },
+  {
+    "id": "PAY-0392",
+    "booked_at": "2026-02-01",
+    "amount": 10200,
+    "reference": "INV-0112",
+    "invoice_id": "INV-0112"
+  },
+  {
+    "id": "PAY-0393",
+    "booked_at": "2026-02-01",
+    "amount": 13900,
+    "reference": "INV-0773",
+    "invoice_id": "INV-0773"
+  },
+  {
+    "id": "PAY-0394",
+    "booked_at": "2026-02-01",
+    "amount": 12500,
+    "reference": "INV-0893",
+    "invoice_id": "INV-0893"
+  },
+  {
+    "id": "PAY-0395",
+    "booked_at": "2026-02-01",
+    "amount": 8900,
+    "reference": "Ida",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0396",
+    "booked_at": "2026-02-01",
+    "amount": 12500,
+    "reference": "2026-02 rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0397",
+    "booked_at": "2026-02-01",
+    "amount": 8900,
+    "reference": "",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0398",
+    "booked_at": "2026-02-01",
+    "amount": 8500,
+    "reference": "INV-0604",
+    "invoice_id": "INV-0604"
+  },
+  {
+    "id": "PAY-0399",
+    "booked_at": "2026-02-01",
+    "amount": 11000,
+    "reference": "INV-0244",
+    "invoice_id": "INV-0244"
+  },
+  {
+    "id": "PAY-0400",
+    "booked_at": "2026-02-03",
+    "amount": 8900,
+    "reference": "INV-0689",
+    "invoice_id": "INV-0689"
+  },
+  {
+    "id": "PAY-0401",
+    "booked_at": "2026-02-05",
+    "amount": 7200,
+    "reference": "INV-0762",
+    "invoice_id": "INV-0762"
+  },
+  {
+    "id": "PAY-0402",
+    "booked_at": "2026-02-06",
+    "amount": 3600,
+    "reference": "INV-0881",
+    "invoice_id": "INV-0881"
+  },
+  {
+    "id": "PAY-0403",
+    "booked_at": "2026-02-06",
+    "amount": 10200,
+    "reference": "INV-0076",
+    "invoice_id": "INV-0076"
+  },
+  {
+    "id": "PAY-0404",
+    "booked_at": "2026-02-06",
+    "amount": 6250,
+    "reference": "INV-1133",
+    "invoice_id": "INV-1133"
+  },
+  {
+    "id": "PAY-0405",
+    "booked_at": "2026-02-06",
+    "amount": 13900,
+    "reference": "INV-0065",
+    "invoice_id": "INV-0065"
+  },
+  {
+    "id": "PAY-0406",
+    "booked_at": "2026-02-06",
+    "amount": 9400,
+    "reference": "INV-1037",
+    "invoice_id": "INV-1037"
+  },
+  {
+    "id": "PAY-0407",
+    "booked_at": "2026-02-06",
+    "amount": 10200,
+    "reference": "INV-0305",
+    "invoice_id": "INV-0305"
+  },
+  {
+    "id": "PAY-0408",
+    "booked_at": "2026-02-06",
+    "amount": 8500,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0409",
+    "booked_at": "2026-02-06",
+    "amount": 3950,
+    "reference": "INV-0977",
+    "invoice_id": "INV-0977"
+  },
+  {
+    "id": "PAY-0410",
+    "booked_at": "2026-02-07",
+    "amount": 8900,
+    "reference": "INV-0520",
+    "invoice_id": "INV-0520"
+  },
+  {
+    "id": "PAY-0411",
+    "booked_at": "2026-02-07",
+    "amount": 7900,
+    "reference": "Louise",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0412",
+    "booked_at": "2026-02-07",
+    "amount": 3600,
+    "reference": "INV-0725",
+    "invoice_id": "INV-0725"
+  },
+  {
+    "id": "PAY-0413",
+    "booked_at": "2026-02-08",
+    "amount": 8500,
+    "reference": "INV-0653",
+    "invoice_id": "INV-0653"
+  },
+  {
+    "id": "PAY-0414",
+    "booked_at": "2026-02-08",
+    "amount": 12500,
+    "reference": "INV-1001",
+    "invoice_id": "INV-1001"
+  },
+  {
+    "id": "PAY-0415",
+    "booked_at": "2026-02-09",
+    "amount": 8500,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0416",
+    "booked_at": "2026-02-11",
+    "amount": 6950,
+    "reference": "INV-0196",
+    "invoice_id": "INV-0196"
+  },
+  {
+    "id": "PAY-0417",
+    "booked_at": "2026-02-12",
+    "amount": 4700,
+    "reference": "INV-0532",
+    "invoice_id": "INV-0532"
+  },
+  {
+    "id": "PAY-0418",
+    "booked_at": "2026-02-13",
+    "amount": 9400,
+    "reference": "INV-0714",
+    "invoice_id": "INV-0714"
+  },
+  {
+    "id": "PAY-0419",
+    "booked_at": "2026-02-13",
+    "amount": 13900,
+    "reference": "INV-1158",
+    "invoice_id": "INV-1158"
+  },
+  {
+    "id": "PAY-0420",
+    "booked_at": "2026-02-14",
+    "amount": 7200,
+    "reference": "Lars",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0421",
+    "booked_at": "2026-02-14",
+    "amount": 11800,
+    "reference": "INV-0449",
+    "invoice_id": "INV-0449"
+  },
+  {
+    "id": "PAY-0422",
+    "booked_at": "2026-02-15",
+    "amount": 8500,
+    "reference": "INV-0365",
+    "invoice_id": "INV-0365"
+  },
+  {
+    "id": "PAY-0423",
+    "booked_at": "2026-02-15",
+    "amount": 7200,
+    "reference": "INV-0822",
+    "invoice_id": "INV-0822"
+  },
+  {
+    "id": "PAY-0424",
+    "booked_at": "2026-02-19",
+    "amount": 9400,
+    "reference": "INV-1182",
+    "invoice_id": "INV-1182"
+  },
+  {
+    "id": "PAY-0425",
+    "booked_at": "2026-02-19",
+    "amount": 8900,
+    "reference": "INV-0642",
+    "invoice_id": "INV-0642"
+  },
+  {
+    "id": "PAY-0426",
+    "booked_at": "2026-02-19",
+    "amount": 8500,
+    "reference": "INV-0280",
+    "invoice_id": "INV-0280"
+  },
+  {
+    "id": "PAY-0427",
+    "booked_at": "2026-02-20",
+    "amount": 11000,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0428",
+    "booked_at": "2026-02-21",
+    "amount": 9400,
+    "reference": "INV-1025",
+    "invoice_id": "INV-1025"
+  },
+  {
+    "id": "PAY-0429",
+    "booked_at": "2026-02-22",
+    "amount": 9400,
+    "reference": "INV-0292",
+    "invoice_id": "INV-0292"
+  },
+  {
+    "id": "PAY-0430",
+    "booked_at": "2026-02-23",
+    "amount": 11000,
+    "reference": "INV-0160",
+    "invoice_id": "INV-0160"
+  },
+  {
+    "id": "PAY-0431",
+    "booked_at": "2026-02-23",
+    "amount": 8900,
+    "reference": "INV-0496",
+    "invoice_id": "INV-0496"
+  },
+  {
+    "id": "PAY-0432",
+    "booked_at": "2026-02-26",
+    "amount": 8500,
+    "reference": "INV-0605",
+    "invoice_id": "INV-0605"
+  },
+  {
+    "id": "PAY-0433",
+    "booked_at": "2026-02-26",
+    "amount": 11000,
+    "reference": "INV-0425",
+    "invoice_id": "INV-0425"
+  },
+  {
+    "id": "PAY-0434",
+    "booked_at": "2026-02-26",
+    "amount": 8900,
+    "reference": "INV-0317",
+    "invoice_id": "INV-0317"
+  },
+  {
+    "id": "PAY-0435",
+    "booked_at": "2026-02-26",
+    "amount": 10200,
+    "reference": "INV-1098",
+    "invoice_id": "INV-1098"
+  },
+  {
+    "id": "PAY-0436",
+    "booked_at": "2026-02-26",
+    "amount": 13900,
+    "reference": "INV-0053",
+    "invoice_id": "INV-0053"
+  },
+  {
+    "id": "PAY-0437",
+    "booked_at": "2026-02-26",
+    "amount": 13900,
+    "reference": "INV-0029",
+    "invoice_id": "INV-0029"
+  },
+  {
+    "id": "PAY-0438",
+    "booked_at": "2026-02-26",
+    "amount": 10200,
+    "reference": "Hassan Møller",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0439",
+    "booked_at": "2026-02-26",
+    "amount": 11800,
+    "reference": "INV-0341",
+    "invoice_id": "INV-0341"
+  },
+  {
+    "id": "PAY-0440",
+    "booked_at": "2026-02-26",
+    "amount": 7900,
+    "reference": "rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0441",
+    "booked_at": "2026-02-26",
+    "amount": 9400,
+    "reference": "INV-0041",
+    "invoice_id": "INV-0041"
+  },
+  {
+    "id": "PAY-0442",
+    "booked_at": "2026-02-26",
+    "amount": 13900,
+    "reference": "INV-0617",
+    "invoice_id": "INV-0617"
+  },
+  {
+    "id": "PAY-0443",
+    "booked_at": "2026-02-26",
+    "amount": 8500,
+    "reference": "INV-0389",
+    "invoice_id": "INV-0389"
+  },
+  {
+    "id": "PAY-0444",
+    "booked_at": "2026-02-26",
+    "amount": 7200,
+    "reference": "INV-0581",
+    "invoice_id": "INV-0581"
+  },
+  {
+    "id": "PAY-0445",
+    "booked_at": "2026-02-26",
+    "amount": 12500,
+    "reference": "INV-1014",
+    "invoice_id": "INV-1014"
+  },
+  {
+    "id": "PAY-0446",
+    "booked_at": "2026-02-26",
+    "amount": 10200,
+    "reference": "",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0447",
+    "booked_at": "2026-02-26",
+    "amount": 12500,
+    "reference": "INV-1146",
+    "invoice_id": "INV-1146"
+  },
+  {
+    "id": "PAY-0448",
+    "booked_at": "2026-02-26",
+    "amount": 8500,
+    "reference": "INV-0509",
+    "invoice_id": "INV-0509"
+  },
+  {
+    "id": "PAY-0449",
+    "booked_at": "2026-02-26",
+    "amount": 8900,
+    "reference": "Ida",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0450",
+    "booked_at": "2026-02-26",
+    "amount": 11000,
+    "reference": "INV-0436",
+    "invoice_id": "INV-0436"
+  },
+  {
+    "id": "PAY-0451",
+    "booked_at": "2026-02-27",
+    "amount": 7900,
+    "reference": "INV-0918",
+    "invoice_id": "INV-0918"
+  },
+  {
+    "id": "PAY-0452",
+    "booked_at": "2026-02-27",
+    "amount": 9400,
+    "reference": "INV-0630",
+    "invoice_id": "INV-0630"
+  },
+  {
+    "id": "PAY-0453",
+    "booked_at": "2026-02-27",
+    "amount": 10200,
+    "reference": "rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0454",
+    "booked_at": "2026-02-27",
+    "amount": 7900,
+    "reference": "INV-1074",
+    "invoice_id": "INV-1074"
+  },
+  {
+    "id": "PAY-0455",
+    "booked_at": "2026-02-27",
+    "amount": 10200,
+    "reference": "INV-0113",
+    "invoice_id": "INV-0113"
+  },
+  {
+    "id": "PAY-0456",
+    "booked_at": "2026-02-27",
+    "amount": 7900,
+    "reference": "INV-0377",
+    "invoice_id": "INV-0377"
+  },
+  {
+    "id": "PAY-0457",
+    "booked_at": "2026-02-27",
+    "amount": 7900,
+    "reference": "INV-0966",
+    "invoice_id": "INV-0966"
+  },
+  {
+    "id": "PAY-0458",
+    "booked_at": "2026-02-27",
+    "amount": 7200,
+    "reference": "INV-0990",
+    "invoice_id": "INV-0990"
+  },
+  {
+    "id": "PAY-0459",
+    "booked_at": "2026-02-27",
+    "amount": 11000,
+    "reference": "INV-1170",
+    "invoice_id": "INV-1170"
+  },
+  {
+    "id": "PAY-0460",
+    "booked_at": "2026-02-27",
+    "amount": 10200,
+    "reference": "INV-0738",
+    "invoice_id": "INV-0738"
+  },
+  {
+    "id": "PAY-0461",
+    "booked_at": "2026-02-27",
+    "amount": 7200,
+    "reference": "INV-1086",
+    "invoice_id": "INV-1086"
+  },
+  {
+    "id": "PAY-0462",
+    "booked_at": "2026-02-27",
+    "amount": 13900,
+    "reference": "INV-0329",
+    "invoice_id": "INV-0329"
+  },
+  {
+    "id": "PAY-0463",
+    "booked_at": "2026-02-27",
+    "amount": 11000,
+    "reference": "INV-0173",
+    "invoice_id": "INV-0173"
+  },
+  {
+    "id": "PAY-0464",
+    "booked_at": "2026-02-27",
+    "amount": 13900,
+    "reference": "INV-0774",
+    "invoice_id": "INV-0774"
+  },
+  {
+    "id": "PAY-0465",
+    "booked_at": "2026-02-27",
+    "amount": 10200,
+    "reference": "Karen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0466",
+    "booked_at": "2026-02-27",
+    "amount": 10200,
+    "reference": "INV-0485",
+    "invoice_id": "INV-0485"
+  },
+  {
+    "id": "PAY-0467",
+    "booked_at": "2026-02-27",
+    "amount": 11800,
+    "reference": "Kasper Frandsen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0468",
+    "booked_at": "2026-02-28",
+    "amount": 3600,
+    "reference": "INV-0726",
+    "invoice_id": "INV-0726"
+  },
+  {
+    "id": "PAY-0469",
+    "booked_at": "2026-02-28",
+    "amount": 11800,
+    "reference": "INV-0257",
+    "invoice_id": "INV-0257"
+  },
+  {
+    "id": "PAY-0470",
+    "booked_at": "2026-02-28",
+    "amount": 7200,
+    "reference": "INV-1122",
+    "invoice_id": "INV-1122"
+  },
+  {
+    "id": "PAY-0471",
+    "booked_at": "2026-02-28",
+    "amount": 8900,
+    "reference": "INV-1109",
+    "invoice_id": "INV-1109"
+  },
+  {
+    "id": "PAY-0472",
+    "booked_at": "2026-02-28",
+    "amount": 3600,
+    "reference": "INV-0882",
+    "invoice_id": "INV-0882"
+  },
+  {
+    "id": "PAY-0473",
+    "booked_at": "2026-02-28",
+    "amount": 4700,
+    "reference": "INV-0533",
+    "invoice_id": "INV-0533"
+  },
+  {
+    "id": "PAY-0474",
+    "booked_at": "2026-02-28",
+    "amount": 12500,
+    "reference": "INV-0894",
+    "invoice_id": "INV-0894"
+  },
+  {
+    "id": "PAY-0475",
+    "booked_at": "2026-02-28",
+    "amount": 9400,
+    "reference": "INV-0149",
+    "invoice_id": "INV-0149"
+  },
+  {
+    "id": "PAY-0476",
+    "booked_at": "2026-02-28",
+    "amount": 10200,
+    "reference": "INV-0269",
+    "invoice_id": "INV-0269"
+  },
+  {
+    "id": "PAY-0477",
+    "booked_at": "2026-02-28",
+    "amount": 12500,
+    "reference": "INV-0750",
+    "invoice_id": "INV-0750"
+  },
+  {
+    "id": "PAY-0478",
+    "booked_at": "2026-02-28",
+    "amount": 3950,
+    "reference": "INV-0978",
+    "invoice_id": "INV-0978"
+  },
+  {
+    "id": "PAY-0479",
+    "booked_at": "2026-02-28",
+    "amount": 10200,
+    "reference": "INV-0089",
+    "invoice_id": "INV-0089"
+  },
+  {
+    "id": "PAY-0480",
+    "booked_at": "2026-02-28",
+    "amount": 7900,
+    "reference": "INV-0461",
+    "invoice_id": "INV-0461"
+  },
+  {
+    "id": "PAY-0481",
+    "booked_at": "2026-02-28",
+    "amount": 7900,
+    "reference": "INV-0221",
+    "invoice_id": "INV-0221"
+  },
+  {
+    "id": "PAY-0482",
+    "booked_at": "2026-02-28",
+    "amount": 11800,
+    "reference": "INV-0677",
+    "invoice_id": "INV-0677"
+  },
+  {
+    "id": "PAY-0483",
+    "booked_at": "2026-02-28",
+    "amount": 8900,
+    "reference": "INV-1194",
+    "invoice_id": "INV-1194"
+  },
+  {
+    "id": "PAY-0484",
+    "booked_at": "2026-02-28",
+    "amount": 6250,
+    "reference": "INV-1134",
+    "invoice_id": "INV-1134"
+  },
+  {
+    "id": "PAY-0485",
+    "booked_at": "2026-02-28",
+    "amount": 7900,
+    "reference": "INV-0017",
+    "invoice_id": "INV-0017"
+  },
+  {
+    "id": "PAY-0486",
+    "booked_at": "2026-02-28",
+    "amount": 12500,
+    "reference": "INV-0005",
+    "invoice_id": "INV-0005"
+  },
+  {
+    "id": "PAY-0487",
+    "booked_at": "2026-02-28",
+    "amount": 3600,
+    "reference": "INV-0942",
+    "invoice_id": "INV-0942"
+  },
+  {
+    "id": "PAY-0488",
+    "booked_at": "2026-02-28",
+    "amount": 8900,
+    "reference": "INV-0666",
+    "invoice_id": "INV-0666"
+  },
+  {
+    "id": "PAY-0489",
+    "booked_at": "2026-02-28",
+    "amount": 10200,
+    "reference": "INV-0353",
+    "invoice_id": "INV-0353"
+  },
+  {
+    "id": "PAY-0490",
+    "booked_at": "2026-02-28",
+    "amount": 13900,
+    "reference": "INV-0233",
+    "invoice_id": "INV-0233"
+  },
+  {
+    "id": "PAY-0491",
+    "booked_at": "2026-02-28",
+    "amount": 6950,
+    "reference": "INV-0197",
+    "invoice_id": "INV-0197"
+  },
+  {
+    "id": "PAY-0492",
+    "booked_at": "2026-02-28",
+    "amount": 8900,
+    "reference": "INV-0545",
+    "invoice_id": "INV-0545"
+  },
+  {
+    "id": "PAY-0493",
+    "booked_at": "2026-03-01",
+    "amount": 11800,
+    "reference": "INV-0185",
+    "invoice_id": "INV-0185"
+  },
+  {
+    "id": "PAY-0494",
+    "booked_at": "2026-03-01",
+    "amount": 12500,
+    "reference": "INV-0209",
+    "invoice_id": "INV-0209"
+  },
+  {
+    "id": "PAY-0495",
+    "booked_at": "2026-03-01",
+    "amount": 12500,
+    "reference": "INV-0834",
+    "invoice_id": "INV-0834"
+  },
+  {
+    "id": "PAY-0496",
+    "booked_at": "2026-03-01",
+    "amount": 8500,
+    "reference": "INV-0101",
+    "invoice_id": "INV-0101"
+  },
+  {
+    "id": "PAY-0497",
+    "booked_at": "2026-03-01",
+    "amount": 12500,
+    "reference": "INV-0798",
+    "invoice_id": "INV-0798"
+  },
+  {
+    "id": "PAY-0498",
+    "booked_at": "2026-03-01",
+    "amount": 12500,
+    "reference": "INV-0930",
+    "invoice_id": "INV-0930"
+  },
+  {
+    "id": "PAY-0499",
+    "booked_at": "2026-03-01",
+    "amount": 13900,
+    "reference": "INV-0870",
+    "invoice_id": "INV-0870"
+  },
+  {
+    "id": "PAY-0500",
+    "booked_at": "2026-03-01",
+    "amount": 8500,
+    "reference": "INV-0593",
+    "invoice_id": "INV-0593"
+  },
+  {
+    "id": "PAY-0501",
+    "booked_at": "2026-03-01",
+    "amount": 11000,
+    "reference": "2026-03 rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0502",
+    "booked_at": "2026-03-01",
+    "amount": 12500,
+    "reference": "INV-1050",
+    "invoice_id": "INV-1050"
+  },
+  {
+    "id": "PAY-0503",
+    "booked_at": "2026-03-01",
+    "amount": 8900,
+    "reference": "INV-1062",
+    "invoice_id": "INV-1062"
+  },
+  {
+    "id": "PAY-0504",
+    "booked_at": "2026-03-01",
+    "amount": 7200,
+    "reference": "INV-0473",
+    "invoice_id": "INV-0473"
+  },
+  {
+    "id": "PAY-0505",
+    "booked_at": "2026-03-03",
+    "amount": 7900,
+    "reference": "INV-0701",
+    "invoice_id": "INV-0701"
+  },
+  {
+    "id": "PAY-0506",
+    "booked_at": "2026-03-03",
+    "amount": 8500,
+    "reference": "INV-0654",
+    "invoice_id": "INV-0654"
+  },
+  {
+    "id": "PAY-0507",
+    "booked_at": "2026-03-04",
+    "amount": 8500,
+    "reference": "Alma",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0508",
+    "booked_at": "2026-03-04",
+    "amount": 7900,
+    "reference": "Louise Hansen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0509",
+    "booked_at": "2026-03-06",
+    "amount": 10200,
+    "reference": "INV-0077",
+    "invoice_id": "INV-0077"
+  },
+  {
+    "id": "PAY-0510",
+    "booked_at": "2026-03-06",
+    "amount": 6250,
+    "reference": "INV-1134",
+    "invoice_id": "INV-1134"
+  },
+  {
+    "id": "PAY-0511",
+    "booked_at": "2026-03-06",
+    "amount": 12500,
+    "reference": "INV-1002",
+    "invoice_id": "INV-1002"
+  },
+  {
+    "id": "PAY-0512",
+    "booked_at": "2026-03-06",
+    "amount": 8900,
+    "reference": "INV-0690",
+    "invoice_id": "INV-0690"
+  },
+  {
+    "id": "PAY-0513",
+    "booked_at": "2026-03-07",
+    "amount": 3600,
+    "reference": "INV-0726",
+    "invoice_id": "INV-0726"
+  },
+  {
+    "id": "PAY-0514",
+    "booked_at": "2026-03-08",
+    "amount": 9400,
+    "reference": "INV-1038",
+    "invoice_id": "INV-1038"
+  },
+  {
+    "id": "PAY-0515",
+    "booked_at": "2026-03-08",
+    "amount": 7200,
+    "reference": "INV-0823",
+    "invoice_id": "INV-0823"
+  },
+  {
+    "id": "PAY-0516",
+    "booked_at": "2026-03-09",
+    "amount": 3600,
+    "reference": "INV-0942",
+    "invoice_id": "INV-0942"
+  },
+  {
+    "id": "PAY-0517",
+    "booked_at": "2026-03-09",
+    "amount": 3950,
+    "reference": "INV-0978",
+    "invoice_id": "INV-0978"
+  },
+  {
+    "id": "PAY-0518",
+    "booked_at": "2026-03-09",
+    "amount": 9400,
+    "reference": "INV-1183",
+    "invoice_id": "INV-1183"
+  },
+  {
+    "id": "PAY-0519",
+    "booked_at": "2026-03-09",
+    "amount": 8500,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0520",
+    "booked_at": "2026-03-10",
+    "amount": 8900,
+    "reference": "INV-0521",
+    "invoice_id": "INV-0521"
+  },
+  {
+    "id": "PAY-0521",
+    "booked_at": "2026-03-11",
+    "amount": 7200,
+    "reference": "INV-0763",
+    "invoice_id": "INV-0763"
+  },
+  {
+    "id": "PAY-0522",
+    "booked_at": "2026-03-11",
+    "amount": 8500,
+    "reference": "INV-0366",
+    "invoice_id": "INV-0366"
+  },
+  {
+    "id": "PAY-0523",
+    "booked_at": "2026-03-13",
+    "amount": 3600,
+    "reference": "INV-0882",
+    "invoice_id": "INV-0882"
+  },
+  {
+    "id": "PAY-0524",
+    "booked_at": "2026-03-13",
+    "amount": 10200,
+    "reference": "INV-0306",
+    "invoice_id": "INV-0306"
+  },
+  {
+    "id": "PAY-0525",
+    "booked_at": "2026-03-13",
+    "amount": 4700,
+    "reference": "INV-0533",
+    "invoice_id": "INV-0533"
+  },
+  {
+    "id": "PAY-0526",
+    "booked_at": "2026-03-13",
+    "amount": 6950,
+    "reference": "INV-0197",
+    "invoice_id": "INV-0197"
+  },
+  {
+    "id": "PAY-0527",
+    "booked_at": "2026-03-14",
+    "amount": 9400,
+    "reference": "INV-0715",
+    "invoice_id": "INV-0715"
+  },
+  {
+    "id": "PAY-0528",
+    "booked_at": "2026-03-15",
+    "amount": 7200,
+    "reference": "Lars Schmidt",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0529",
+    "booked_at": "2026-03-15",
+    "amount": 8900,
+    "reference": "INV-0643",
+    "invoice_id": "INV-0643"
+  },
+  {
+    "id": "PAY-0530",
+    "booked_at": "2026-03-16",
+    "amount": 8500,
+    "reference": "INV-0281",
+    "invoice_id": "INV-0281"
+  },
+  {
+    "id": "PAY-0531",
+    "booked_at": "2026-03-17",
+    "amount": 11000,
+    "reference": "Piotr",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0532",
+    "booked_at": "2026-03-19",
+    "amount": 8900,
+    "reference": "INV-1110",
+    "invoice_id": "INV-1110"
+  },
+  {
+    "id": "PAY-0533",
+    "booked_at": "2026-03-19",
+    "amount": 11800,
+    "reference": "INV-0450",
+    "invoice_id": "INV-0450"
+  },
+  {
+    "id": "PAY-0534",
+    "booked_at": "2026-03-19",
+    "amount": 11000,
+    "reference": "INV-0437",
+    "invoice_id": "INV-0437"
+  },
+  {
+    "id": "PAY-0535",
+    "booked_at": "2026-03-20",
+    "amount": 13900,
+    "reference": "INV-0066",
+    "invoice_id": "INV-0066"
+  },
+  {
+    "id": "PAY-0536",
+    "booked_at": "2026-03-21",
+    "amount": 13900,
+    "reference": "INV-1159",
+    "invoice_id": "INV-1159"
+  },
+  {
+    "id": "PAY-0537",
+    "booked_at": "2026-03-22",
+    "amount": 11000,
+    "reference": "INV-0161",
+    "invoice_id": "INV-0161"
+  },
+  {
+    "id": "PAY-0538",
+    "booked_at": "2026-03-22",
+    "amount": 11800,
+    "reference": "INV-0678",
+    "invoice_id": "INV-0678"
+  },
+  {
+    "id": "PAY-0539",
+    "booked_at": "2026-03-28",
+    "amount": 9400,
+    "reference": "INV-1026",
+    "invoice_id": "INV-1026"
+  },
+  {
+    "id": "PAY-0540",
+    "booked_at": "2026-03-28",
+    "amount": 7900,
+    "reference": "INV-0702",
+    "invoice_id": "INV-0702"
+  },
+  {
+    "id": "PAY-0541",
+    "booked_at": "2026-03-29",
+    "amount": 8500,
+    "reference": "INV-0102",
+    "invoice_id": "INV-0102"
+  },
+  {
+    "id": "PAY-0542",
+    "booked_at": "2026-03-29",
+    "amount": 13900,
+    "reference": "INV-0330",
+    "invoice_id": "INV-0330"
+  },
+  {
+    "id": "PAY-0543",
+    "booked_at": "2026-03-29",
+    "amount": 12500,
+    "reference": "INV-0835",
+    "invoice_id": "INV-0835"
+  },
+  {
+    "id": "PAY-0544",
+    "booked_at": "2026-03-29",
+    "amount": 8900,
+    "reference": "INV-0497",
+    "invoice_id": "INV-0497"
+  },
+  {
+    "id": "PAY-0545",
+    "booked_at": "2026-03-29",
+    "amount": 7200,
+    "reference": "INV-1087",
+    "invoice_id": "INV-1087"
+  },
+  {
+    "id": "PAY-0546",
+    "booked_at": "2026-03-29",
+    "amount": 13900,
+    "reference": "INV-0054",
+    "invoice_id": "INV-0054"
+  },
+  {
+    "id": "PAY-0547",
+    "booked_at": "2026-03-29",
+    "amount": 10200,
+    "reference": "INV-0354",
+    "invoice_id": "INV-0354"
+  },
+  {
+    "id": "PAY-0548",
+    "booked_at": "2026-03-29",
+    "amount": 8500,
+    "reference": "INV-0390",
+    "invoice_id": "INV-0390"
+  },
+  {
+    "id": "PAY-0549",
+    "booked_at": "2026-03-29",
+    "amount": 7200,
+    "reference": "INV-0474",
+    "invoice_id": "INV-0474"
+  },
+  {
+    "id": "PAY-0550",
+    "booked_at": "2026-03-29",
+    "amount": 10200,
+    "reference": "INV-0114",
+    "invoice_id": "INV-0114"
+  },
+  {
+    "id": "PAY-0551",
+    "booked_at": "2026-03-29",
+    "amount": 12500,
+    "reference": "INV-0210",
+    "invoice_id": "INV-0210"
+  },
+  {
+    "id": "PAY-0552",
+    "booked_at": "2026-03-30",
+    "amount": 13900,
+    "reference": "INV-0775",
+    "invoice_id": "INV-0775"
+  },
+  {
+    "id": "PAY-0553",
+    "booked_at": "2026-03-30",
+    "amount": 10200,
+    "reference": "INV-1099",
+    "invoice_id": "INV-1099"
+  },
+  {
+    "id": "PAY-0554",
+    "booked_at": "2026-03-30",
+    "amount": 11000,
+    "reference": "INV-1171",
+    "invoice_id": "INV-1171"
+  },
+  {
+    "id": "PAY-0555",
+    "booked_at": "2026-03-30",
+    "amount": 8900,
+    "reference": "INV-0546",
+    "invoice_id": "INV-0546"
+  },
+  {
+    "id": "PAY-0556",
+    "booked_at": "2026-03-30",
+    "amount": 10200,
+    "reference": "INV-0955",
+    "invoice_id": "INV-0955"
+  },
+  {
+    "id": "PAY-0557",
+    "booked_at": "2026-03-30",
+    "amount": 12500,
+    "reference": "rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0558",
+    "booked_at": "2026-03-30",
+    "amount": 8900,
+    "reference": "INV-1195",
+    "invoice_id": "INV-1195"
+  },
+  {
+    "id": "PAY-0559",
+    "booked_at": "2026-03-30",
+    "amount": 10200,
+    "reference": "husleje nowak",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0560",
+    "booked_at": "2026-03-30",
+    "amount": 7200,
+    "reference": "INV-1123",
+    "invoice_id": "INV-1123"
+  },
+  {
+    "id": "PAY-0561",
+    "booked_at": "2026-03-30",
+    "amount": 13900,
+    "reference": "INV-0871",
+    "invoice_id": "INV-0871"
+  },
+  {
+    "id": "PAY-0562",
+    "booked_at": "2026-03-30",
+    "amount": 12500,
+    "reference": "INV-0931",
+    "invoice_id": "INV-0931"
+  },
+  {
+    "id": "PAY-0563",
+    "booked_at": "2026-03-30",
+    "amount": 7900,
+    "reference": "INV-1075",
+    "invoice_id": "INV-1075"
+  },
+  {
+    "id": "PAY-0564",
+    "booked_at": "2026-03-30",
+    "amount": 8900,
+    "reference": "INV-0667",
+    "invoice_id": "INV-0667"
+  },
+  {
+    "id": "PAY-0565",
+    "booked_at": "2026-03-30",
+    "amount": 10200,
+    "reference": "INV-0090",
+    "invoice_id": "INV-0090"
+  },
+  {
+    "id": "PAY-0566",
+    "booked_at": "2026-03-30",
+    "amount": 12500,
+    "reference": "INV-0006",
+    "invoice_id": "INV-0006"
+  },
+  {
+    "id": "PAY-0567",
+    "booked_at": "2026-03-30",
+    "amount": 11000,
+    "reference": "INV-0174",
+    "invoice_id": "INV-0174"
+  },
+  {
+    "id": "PAY-0568",
+    "booked_at": "2026-03-30",
+    "amount": 12500,
+    "reference": "INV-1015",
+    "invoice_id": "INV-1015"
+  },
+  {
+    "id": "PAY-0569",
+    "booked_at": "2026-03-30",
+    "amount": 10200,
+    "reference": "INV-0570",
+    "invoice_id": "INV-0570"
+  },
+  {
+    "id": "PAY-0570",
+    "booked_at": "2026-03-30",
+    "amount": 7900,
+    "reference": "INV-0919",
+    "invoice_id": "INV-0919"
+  },
+  {
+    "id": "PAY-0571",
+    "booked_at": "2026-03-30",
+    "amount": 7900,
+    "reference": "INV-0462",
+    "invoice_id": "INV-0462"
+  },
+  {
+    "id": "PAY-0572",
+    "booked_at": "2026-03-31",
+    "amount": 3950,
+    "reference": "INV-0979",
+    "invoice_id": "INV-0979"
+  },
+  {
+    "id": "PAY-0573",
+    "booked_at": "2026-03-31",
+    "amount": 4700,
+    "reference": "INV-0534",
+    "invoice_id": "INV-0534"
+  },
+  {
+    "id": "PAY-0574",
+    "booked_at": "2026-03-31",
+    "amount": 7900,
+    "reference": "INV-0378",
+    "invoice_id": "INV-0378"
+  },
+  {
+    "id": "PAY-0575",
+    "booked_at": "2026-03-31",
+    "amount": 3600,
+    "reference": "INV-0727",
+    "invoice_id": "INV-0727"
+  },
+  {
+    "id": "PAY-0576",
+    "booked_at": "2026-03-31",
+    "amount": 11000,
+    "reference": "INV-0246",
+    "invoice_id": "INV-0246"
+  },
+  {
+    "id": "PAY-0577",
+    "booked_at": "2026-03-31",
+    "amount": 3600,
+    "reference": "INV-0943",
+    "invoice_id": "INV-0943"
+  },
+  {
+    "id": "PAY-0578",
+    "booked_at": "2026-03-31",
+    "amount": 9400,
+    "reference": "INV-0631",
+    "invoice_id": "INV-0631"
+  },
+  {
+    "id": "PAY-0579",
+    "booked_at": "2026-03-31",
+    "amount": 6950,
+    "reference": "INV-0198",
+    "invoice_id": "INV-0198"
+  },
+  {
+    "id": "PAY-0580",
+    "booked_at": "2026-03-31",
+    "amount": 10200,
+    "reference": "INV-0486",
+    "invoice_id": "INV-0486"
+  },
+  {
+    "id": "PAY-0581",
+    "booked_at": "2026-03-31",
+    "amount": 7900,
+    "reference": "INV-0222",
+    "invoice_id": "INV-0222"
+  },
+  {
+    "id": "PAY-0582",
+    "booked_at": "2026-03-31",
+    "amount": 11800,
+    "reference": "INV-0342",
+    "invoice_id": "INV-0342"
+  },
+  {
+    "id": "PAY-0583",
+    "booked_at": "2026-03-31",
+    "amount": 8900,
+    "reference": "Ida Johansen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0584",
+    "booked_at": "2026-03-31",
+    "amount": 9400,
+    "reference": "INV-0293",
+    "invoice_id": "INV-0293"
+  },
+  {
+    "id": "PAY-0585",
+    "booked_at": "2026-03-31",
+    "amount": 8500,
+    "reference": "INV-0510",
+    "invoice_id": "INV-0510"
+  },
+  {
+    "id": "PAY-0586",
+    "booked_at": "2026-03-31",
+    "amount": 3600,
+    "reference": "INV-0883",
+    "invoice_id": "INV-0883"
+  },
+  {
+    "id": "PAY-0587",
+    "booked_at": "2026-03-31",
+    "amount": 7900,
+    "reference": "INV-0847",
+    "invoice_id": "INV-0847"
+  },
+  {
+    "id": "PAY-0588",
+    "booked_at": "2026-03-31",
+    "amount": 6250,
+    "reference": "INV-1135",
+    "invoice_id": "INV-1135"
+  },
+  {
+    "id": "PAY-0589",
+    "booked_at": "2026-03-31",
+    "amount": 7200,
+    "reference": "INV-0991",
+    "invoice_id": "INV-0991"
+  },
+  {
+    "id": "PAY-0590",
+    "booked_at": "2026-03-31",
+    "amount": 12500,
+    "reference": "INV-1051",
+    "invoice_id": "INV-1051"
+  },
+  {
+    "id": "PAY-0591",
+    "booked_at": "2026-03-31",
+    "amount": 8900,
+    "reference": "INV-1063",
+    "invoice_id": "INV-1063"
+  },
+  {
+    "id": "PAY-0592",
+    "booked_at": "2026-04-01",
+    "amount": 7200,
+    "reference": "INV-0582",
+    "invoice_id": "INV-0582"
+  },
+  {
+    "id": "PAY-0593",
+    "booked_at": "2026-04-01",
+    "amount": 9400,
+    "reference": "INV-0042",
+    "invoice_id": "INV-0042"
+  },
+  {
+    "id": "PAY-0594",
+    "booked_at": "2026-04-01",
+    "amount": 12500,
+    "reference": "INV-1147",
+    "invoice_id": "INV-1147"
+  },
+  {
+    "id": "PAY-0595",
+    "booked_at": "2026-04-01",
+    "amount": 13900,
+    "reference": "INV-0619",
+    "invoice_id": "INV-0619"
+  },
+  {
+    "id": "PAY-0596",
+    "booked_at": "2026-04-01",
+    "amount": 11800,
+    "reference": "INV-0258",
+    "invoice_id": "INV-0258"
+  },
+  {
+    "id": "PAY-0597",
+    "booked_at": "2026-04-01",
+    "amount": 7900,
+    "reference": "INV-0018",
+    "invoice_id": "INV-0018"
+  },
+  {
+    "id": "PAY-0598",
+    "booked_at": "2026-04-01",
+    "amount": 11800,
+    "reference": "Kasper",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0599",
+    "booked_at": "2026-04-01",
+    "amount": 10200,
+    "reference": "INV-0739",
+    "invoice_id": "INV-0739"
+  },
+  {
+    "id": "PAY-0600",
+    "booked_at": "2026-04-01",
+    "amount": 13900,
+    "reference": "INV-0030",
+    "invoice_id": "INV-0030"
+  },
+  {
+    "id": "PAY-0601",
+    "booked_at": "2026-04-01",
+    "amount": 10200,
+    "reference": "INV-0558",
+    "invoice_id": "INV-0558"
+  },
+  {
+    "id": "PAY-0602",
+    "booked_at": "2026-04-01",
+    "amount": 8500,
+    "reference": "INV-0594",
+    "invoice_id": "INV-0594"
+  },
+  {
+    "id": "PAY-0603",
+    "booked_at": "2026-04-01",
+    "amount": 8500,
+    "reference": "INV-0606",
+    "invoice_id": "INV-0606"
+  },
+  {
+    "id": "PAY-0604",
+    "booked_at": "2026-04-01",
+    "amount": 8900,
+    "reference": "INV-0318",
+    "invoice_id": "INV-0318"
+  },
+  {
+    "id": "PAY-0605",
+    "booked_at": "2026-04-01",
+    "amount": 11000,
+    "reference": "INV-0426",
+    "invoice_id": "INV-0426"
+  },
+  {
+    "id": "PAY-0606",
+    "booked_at": "2026-04-01",
+    "amount": 12500,
+    "reference": "INV-0751",
+    "invoice_id": "INV-0751"
+  },
+  {
+    "id": "PAY-0607",
+    "booked_at": "2026-04-01",
+    "amount": 10200,
+    "reference": "INV-0270",
+    "invoice_id": "INV-0270"
+  },
+  {
+    "id": "PAY-0608",
+    "booked_at": "2026-04-01",
+    "amount": 13900,
+    "reference": "INV-0234",
+    "invoice_id": "INV-0234"
+  },
+  {
+    "id": "PAY-0609",
+    "booked_at": "2026-04-01",
+    "amount": 11800,
+    "reference": "2026-04 rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0610",
+    "booked_at": "2026-04-01",
+    "amount": 12500,
+    "reference": "INV-0895",
+    "invoice_id": "INV-0895"
+  },
+  {
+    "id": "PAY-0611",
+    "booked_at": "2026-04-01",
+    "amount": 7900,
+    "reference": "INV-0967",
+    "invoice_id": "INV-0967"
+  },
+  {
+    "id": "PAY-0612",
+    "booked_at": "2026-04-01",
+    "amount": 9400,
+    "reference": "Amira Knudsen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0613",
+    "booked_at": "2026-04-04",
+    "amount": 8900,
+    "reference": "INV-0522",
+    "invoice_id": "INV-0522"
+  },
+  {
+    "id": "PAY-0614",
+    "booked_at": "2026-04-04",
+    "amount": 12500,
+    "reference": "INV-1003",
+    "invoice_id": "INV-1003"
+  },
+  {
+    "id": "PAY-0615",
+    "booked_at": "2026-04-06",
+    "amount": 7900,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0616",
+    "booked_at": "2026-04-06",
+    "amount": 6950,
+    "reference": "INV-0198",
+    "invoice_id": "INV-0198"
+  },
+  {
+    "id": "PAY-0617",
+    "booked_at": "2026-04-06",
+    "amount": 3950,
+    "reference": "INV-0979",
+    "invoice_id": "INV-0979"
+  },
+  {
+    "id": "PAY-0618",
+    "booked_at": "2026-04-06",
+    "amount": 10200,
+    "reference": "INV-0078",
+    "invoice_id": "INV-0078"
+  },
+  {
+    "id": "PAY-0619",
+    "booked_at": "2026-04-07",
+    "amount": 8500,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0620",
+    "booked_at": "2026-04-07",
+    "amount": 3600,
+    "reference": "INV-0943",
+    "invoice_id": "INV-0943"
+  },
+  {
+    "id": "PAY-0621",
+    "booked_at": "2026-04-07",
+    "amount": 8500,
+    "reference": "Alma",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0622",
+    "booked_at": "2026-04-08",
+    "amount": 8900,
+    "reference": "INV-0691",
+    "invoice_id": "INV-0691"
+  },
+  {
+    "id": "PAY-0623",
+    "booked_at": "2026-04-09",
+    "amount": 7200,
+    "reference": "INV-0764",
+    "invoice_id": "INV-0764"
+  },
+  {
+    "id": "PAY-0624",
+    "booked_at": "2026-04-09",
+    "amount": 8900,
+    "reference": "INV-0644",
+    "invoice_id": "INV-0644"
+  },
+  {
+    "id": "PAY-0625",
+    "booked_at": "2026-04-09",
+    "amount": 4700,
+    "reference": "INV-0534",
+    "invoice_id": "INV-0534"
+  },
+  {
+    "id": "PAY-0626",
+    "booked_at": "2026-04-09",
+    "amount": 7200,
+    "reference": "INV-0824",
+    "invoice_id": "INV-0824"
+  },
+  {
+    "id": "PAY-0627",
+    "booked_at": "2026-04-10",
+    "amount": 9400,
+    "reference": "INV-1039",
+    "invoice_id": "INV-1039"
+  },
+  {
+    "id": "PAY-0628",
+    "booked_at": "2026-04-10",
+    "amount": 7200,
+    "reference": "husleje schmidt",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0629",
+    "booked_at": "2026-04-10",
+    "amount": 8500,
+    "reference": "INV-0655",
+    "invoice_id": "INV-0655"
+  },
+  {
+    "id": "PAY-0630",
+    "booked_at": "2026-04-11",
+    "amount": 9400,
+    "reference": "INV-1184",
+    "invoice_id": "INV-1184"
+  },
+  {
+    "id": "PAY-0631",
+    "booked_at": "2026-04-12",
+    "amount": 6250,
+    "reference": "INV-1135",
+    "invoice_id": "INV-1135"
+  },
+  {
+    "id": "PAY-0632",
+    "booked_at": "2026-04-12",
+    "amount": 3600,
+    "reference": "INV-0727",
+    "invoice_id": "INV-0727"
+  },
+  {
+    "id": "PAY-0633",
+    "booked_at": "2026-04-15",
+    "amount": 13900,
+    "reference": "INV-1160",
+    "invoice_id": "INV-1160"
+  },
+  {
+    "id": "PAY-0634",
+    "booked_at": "2026-04-16",
+    "amount": 11000,
+    "reference": "INV-0162",
+    "invoice_id": "INV-0162"
+  },
+  {
+    "id": "PAY-0635",
+    "booked_at": "2026-04-16",
+    "amount": 11800,
+    "reference": "INV-0451",
+    "invoice_id": "INV-0451"
+  },
+  {
+    "id": "PAY-0636",
+    "booked_at": "2026-04-17",
+    "amount": 9400,
+    "reference": "INV-0716",
+    "invoice_id": "INV-0716"
+  },
+  {
+    "id": "PAY-0637",
+    "booked_at": "2026-04-17",
+    "amount": 11000,
+    "reference": "INV-0438",
+    "invoice_id": "INV-0438"
+  },
+  {
+    "id": "PAY-0638",
+    "booked_at": "2026-04-17",
+    "amount": 10200,
+    "reference": "INV-0307",
+    "invoice_id": "INV-0307"
+  },
+  {
+    "id": "PAY-0639",
+    "booked_at": "2026-04-19",
+    "amount": 8900,
+    "reference": "INV-0498",
+    "invoice_id": "INV-0498"
+  },
+  {
+    "id": "PAY-0640",
+    "booked_at": "2026-04-19",
+    "amount": 13900,
+    "reference": "INV-0067",
+    "invoice_id": "INV-0067"
+  },
+  {
+    "id": "PAY-0641",
+    "booked_at": "2026-04-20",
+    "amount": 11000,
+    "reference": "Piotr",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0642",
+    "booked_at": "2026-04-21",
+    "amount": 8500,
+    "reference": "INV-0367",
+    "invoice_id": "INV-0367"
+  },
+  {
+    "id": "PAY-0643",
+    "booked_at": "2026-04-22",
+    "amount": 9400,
+    "reference": "INV-0294",
+    "invoice_id": "INV-0294"
+  },
+  {
+    "id": "PAY-0644",
+    "booked_at": "2026-04-24",
+    "amount": 9400,
+    "reference": "INV-1027",
+    "invoice_id": "INV-1027"
+  },
+  {
+    "id": "PAY-0645",
+    "booked_at": "2026-04-25",
+    "amount": 8500,
+    "reference": "INV-0282",
+    "invoice_id": "INV-0282"
+  },
+  {
+    "id": "PAY-0646",
+    "booked_at": "2026-04-25",
+    "amount": 11800,
+    "reference": "INV-0679",
+    "invoice_id": "INV-0679"
+  },
+  {
+    "id": "PAY-0647",
+    "booked_at": "2026-04-27",
+    "amount": 8900,
+    "reference": "INV-1111",
+    "invoice_id": "INV-1111"
+  },
+  {
+    "id": "PAY-0648",
+    "booked_at": "2026-04-28",
+    "amount": 10200,
+    "reference": "INV-0571",
+    "invoice_id": "INV-0571"
+  },
+  {
+    "id": "PAY-0649",
+    "booked_at": "2026-04-28",
+    "amount": 12500,
+    "reference": "INV-0211",
+    "invoice_id": "INV-0211"
+  },
+  {
+    "id": "PAY-0650",
+    "booked_at": "2026-04-28",
+    "amount": 9400,
+    "reference": "INV-0151",
+    "invoice_id": "INV-0151"
+  },
+  {
+    "id": "PAY-0651",
+    "booked_at": "2026-04-28",
+    "amount": 13900,
+    "reference": "INV-0620",
+    "invoice_id": "INV-0620"
+  },
+  {
+    "id": "PAY-0652",
+    "booked_at": "2026-04-28",
+    "amount": 8900,
+    "reference": "INV-0319",
+    "invoice_id": "INV-0319"
+  },
+  {
+    "id": "PAY-0653",
+    "booked_at": "2026-04-28",
+    "amount": 7900,
+    "reference": "INV-0379",
+    "invoice_id": "INV-0379"
+  },
+  {
+    "id": "PAY-0654",
+    "booked_at": "2026-04-28",
+    "amount": 13900,
+    "reference": "INV-0872",
+    "invoice_id": "INV-0872"
+  },
+  {
+    "id": "PAY-0655",
+    "booked_at": "2026-04-28",
+    "amount": 7900,
+    "reference": "INV-1076",
+    "invoice_id": "INV-1076"
+  },
+  {
+    "id": "PAY-0656",
+    "booked_at": "2026-04-28",
+    "amount": 12500,
+    "reference": "INV-0836",
+    "invoice_id": "INV-0836"
+  },
+  {
+    "id": "PAY-0657",
+    "booked_at": "2026-04-28",
+    "amount": 10200,
+    "reference": "INV-0355",
+    "invoice_id": "INV-0355"
+  },
+  {
+    "id": "PAY-0658",
+    "booked_at": "2026-04-28",
+    "amount": 12500,
+    "reference": "INV-1148",
+    "invoice_id": "INV-1148"
+  },
+  {
+    "id": "PAY-0659",
+    "booked_at": "2026-04-28",
+    "amount": 11000,
+    "reference": "INV-1172",
+    "invoice_id": "INV-1172"
+  },
+  {
+    "id": "PAY-0660",
+    "booked_at": "2026-04-28",
+    "amount": 10200,
+    "reference": "INV-1100",
+    "invoice_id": "INV-1100"
+  },
+  {
+    "id": "PAY-0661",
+    "booked_at": "2026-04-28",
+    "amount": 10200,
+    "reference": "INV-0487",
+    "invoice_id": "INV-0487"
+  },
+  {
+    "id": "PAY-0662",
+    "booked_at": "2026-04-28",
+    "amount": 11800,
+    "reference": "INV-0343",
+    "invoice_id": "INV-0343"
+  },
+  {
+    "id": "PAY-0663",
+    "booked_at": "2026-04-28",
+    "amount": 13900,
+    "reference": "INV-0331",
+    "invoice_id": "INV-0331"
+  },
+  {
+    "id": "PAY-0664",
+    "booked_at": "2026-04-29",
+    "amount": 10200,
+    "reference": "INV-0740",
+    "invoice_id": "INV-0740"
+  },
+  {
+    "id": "PAY-0665",
+    "booked_at": "2026-04-29",
+    "amount": 11800,
+    "reference": "INV-0187",
+    "invoice_id": "INV-0187"
+  },
+  {
+    "id": "PAY-0666",
+    "booked_at": "2026-04-29",
+    "amount": 11800,
+    "reference": "husleje frandsen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0667",
+    "booked_at": "2026-04-29",
+    "amount": 7900,
+    "reference": "INV-0463",
+    "invoice_id": "INV-0463"
+  },
+  {
+    "id": "PAY-0668",
+    "booked_at": "2026-04-29",
+    "amount": 12500,
+    "reference": "INV-0800",
+    "invoice_id": "INV-0800"
+  },
+  {
+    "id": "PAY-0669",
+    "booked_at": "2026-04-29",
+    "amount": 7200,
+    "reference": "INV-1088",
+    "invoice_id": "INV-1088"
+  },
+  {
+    "id": "PAY-0670",
+    "booked_at": "2026-04-29",
+    "amount": 7200,
+    "reference": "INV-0992",
+    "invoice_id": "INV-0992"
+  },
+  {
+    "id": "PAY-0671",
+    "booked_at": "2026-04-29",
+    "amount": 7200,
+    "reference": "INV-0475",
+    "invoice_id": "INV-0475"
+  },
+  {
+    "id": "PAY-0672",
+    "booked_at": "2026-04-29",
+    "amount": 7900,
+    "reference": "INV-0968",
+    "invoice_id": "INV-0968"
+  },
+  {
+    "id": "PAY-0673",
+    "booked_at": "2026-04-29",
+    "amount": 13900,
+    "reference": "INV-0776",
+    "invoice_id": "INV-0776"
+  },
+  {
+    "id": "PAY-0674",
+    "booked_at": "2026-04-29",
+    "amount": 11800,
+    "reference": "INV-0259",
+    "invoice_id": "INV-0259"
+  },
+  {
+    "id": "PAY-0675",
+    "booked_at": "2026-04-29",
+    "amount": 12500,
+    "reference": "INV-0932",
+    "invoice_id": "INV-0932"
+  },
+  {
+    "id": "PAY-0676",
+    "booked_at": "2026-04-29",
+    "amount": 7900,
+    "reference": "INV-0223",
+    "invoice_id": "INV-0223"
+  },
+  {
+    "id": "PAY-0677",
+    "booked_at": "2026-04-29",
+    "amount": 7200,
+    "reference": "INV-1124",
+    "invoice_id": "INV-1124"
+  },
+  {
+    "id": "PAY-0678",
+    "booked_at": "2026-04-30",
+    "amount": 11000,
+    "reference": "INV-0247",
+    "invoice_id": "INV-0247"
+  },
+  {
+    "id": "PAY-0679",
+    "booked_at": "2026-04-30",
+    "amount": 7900,
+    "reference": "INV-0848",
+    "invoice_id": "INV-0848"
+  },
+  {
+    "id": "PAY-0680",
+    "booked_at": "2026-04-30",
+    "amount": 3950,
+    "reference": "INV-0980",
+    "invoice_id": "INV-0980"
+  },
+  {
+    "id": "PAY-0681",
+    "booked_at": "2026-04-30",
+    "amount": 12500,
+    "reference": "INV-0752",
+    "invoice_id": "INV-0752"
+  },
+  {
+    "id": "PAY-0682",
+    "booked_at": "2026-04-30",
+    "amount": 8900,
+    "reference": "INV-1064",
+    "invoice_id": "INV-1064"
+  },
+  {
+    "id": "PAY-0683",
+    "booked_at": "2026-04-30",
+    "amount": 6950,
+    "reference": "INV-0199",
+    "invoice_id": "INV-0199"
+  },
+  {
+    "id": "PAY-0684",
+    "booked_at": "2026-04-30",
+    "amount": 4700,
+    "reference": "INV-0535",
+    "invoice_id": "INV-0535"
+  },
+  {
+    "id": "PAY-0685",
+    "booked_at": "2026-04-30",
+    "amount": 3600,
+    "reference": "rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0686",
+    "booked_at": "2026-04-30",
+    "amount": 3600,
+    "reference": "INV-0944",
+    "invoice_id": "INV-0944"
+  },
+  {
+    "id": "PAY-0687",
+    "booked_at": "2026-04-30",
+    "amount": 10200,
+    "reference": "INV-0115",
+    "invoice_id": "INV-0115"
+  },
+  {
+    "id": "PAY-0688",
+    "booked_at": "2026-04-30",
+    "amount": 10200,
+    "reference": "INV-0559",
+    "invoice_id": "INV-0559"
+  },
+  {
+    "id": "PAY-0689",
+    "booked_at": "2026-04-30",
+    "amount": 8500,
+    "reference": "INV-0511",
+    "invoice_id": "INV-0511"
+  },
+  {
+    "id": "PAY-0690",
+    "booked_at": "2026-04-30",
+    "amount": 13900,
+    "reference": "INV-0235",
+    "invoice_id": "INV-0235"
+  },
+  {
+    "id": "PAY-0691",
+    "booked_at": "2026-04-30",
+    "amount": 8900,
+    "reference": "INV-1196",
+    "invoice_id": "INV-1196"
+  },
+  {
+    "id": "PAY-0692",
+    "booked_at": "2026-04-30",
+    "amount": 13900,
+    "reference": "INV-0055",
+    "invoice_id": "INV-0055"
+  },
+  {
+    "id": "PAY-0693",
+    "booked_at": "2026-04-30",
+    "amount": 8900,
+    "reference": "INV-0547",
+    "invoice_id": "INV-0547"
+  },
+  {
+    "id": "PAY-0694",
+    "booked_at": "2026-04-30",
+    "amount": 7900,
+    "reference": "INV-0019",
+    "invoice_id": "INV-0019"
+  },
+  {
+    "id": "PAY-0695",
+    "booked_at": "2026-04-30",
+    "amount": 3600,
+    "reference": "INV-0884",
+    "invoice_id": "INV-0884"
+  },
+  {
+    "id": "PAY-0696",
+    "booked_at": "2026-04-30",
+    "amount": 10200,
+    "reference": "Karen Nowak",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0697",
+    "booked_at": "2026-04-30",
+    "amount": 10200,
+    "reference": "INV-0091",
+    "invoice_id": "INV-0091"
+  },
+  {
+    "id": "PAY-0698",
+    "booked_at": "2026-04-30",
+    "amount": 9400,
+    "reference": "INV-0632",
+    "invoice_id": "INV-0632"
+  },
+  {
+    "id": "PAY-0699",
+    "booked_at": "2026-04-30",
+    "amount": 6250,
+    "reference": "INV-1136",
+    "invoice_id": "INV-1136"
+  },
+  {
+    "id": "PAY-0700",
+    "booked_at": "2026-04-30",
+    "amount": 11000,
+    "reference": "INV-0427",
+    "invoice_id": "INV-0427"
+  },
+  {
+    "id": "PAY-0701",
+    "booked_at": "2026-05-01",
+    "amount": 8500,
+    "reference": "INV-0391",
+    "invoice_id": "INV-0391"
+  },
+  {
+    "id": "PAY-0702",
+    "booked_at": "2026-05-01",
+    "amount": 7900,
+    "reference": "INV-0703",
+    "invoice_id": "INV-0703"
+  },
+  {
+    "id": "PAY-0703",
+    "booked_at": "2026-05-01",
+    "amount": 8500,
+    "reference": "INV-0595",
+    "invoice_id": "INV-0595"
+  },
+  {
+    "id": "PAY-0704",
+    "booked_at": "2026-05-01",
+    "amount": 12500,
+    "reference": "INV-0896",
+    "invoice_id": "INV-0896"
+  },
+  {
+    "id": "PAY-0705",
+    "booked_at": "2026-05-01",
+    "amount": 12500,
+    "reference": "INV-0007",
+    "invoice_id": "INV-0007"
+  },
+  {
+    "id": "PAY-0706",
+    "booked_at": "2026-05-01",
+    "amount": 8900,
+    "reference": "Ida Johansen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0707",
+    "booked_at": "2026-05-01",
+    "amount": 11000,
+    "reference": "INV-0175",
+    "invoice_id": "INV-0175"
+  },
+  {
+    "id": "PAY-0708",
+    "booked_at": "2026-05-01",
+    "amount": 7200,
+    "reference": "INV-0583",
+    "invoice_id": "INV-0583"
+  },
+  {
+    "id": "PAY-0709",
+    "booked_at": "2026-05-01",
+    "amount": 12500,
+    "reference": "INV-1016",
+    "invoice_id": "INV-1016"
+  },
+  {
+    "id": "PAY-0710",
+    "booked_at": "2026-05-01",
+    "amount": 8500,
+    "reference": "INV-0607",
+    "invoice_id": "INV-0607"
+  },
+  {
+    "id": "PAY-0711",
+    "booked_at": "2026-05-01",
+    "amount": 8900,
+    "reference": "INV-0668",
+    "invoice_id": "INV-0668"
+  },
+  {
+    "id": "PAY-0712",
+    "booked_at": "2026-05-01",
+    "amount": 9400,
+    "reference": "INV-0043",
+    "invoice_id": "INV-0043"
+  },
+  {
+    "id": "PAY-0713",
+    "booked_at": "2026-05-01",
+    "amount": 10200,
+    "reference": "INV-0271",
+    "invoice_id": "INV-0271"
+  },
+  {
+    "id": "PAY-0714",
+    "booked_at": "2026-05-01",
+    "amount": 7900,
+    "reference": "INV-0920",
+    "invoice_id": "INV-0920"
+  },
+  {
+    "id": "PAY-0715",
+    "booked_at": "2026-05-01",
+    "amount": 13900,
+    "reference": "INV-0031",
+    "invoice_id": "INV-0031"
+  },
+  {
+    "id": "PAY-0716",
+    "booked_at": "2026-05-01",
+    "amount": 12500,
+    "reference": "INV-1052",
+    "invoice_id": "INV-1052"
+  },
+  {
+    "id": "PAY-0717",
+    "booked_at": "2026-05-01",
+    "amount": 8500,
+    "reference": "INV-0103",
+    "invoice_id": "INV-0103"
+  },
+  {
+    "id": "PAY-0718",
+    "booked_at": "2026-05-01",
+    "amount": 10200,
+    "reference": "INV-0956",
+    "invoice_id": "INV-0956"
+  },
+  {
+    "id": "PAY-0719",
+    "booked_at": "2026-05-03",
+    "amount": 7900,
+    "reference": "husleje hansen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0720",
+    "booked_at": "2026-05-03",
+    "amount": 8500,
+    "reference": "husleje andersen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0721",
+    "booked_at": "2026-05-04",
+    "amount": 8500,
+    "reference": "INV-0656",
+    "invoice_id": "INV-0656"
+  },
+  {
+    "id": "PAY-0722",
+    "booked_at": "2026-05-05",
+    "amount": 9400,
+    "reference": "INV-1040",
+    "invoice_id": "INV-1040"
+  },
+  {
+    "id": "PAY-0723",
+    "booked_at": "2026-05-05",
+    "amount": 8900,
+    "reference": "INV-0692",
+    "invoice_id": "INV-0692"
+  },
+  {
+    "id": "PAY-0724",
+    "booked_at": "2026-05-05",
+    "amount": 12500,
+    "reference": "INV-1004",
+    "invoice_id": "INV-1004"
+  },
+  {
+    "id": "PAY-0725",
+    "booked_at": "2026-05-06",
+    "amount": 3600,
+    "reference": "",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0726",
+    "booked_at": "2026-05-07",
+    "amount": 13900,
+    "reference": "INV-1161",
+    "invoice_id": "INV-1161"
+  },
+  {
+    "id": "PAY-0727",
+    "booked_at": "2026-05-08",
+    "amount": 4700,
+    "reference": "INV-0535",
+    "invoice_id": "INV-0535"
+  },
+  {
+    "id": "PAY-0728",
+    "booked_at": "2026-05-08",
+    "amount": 8900,
+    "reference": "INV-0523",
+    "invoice_id": "INV-0523"
+  },
+  {
+    "id": "PAY-0729",
+    "booked_at": "2026-05-09",
+    "amount": 3600,
+    "reference": "INV-0944",
+    "invoice_id": "INV-0944"
+  },
+  {
+    "id": "PAY-0730",
+    "booked_at": "2026-05-09",
+    "amount": 11800,
+    "reference": "INV-0452",
+    "invoice_id": "INV-0452"
+  },
+  {
+    "id": "PAY-0731",
+    "booked_at": "2026-05-09",
+    "amount": 9400,
+    "reference": "INV-0717",
+    "invoice_id": "INV-0717"
+  },
+  {
+    "id": "PAY-0732",
+    "booked_at": "2026-05-09",
+    "amount": 10200,
+    "reference": "INV-0079",
+    "invoice_id": "INV-0079"
+  },
+  {
+    "id": "PAY-0733",
+    "booked_at": "2026-05-09",
+    "amount": 13900,
+    "reference": "INV-0068",
+    "invoice_id": "INV-0068"
+  },
+  {
+    "id": "PAY-0734",
+    "booked_at": "2026-05-10",
+    "amount": 6250,
+    "reference": "INV-1136",
+    "invoice_id": "INV-1136"
+  },
+  {
+    "id": "PAY-0735",
+    "booked_at": "2026-05-10",
+    "amount": 8900,
+    "reference": "INV-0645",
+    "invoice_id": "INV-0645"
+  },
+  {
+    "id": "PAY-0736",
+    "booked_at": "2026-05-10",
+    "amount": 10200,
+    "reference": "INV-0308",
+    "invoice_id": "INV-0308"
+  },
+  {
+    "id": "PAY-0737",
+    "booked_at": "2026-05-10",
+    "amount": 8500,
+    "reference": "husleje nowak",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0738",
+    "booked_at": "2026-05-11",
+    "amount": 3950,
+    "reference": "INV-0980",
+    "invoice_id": "INV-0980"
+  },
+  {
+    "id": "PAY-0739",
+    "booked_at": "2026-05-12",
+    "amount": 3600,
+    "reference": "INV-0884",
+    "invoice_id": "INV-0884"
+  },
+  {
+    "id": "PAY-0740",
+    "booked_at": "2026-05-13",
+    "amount": 7200,
+    "reference": "Lars",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0741",
+    "booked_at": "2026-05-15",
+    "amount": 9400,
+    "reference": "",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0742",
+    "booked_at": "2026-05-16",
+    "amount": 7200,
+    "reference": "INV-0765",
+    "invoice_id": "INV-0765"
+  },
+  {
+    "id": "PAY-0743",
+    "booked_at": "2026-05-16",
+    "amount": 8500,
+    "reference": "INV-0368",
+    "invoice_id": "INV-0368"
+  },
+  {
+    "id": "PAY-0744",
+    "booked_at": "2026-05-16",
+    "amount": 8900,
+    "reference": "INV-0499",
+    "invoice_id": "INV-0499"
+  },
+  {
+    "id": "PAY-0745",
+    "booked_at": "2026-05-19",
+    "amount": 7200,
+    "reference": "INV-0825",
+    "invoice_id": "INV-0825"
+  },
+  {
+    "id": "PAY-0746",
+    "booked_at": "2026-05-21",
+    "amount": 9400,
+    "reference": "INV-0295",
+    "invoice_id": "INV-0295"
+  },
+  {
+    "id": "PAY-0747",
+    "booked_at": "2026-05-22",
+    "amount": 11800,
+    "reference": "INV-0680",
+    "invoice_id": "INV-0680"
+  },
+  {
+    "id": "PAY-0748",
+    "booked_at": "2026-05-26",
+    "amount": 8900,
+    "reference": "INV-1112",
+    "invoice_id": "INV-1112"
+  },
+  {
+    "id": "PAY-0749",
+    "booked_at": "2026-05-27",
+    "amount": 11000,
+    "reference": "INV-0163",
+    "invoice_id": "INV-0163"
+  },
+  {
+    "id": "PAY-0750",
+    "booked_at": "2026-05-27",
+    "amount": 11000,
+    "reference": "Piotr Sørensen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0751",
+    "booked_at": "2026-05-29",
+    "amount": 7900,
+    "reference": "INV-1077",
+    "invoice_id": "INV-1077"
+  },
+  {
+    "id": "PAY-0752",
+    "booked_at": "2026-05-29",
+    "amount": 7200,
+    "reference": "INV-0584",
+    "invoice_id": "INV-0584"
+  },
+  {
+    "id": "PAY-0753",
+    "booked_at": "2026-05-29",
+    "amount": 7900,
+    "reference": "INV-0224",
+    "invoice_id": "INV-0224"
+  },
+  {
+    "id": "PAY-0754",
+    "booked_at": "2026-05-29",
+    "amount": 11800,
+    "reference": "INV-0188",
+    "invoice_id": "INV-0188"
+  },
+  {
+    "id": "PAY-0755",
+    "booked_at": "2026-05-29",
+    "amount": 13900,
+    "reference": "INV-0621",
+    "invoice_id": "INV-0621"
+  },
+  {
+    "id": "PAY-0756",
+    "booked_at": "2026-05-29",
+    "amount": 12500,
+    "reference": "INV-0897",
+    "invoice_id": "INV-0897"
+  },
+  {
+    "id": "PAY-0757",
+    "booked_at": "2026-05-29",
+    "amount": 8500,
+    "reference": "INV-0596",
+    "invoice_id": "INV-0596"
+  },
+  {
+    "id": "PAY-0758",
+    "booked_at": "2026-05-29",
+    "amount": 7900,
+    "reference": "INV-0464",
+    "invoice_id": "INV-0464"
+  },
+  {
+    "id": "PAY-0759",
+    "booked_at": "2026-05-29",
+    "amount": 10200,
+    "reference": "INV-0572",
+    "invoice_id": "INV-0572"
+  },
+  {
+    "id": "PAY-0760",
+    "booked_at": "2026-05-29",
+    "amount": 8500,
+    "reference": "INV-0283",
+    "invoice_id": "INV-0283"
+  },
+  {
+    "id": "PAY-0761",
+    "booked_at": "2026-05-29",
+    "amount": 10200,
+    "reference": "INV-0116",
+    "invoice_id": "INV-0116"
+  },
+  {
+    "id": "PAY-0762",
+    "booked_at": "2026-05-29",
+    "amount": 12500,
+    "reference": "INV-0008",
+    "invoice_id": "INV-0008"
+  },
+  {
+    "id": "PAY-0763",
+    "booked_at": "2026-05-29",
+    "amount": 12500,
+    "reference": "INV-0753",
+    "invoice_id": "INV-0753"
+  },
+  {
+    "id": "PAY-0764",
+    "booked_at": "2026-05-29",
+    "amount": 10200,
+    "reference": "INV-0356",
+    "invoice_id": "INV-0356"
+  },
+  {
+    "id": "PAY-0765",
+    "booked_at": "2026-05-29",
+    "amount": 9400,
+    "reference": "INV-0633",
+    "invoice_id": "INV-0633"
+  },
+  {
+    "id": "PAY-0766",
+    "booked_at": "2026-05-29",
+    "amount": 8900,
+    "reference": "INV-0548",
+    "invoice_id": "INV-0548"
+  },
+  {
+    "id": "PAY-0767",
+    "booked_at": "2026-05-29",
+    "amount": 10200,
+    "reference": "husleje nowak",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0768",
+    "booked_at": "2026-05-29",
+    "amount": 8500,
+    "reference": "INV-0104",
+    "invoice_id": "INV-0104"
+  },
+  {
+    "id": "PAY-0769",
+    "booked_at": "2026-05-29",
+    "amount": 8900,
+    "reference": "INV-0669",
+    "invoice_id": "INV-0669"
+  },
+  {
+    "id": "PAY-0770",
+    "booked_at": "2026-05-29",
+    "amount": 12500,
+    "reference": "INV-0933",
+    "invoice_id": "INV-0933"
+  },
+  {
+    "id": "PAY-0771",
+    "booked_at": "2026-05-29",
+    "amount": 12500,
+    "reference": "INV-0212",
+    "invoice_id": "INV-0212"
+  },
+  {
+    "id": "PAY-0772",
+    "booked_at": "2026-05-30",
+    "amount": 9400,
+    "reference": "INV-1028",
+    "invoice_id": "INV-1028"
+  },
+  {
+    "id": "PAY-0773",
+    "booked_at": "2026-05-30",
+    "amount": 10200,
+    "reference": "INV-0741",
+    "invoice_id": "INV-0741"
+  },
+  {
+    "id": "PAY-0774",
+    "booked_at": "2026-05-30",
+    "amount": 11000,
+    "reference": "INV-0439",
+    "invoice_id": "INV-0439"
+  },
+  {
+    "id": "PAY-0775",
+    "booked_at": "2026-05-30",
+    "amount": 7900,
+    "reference": "INV-0849",
+    "invoice_id": "INV-0849"
+  },
+  {
+    "id": "PAY-0776",
+    "booked_at": "2026-05-30",
+    "amount": 8500,
+    "reference": "INV-0392",
+    "invoice_id": "INV-0392"
+  },
+  {
+    "id": "PAY-0777",
+    "booked_at": "2026-05-30",
+    "amount": 11000,
+    "reference": "INV-0248",
+    "invoice_id": "INV-0248"
+  },
+  {
+    "id": "PAY-0778",
+    "booked_at": "2026-05-30",
+    "amount": 12500,
+    "reference": "INV-0837",
+    "invoice_id": "INV-0837"
+  },
+  {
+    "id": "PAY-0779",
+    "booked_at": "2026-05-30",
+    "amount": 11800,
+    "reference": "Kasper Frandsen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0780",
+    "booked_at": "2026-05-30",
+    "amount": 8900,
+    "reference": "INV-1065",
+    "invoice_id": "INV-1065"
+  },
+  {
+    "id": "PAY-0781",
+    "booked_at": "2026-05-30",
+    "amount": 10200,
+    "reference": "INV-0092",
+    "invoice_id": "INV-0092"
+  },
+  {
+    "id": "PAY-0782",
+    "booked_at": "2026-05-30",
+    "amount": 10200,
+    "reference": "INV-0957",
+    "invoice_id": "INV-0957"
+  },
+  {
+    "id": "PAY-0783",
+    "booked_at": "2026-05-30",
+    "amount": 13900,
+    "reference": "INV-0873",
+    "invoice_id": "INV-0873"
+  },
+  {
+    "id": "PAY-0784",
+    "booked_at": "2026-05-30",
+    "amount": 13900,
+    "reference": "INV-0777",
+    "invoice_id": "INV-0777"
+  },
+  {
+    "id": "PAY-0785",
+    "booked_at": "2026-05-30",
+    "amount": 7200,
+    "reference": "INV-0993",
+    "invoice_id": "INV-0993"
+  },
+  {
+    "id": "PAY-0786",
+    "booked_at": "2026-05-30",
+    "amount": 11000,
+    "reference": "INV-1173",
+    "invoice_id": "INV-1173"
+  },
+  {
+    "id": "PAY-0787",
+    "booked_at": "2026-05-30",
+    "amount": 8500,
+    "reference": "INV-0608",
+    "invoice_id": "INV-0608"
+  },
+  {
+    "id": "PAY-0788",
+    "booked_at": "2026-05-31",
+    "amount": 3600,
+    "reference": "INV-0885",
+    "invoice_id": "INV-0885"
+  },
+  {
+    "id": "PAY-0789",
+    "booked_at": "2026-05-31",
+    "amount": 13900,
+    "reference": "INV-0056",
+    "invoice_id": "INV-0056"
+  },
+  {
+    "id": "PAY-0790",
+    "booked_at": "2026-05-31",
+    "amount": 13900,
+    "reference": "INV-0332",
+    "invoice_id": "INV-0332"
+  },
+  {
+    "id": "PAY-0791",
+    "booked_at": "2026-05-31",
+    "amount": 3600,
+    "reference": "INV-0729",
+    "invoice_id": "INV-0729"
+  },
+  {
+    "id": "PAY-0792",
+    "booked_at": "2026-05-31",
+    "amount": 12500,
+    "reference": "",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0793",
+    "booked_at": "2026-05-31",
+    "amount": 13900,
+    "reference": "INV-0236",
+    "invoice_id": "INV-0236"
+  },
+  {
+    "id": "PAY-0794",
+    "booked_at": "2026-05-31",
+    "amount": 9400,
+    "reference": "INV-0152",
+    "invoice_id": "INV-0152"
+  },
+  {
+    "id": "PAY-0795",
+    "booked_at": "2026-05-31",
+    "amount": 8900,
+    "reference": "INV-0320",
+    "invoice_id": "INV-0320"
+  },
+  {
+    "id": "PAY-0796",
+    "booked_at": "2026-05-31",
+    "amount": 6950,
+    "reference": "INV-0200",
+    "invoice_id": "INV-0200"
+  },
+  {
+    "id": "PAY-0797",
+    "booked_at": "2026-05-31",
+    "amount": 3950,
+    "reference": "INV-0981",
+    "invoice_id": "INV-0981"
+  },
+  {
+    "id": "PAY-0798",
+    "booked_at": "2026-05-31",
+    "amount": 7200,
+    "reference": "Victor Kristensen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0799",
+    "booked_at": "2026-05-31",
+    "amount": 3600,
+    "reference": "INV-0945",
+    "invoice_id": "INV-0945"
+  },
+  {
+    "id": "PAY-0800",
+    "booked_at": "2026-05-31",
+    "amount": 11800,
+    "reference": "INV-0344",
+    "invoice_id": "INV-0344"
+  },
+  {
+    "id": "PAY-0801",
+    "booked_at": "2026-05-31",
+    "amount": 4700,
+    "reference": "INV-0536",
+    "invoice_id": "INV-0536"
+  },
+  {
+    "id": "PAY-0802",
+    "booked_at": "2026-05-31",
+    "amount": 7900,
+    "reference": "",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0803",
+    "booked_at": "2026-05-31",
+    "amount": 8500,
+    "reference": "INV-0512",
+    "invoice_id": "INV-0512"
+  },
+  {
+    "id": "PAY-0804",
+    "booked_at": "2026-05-31",
+    "amount": 11000,
+    "reference": "INV-0176",
+    "invoice_id": "INV-0176"
+  },
+  {
+    "id": "PAY-0805",
+    "booked_at": "2026-05-31",
+    "amount": 10200,
+    "reference": "INV-0560",
+    "invoice_id": "INV-0560"
+  },
+  {
+    "id": "PAY-0806",
+    "booked_at": "2026-05-31",
+    "amount": 8900,
+    "reference": "INV-1197",
+    "invoice_id": "INV-1197"
+  },
+  {
+    "id": "PAY-0807",
+    "booked_at": "2026-05-31",
+    "amount": 8900,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0808",
+    "booked_at": "2026-05-31",
+    "amount": 6250,
+    "reference": "INV-1137",
+    "invoice_id": "INV-1137"
+  },
+  {
+    "id": "PAY-0809",
+    "booked_at": "2026-05-31",
+    "amount": 10200,
+    "reference": "INV-1101",
+    "invoice_id": "INV-1101"
+  },
+  {
+    "id": "PAY-0810",
+    "booked_at": "2026-05-31",
+    "amount": 7900,
+    "reference": "INV-0704",
+    "invoice_id": "INV-0704"
+  },
+  {
+    "id": "PAY-0811",
+    "booked_at": "2026-06-01",
+    "amount": 11000,
+    "reference": "INV-0428",
+    "invoice_id": "INV-0428"
+  },
+  {
+    "id": "PAY-0812",
+    "booked_at": "2026-06-01",
+    "amount": 7200,
+    "reference": "INV-1089",
+    "invoice_id": "INV-1089"
+  },
+  {
+    "id": "PAY-0813",
+    "booked_at": "2026-06-01",
+    "amount": 12500,
+    "reference": "INV-1149",
+    "invoice_id": "INV-1149"
+  },
+  {
+    "id": "PAY-0814",
+    "booked_at": "2026-06-01",
+    "amount": 9400,
+    "reference": "INV-0044",
+    "invoice_id": "INV-0044"
+  },
+  {
+    "id": "PAY-0815",
+    "booked_at": "2026-06-01",
+    "amount": 7900,
+    "reference": "INV-0020",
+    "invoice_id": "INV-0020"
+  },
+  {
+    "id": "PAY-0816",
+    "booked_at": "2026-06-01",
+    "amount": 7900,
+    "reference": "INV-0969",
+    "invoice_id": "INV-0969"
+  },
+  {
+    "id": "PAY-0817",
+    "booked_at": "2026-06-01",
+    "amount": 12500,
+    "reference": "INV-0801",
+    "invoice_id": "INV-0801"
+  },
+  {
+    "id": "PAY-0818",
+    "booked_at": "2026-06-01",
+    "amount": 13900,
+    "reference": "INV-0032",
+    "invoice_id": "INV-0032"
+  },
+  {
+    "id": "PAY-0819",
+    "booked_at": "2026-06-01",
+    "amount": 11800,
+    "reference": "INV-0260",
+    "invoice_id": "INV-0260"
+  },
+  {
+    "id": "PAY-0820",
+    "booked_at": "2026-06-01",
+    "amount": 10200,
+    "reference": "INV-0272",
+    "invoice_id": "INV-0272"
+  },
+  {
+    "id": "PAY-0821",
+    "booked_at": "2026-06-01",
+    "amount": 7900,
+    "reference": "INV-0380",
+    "invoice_id": "INV-0380"
+  },
+  {
+    "id": "PAY-0822",
+    "booked_at": "2026-06-01",
+    "amount": 12500,
+    "reference": "INV-1017",
+    "invoice_id": "INV-1017"
+  },
+  {
+    "id": "PAY-0823",
+    "booked_at": "2026-06-01",
+    "amount": 7200,
+    "reference": "INV-0476",
+    "invoice_id": "INV-0476"
+  },
+  {
+    "id": "PAY-0824",
+    "booked_at": "2026-06-01",
+    "amount": 10200,
+    "reference": "INV-0488",
+    "invoice_id": "INV-0488"
+  },
+  {
+    "id": "PAY-0825",
+    "booked_at": "2026-06-04",
+    "amount": 8900,
+    "reference": "INV-0524",
+    "invoice_id": "INV-0524"
+  },
+  {
+    "id": "PAY-0826",
+    "booked_at": "2026-06-05",
+    "amount": 8500,
+    "reference": "husleje andersen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0827",
+    "booked_at": "2026-06-05",
+    "amount": 8500,
+    "reference": "INV-0657",
+    "invoice_id": "INV-0657"
+  },
+  {
+    "id": "PAY-0828",
+    "booked_at": "2026-06-06",
+    "amount": 7200,
+    "reference": "husleje schmidt",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0829",
+    "booked_at": "2026-06-06",
+    "amount": 3950,
+    "reference": "INV-0981",
+    "invoice_id": "INV-0981"
+  },
+  {
+    "id": "PAY-0830",
+    "booked_at": "2026-06-06",
+    "amount": 12500,
+    "reference": "INV-1005",
+    "invoice_id": "INV-1005"
+  },
+  {
+    "id": "PAY-0831",
+    "booked_at": "2026-06-06",
+    "amount": 10200,
+    "reference": "INV-0080",
+    "invoice_id": "INV-0080"
+  },
+  {
+    "id": "PAY-0832",
+    "booked_at": "2026-06-07",
+    "amount": 8500,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0833",
+    "booked_at": "2026-06-07",
+    "amount": 9400,
+    "reference": "INV-1041",
+    "invoice_id": "INV-1041"
+  },
+  {
+    "id": "PAY-0834",
+    "booked_at": "2026-06-07",
+    "amount": 11800,
+    "reference": "INV-0453",
+    "invoice_id": "INV-0453"
+  },
+  {
+    "id": "PAY-0835",
+    "booked_at": "2026-06-07",
+    "amount": 13900,
+    "reference": "INV-0069",
+    "invoice_id": "INV-0069"
+  },
+  {
+    "id": "PAY-0836",
+    "booked_at": "2026-06-07",
+    "amount": 3600,
+    "reference": "INV-0945",
+    "invoice_id": "INV-0945"
+  },
+  {
+    "id": "PAY-0837",
+    "booked_at": "2026-06-08",
+    "amount": 13900,
+    "reference": "INV-1162",
+    "invoice_id": "INV-1162"
+  },
+  {
+    "id": "PAY-0838",
+    "booked_at": "2026-06-08",
+    "amount": 4700,
+    "reference": "INV-0536",
+    "invoice_id": "INV-0536"
+  },
+  {
+    "id": "PAY-0839",
+    "booked_at": "2026-06-08",
+    "amount": 6250,
+    "reference": "INV-1137",
+    "invoice_id": "INV-1137"
+  },
+  {
+    "id": "PAY-0840",
+    "booked_at": "2026-06-09",
+    "amount": 3600,
+    "reference": "INV-0729",
+    "invoice_id": "INV-0729"
+  },
+  {
+    "id": "PAY-0841",
+    "booked_at": "2026-06-09",
+    "amount": 8900,
+    "reference": "INV-0693",
+    "invoice_id": "INV-0693"
+  },
+  {
+    "id": "PAY-0842",
+    "booked_at": "2026-06-09",
+    "amount": 7900,
+    "reference": "Louise Hansen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0843",
+    "booked_at": "2026-06-10",
+    "amount": 8900,
+    "reference": "rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0844",
+    "booked_at": "2026-06-12",
+    "amount": 8500,
+    "reference": "INV-0369",
+    "invoice_id": "INV-0369"
+  },
+  {
+    "id": "PAY-0845",
+    "booked_at": "2026-06-13",
+    "amount": 3600,
+    "reference": "INV-0885",
+    "invoice_id": "INV-0885"
+  },
+  {
+    "id": "PAY-0846",
+    "booked_at": "2026-06-14",
+    "amount": 10200,
+    "reference": "",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0847",
+    "booked_at": "2026-06-15",
+    "amount": 9400,
+    "reference": "INV-1186",
+    "invoice_id": "INV-1186"
+  },
+  {
+    "id": "PAY-0848",
+    "booked_at": "2026-06-17",
+    "amount": 9400,
+    "reference": "INV-0718",
+    "invoice_id": "INV-0718"
+  },
+  {
+    "id": "PAY-0849",
+    "booked_at": "2026-06-18",
+    "amount": 7200,
+    "reference": "INV-0766",
+    "invoice_id": "INV-0766"
+  },
+  {
+    "id": "PAY-0850",
+    "booked_at": "2026-06-18",
+    "amount": 9400,
+    "reference": "INV-0296",
+    "invoice_id": "INV-0296"
+  },
+  {
+    "id": "PAY-0851",
+    "booked_at": "2026-06-20",
+    "amount": 8900,
+    "reference": "INV-0500",
+    "invoice_id": "INV-0500"
+  },
+  {
+    "id": "PAY-0852",
+    "booked_at": "2026-06-20",
+    "amount": 9400,
+    "reference": "INV-1029",
+    "invoice_id": "INV-1029"
+  },
+  {
+    "id": "PAY-0853",
+    "booked_at": "2026-06-21",
+    "amount": 7900,
+    "reference": "INV-0705",
+    "invoice_id": "INV-0705"
+  },
+  {
+    "id": "PAY-0854",
+    "booked_at": "2026-06-21",
+    "amount": 7200,
+    "reference": "INV-0826",
+    "invoice_id": "INV-0826"
+  },
+  {
+    "id": "PAY-0855",
+    "booked_at": "2026-06-21",
+    "amount": 11800,
+    "reference": "INV-0681",
+    "invoice_id": "INV-0681"
+  },
+  {
+    "id": "PAY-0856",
+    "booked_at": "2026-06-23",
+    "amount": 11000,
+    "reference": "INV-0440",
+    "invoice_id": "INV-0440"
+  },
+  {
+    "id": "PAY-0857",
+    "booked_at": "2026-06-23",
+    "amount": 11000,
+    "reference": "INV-0164",
+    "invoice_id": "INV-0164"
+  },
+  {
+    "id": "PAY-0858",
+    "booked_at": "2026-06-25",
+    "amount": 8500,
+    "reference": "INV-0284",
+    "invoice_id": "INV-0284"
+  },
+  {
+    "id": "PAY-0859",
+    "booked_at": "2026-06-28",
+    "amount": 10200,
+    "reference": "INV-0742",
+    "invoice_id": "INV-0742"
+  },
+  {
+    "id": "PAY-0860",
+    "booked_at": "2026-06-28",
+    "amount": 10200,
+    "reference": "INV-0489",
+    "invoice_id": "INV-0489"
+  },
+  {
+    "id": "PAY-0861",
+    "booked_at": "2026-06-28",
+    "amount": 12500,
+    "reference": "INV-0009",
+    "invoice_id": "INV-0009"
+  },
+  {
+    "id": "PAY-0862",
+    "booked_at": "2026-06-28",
+    "amount": 7900,
+    "reference": "INV-0970",
+    "invoice_id": "INV-0970"
+  },
+  {
+    "id": "PAY-0863",
+    "booked_at": "2026-06-28",
+    "amount": 10200,
+    "reference": "INV-0573",
+    "invoice_id": "INV-0573"
+  },
+  {
+    "id": "PAY-0864",
+    "booked_at": "2026-06-28",
+    "amount": 13900,
+    "reference": "INV-0778",
+    "invoice_id": "INV-0778"
+  },
+  {
+    "id": "PAY-0865",
+    "booked_at": "2026-06-28",
+    "amount": 7200,
+    "reference": "INV-0994",
+    "invoice_id": "INV-0994"
+  },
+  {
+    "id": "PAY-0866",
+    "booked_at": "2026-06-28",
+    "amount": 7200,
+    "reference": "INV-0477",
+    "invoice_id": "INV-0477"
+  },
+  {
+    "id": "PAY-0867",
+    "booked_at": "2026-06-28",
+    "amount": 7200,
+    "reference": "INV-1090",
+    "invoice_id": "INV-1090"
+  },
+  {
+    "id": "PAY-0868",
+    "booked_at": "2026-06-28",
+    "amount": 13900,
+    "reference": "INV-0874",
+    "invoice_id": "INV-0874"
+  },
+  {
+    "id": "PAY-0869",
+    "booked_at": "2026-06-28",
+    "amount": 12500,
+    "reference": "INV-0802",
+    "invoice_id": "INV-0802"
+  },
+  {
+    "id": "PAY-0870",
+    "booked_at": "2026-06-28",
+    "amount": 8900,
+    "reference": "INV-1198",
+    "invoice_id": "INV-1198"
+  },
+  {
+    "id": "PAY-0871",
+    "booked_at": "2026-06-28",
+    "amount": 10200,
+    "reference": "Karen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0872",
+    "booked_at": "2026-06-28",
+    "amount": 12500,
+    "reference": "INV-1018",
+    "invoice_id": "INV-1018"
+  },
+  {
+    "id": "PAY-0873",
+    "booked_at": "2026-06-28",
+    "amount": 11000,
+    "reference": "INV-1174",
+    "invoice_id": "INV-1174"
+  },
+  {
+    "id": "PAY-0874",
+    "booked_at": "2026-06-28",
+    "amount": 7900,
+    "reference": "INV-1078",
+    "invoice_id": "INV-1078"
+  },
+  {
+    "id": "PAY-0875",
+    "booked_at": "2026-06-28",
+    "amount": 10200,
+    "reference": "INV-0117",
+    "invoice_id": "INV-0117"
+  },
+  {
+    "id": "PAY-0876",
+    "booked_at": "2026-06-29",
+    "amount": 11800,
+    "reference": "INV-0261",
+    "invoice_id": "INV-0261"
+  },
+  {
+    "id": "PAY-0877",
+    "booked_at": "2026-06-29",
+    "amount": 7900,
+    "reference": "INV-0850",
+    "invoice_id": "INV-0850"
+  },
+  {
+    "id": "PAY-0878",
+    "booked_at": "2026-06-29",
+    "amount": 8500,
+    "reference": "INV-0597",
+    "invoice_id": "INV-0597"
+  },
+  {
+    "id": "PAY-0879",
+    "booked_at": "2026-06-29",
+    "amount": 10200,
+    "reference": "INV-1102",
+    "invoice_id": "INV-1102"
+  },
+  {
+    "id": "PAY-0880",
+    "booked_at": "2026-06-29",
+    "amount": 11000,
+    "reference": "husleje sørensen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0881",
+    "booked_at": "2026-06-29",
+    "amount": 12500,
+    "reference": "INV-0934",
+    "invoice_id": "INV-0934"
+  },
+  {
+    "id": "PAY-0882",
+    "booked_at": "2026-06-29",
+    "amount": 9400,
+    "reference": "INV-0634",
+    "invoice_id": "INV-0634"
+  },
+  {
+    "id": "PAY-0883",
+    "booked_at": "2026-06-29",
+    "amount": 10200,
+    "reference": "2026-07 rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0884",
+    "booked_at": "2026-06-29",
+    "amount": 8900,
+    "reference": "INV-0321",
+    "invoice_id": "INV-0321"
+  },
+  {
+    "id": "PAY-0885",
+    "booked_at": "2026-06-29",
+    "amount": 9400,
+    "reference": "INV-0045",
+    "invoice_id": "INV-0045"
+  },
+  {
+    "id": "PAY-0886",
+    "booked_at": "2026-06-29",
+    "amount": 10200,
+    "reference": "INV-0958",
+    "invoice_id": "INV-0958"
+  },
+  {
+    "id": "PAY-0887",
+    "booked_at": "2026-06-29",
+    "amount": 13900,
+    "reference": "rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0888",
+    "booked_at": "2026-06-29",
+    "amount": 10200,
+    "reference": "INV-0273",
+    "invoice_id": "INV-0273"
+  },
+  {
+    "id": "PAY-0889",
+    "booked_at": "2026-06-29",
+    "amount": 8500,
+    "reference": "INV-0513",
+    "invoice_id": "INV-0513"
+  },
+  {
+    "id": "PAY-0890",
+    "booked_at": "2026-06-29",
+    "amount": 11800,
+    "reference": "Kasper Frandsen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0891",
+    "booked_at": "2026-06-29",
+    "amount": 8900,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0892",
+    "booked_at": "2026-06-29",
+    "amount": 7900,
+    "reference": "INV-0381",
+    "invoice_id": "INV-0381"
+  },
+  {
+    "id": "PAY-0893",
+    "booked_at": "2026-06-29",
+    "amount": 8500,
+    "reference": "INV-0609",
+    "invoice_id": "INV-0609"
+  },
+  {
+    "id": "PAY-0894",
+    "booked_at": "2026-06-29",
+    "amount": 12500,
+    "reference": "INV-0838",
+    "invoice_id": "INV-0838"
+  },
+  {
+    "id": "PAY-0895",
+    "booked_at": "2026-06-29",
+    "amount": 8900,
+    "reference": "INV-0670",
+    "invoice_id": "INV-0670"
+  },
+  {
+    "id": "PAY-0896",
+    "booked_at": "2026-06-30",
+    "amount": 7900,
+    "reference": "INV-0021",
+    "invoice_id": "INV-0021"
+  },
+  {
+    "id": "PAY-0897",
+    "booked_at": "2026-06-30",
+    "amount": 9400,
+    "reference": "INV-0153",
+    "invoice_id": "INV-0153"
+  },
+  {
+    "id": "PAY-0898",
+    "booked_at": "2026-06-30",
+    "amount": 10200,
+    "reference": "INV-0561",
+    "invoice_id": "INV-0561"
+  },
+  {
+    "id": "PAY-0899",
+    "booked_at": "2026-06-30",
+    "amount": 11800,
+    "reference": "INV-0189",
+    "invoice_id": "INV-0189"
+  },
+  {
+    "id": "PAY-0900",
+    "booked_at": "2026-06-30",
+    "amount": 12500,
+    "reference": "INV-0754",
+    "invoice_id": "INV-0754"
+  },
+  {
+    "id": "PAY-0901",
+    "booked_at": "2026-06-30",
+    "amount": 13900,
+    "reference": "INV-0033",
+    "invoice_id": "INV-0033"
+  },
+  {
+    "id": "PAY-0902",
+    "booked_at": "2026-06-30",
+    "amount": 3950,
+    "reference": "INV-0982",
+    "invoice_id": "INV-0982"
+  },
+  {
+    "id": "PAY-0903",
+    "booked_at": "2026-06-30",
+    "amount": 12500,
+    "reference": "INV-0898",
+    "invoice_id": "INV-0898"
+  },
+  {
+    "id": "PAY-0904",
+    "booked_at": "2026-06-30",
+    "amount": 3600,
+    "reference": "INV-0886",
+    "invoice_id": "INV-0886"
+  },
+  {
+    "id": "PAY-0905",
+    "booked_at": "2026-06-30",
+    "amount": 8500,
+    "reference": "INV-0105",
+    "invoice_id": "INV-0105"
+  },
+  {
+    "id": "PAY-0906",
+    "booked_at": "2026-06-30",
+    "amount": 8900,
+    "reference": "INV-0549",
+    "invoice_id": "INV-0549"
+  },
+  {
+    "id": "PAY-0907",
+    "booked_at": "2026-06-30",
+    "amount": 6250,
+    "reference": "INV-1138",
+    "invoice_id": "INV-1138"
+  },
+  {
+    "id": "PAY-0908",
+    "booked_at": "2026-06-30",
+    "amount": 12500,
+    "reference": "INV-1150",
+    "invoice_id": "INV-1150"
+  },
+  {
+    "id": "PAY-0909",
+    "booked_at": "2026-06-30",
+    "amount": 3600,
+    "reference": "INV-0946",
+    "invoice_id": "INV-0946"
+  },
+  {
+    "id": "PAY-0910",
+    "booked_at": "2026-06-30",
+    "amount": 4700,
+    "reference": "INV-0537",
+    "invoice_id": "INV-0537"
+  },
+  {
+    "id": "PAY-0911",
+    "booked_at": "2026-06-30",
+    "amount": 6950,
+    "reference": "INV-0201",
+    "invoice_id": "INV-0201"
+  },
+  {
+    "id": "PAY-0912",
+    "booked_at": "2026-06-30",
+    "amount": 7900,
+    "reference": "INV-0225",
+    "invoice_id": "INV-0225"
+  },
+  {
+    "id": "PAY-0913",
+    "booked_at": "2026-06-30",
+    "amount": 3600,
+    "reference": "INV-0730",
+    "invoice_id": "INV-0730"
+  },
+  {
+    "id": "PAY-0914",
+    "booked_at": "2026-07-01",
+    "amount": 11000,
+    "reference": "INV-0249",
+    "invoice_id": "INV-0249"
+  },
+  {
+    "id": "PAY-0915",
+    "booked_at": "2026-07-01",
+    "amount": 12500,
+    "reference": "INV-1054",
+    "invoice_id": "INV-1054"
+  },
+  {
+    "id": "PAY-0916",
+    "booked_at": "2026-07-01",
+    "amount": 8900,
+    "reference": "INV-1066",
+    "invoice_id": "INV-1066"
+  },
+  {
+    "id": "PAY-0917",
+    "booked_at": "2026-07-01",
+    "amount": 13900,
+    "reference": "INV-0237",
+    "invoice_id": "INV-0237"
+  },
+  {
+    "id": "PAY-0918",
+    "booked_at": "2026-07-01",
+    "amount": 8500,
+    "reference": "INV-0393",
+    "invoice_id": "INV-0393"
+  },
+  {
+    "id": "PAY-0919",
+    "booked_at": "2026-07-01",
+    "amount": 11000,
+    "reference": "INV-0177",
+    "invoice_id": "INV-0177"
+  },
+  {
+    "id": "PAY-0920",
+    "booked_at": "2026-07-01",
+    "amount": 13900,
+    "reference": "INV-0622",
+    "invoice_id": "INV-0622"
+  },
+  {
+    "id": "PAY-0921",
+    "booked_at": "2026-07-01",
+    "amount": 10200,
+    "reference": "INV-0093",
+    "invoice_id": "INV-0093"
+  },
+  {
+    "id": "PAY-0922",
+    "booked_at": "2026-07-01",
+    "amount": 7200,
+    "reference": "INV-1126",
+    "invoice_id": "INV-1126"
+  },
+  {
+    "id": "PAY-0923",
+    "booked_at": "2026-07-01",
+    "amount": 11000,
+    "reference": "INV-0429",
+    "invoice_id": "INV-0429"
+  },
+  {
+    "id": "PAY-0924",
+    "booked_at": "2026-07-01",
+    "amount": 7900,
+    "reference": "INV-0922",
+    "invoice_id": "INV-0922"
+  },
+  {
+    "id": "PAY-0925",
+    "booked_at": "2026-07-01",
+    "amount": 12500,
+    "reference": "INV-0213",
+    "invoice_id": "INV-0213"
+  },
+  {
+    "id": "PAY-0926",
+    "booked_at": "2026-07-01",
+    "amount": 11800,
+    "reference": "INV-0345",
+    "invoice_id": "INV-0345"
+  },
+  {
+    "id": "PAY-0927",
+    "booked_at": "2026-07-01",
+    "amount": 7900,
+    "reference": "INV-0465",
+    "invoice_id": "INV-0465"
+  },
+  {
+    "id": "PAY-0928",
+    "booked_at": "2026-07-01",
+    "amount": 8900,
+    "reference": "INV-1113",
+    "invoice_id": "INV-1113"
+  },
+  {
+    "id": "PAY-0929",
+    "booked_at": "2026-07-01",
+    "amount": 13900,
+    "reference": "INV-0333",
+    "invoice_id": "INV-0333"
+  },
+  {
+    "id": "PAY-0930",
+    "booked_at": "2026-07-01",
+    "amount": 7200,
+    "reference": "INV-0585",
+    "invoice_id": "INV-0585"
+  },
+  {
+    "id": "PAY-0931",
+    "booked_at": "2026-07-04",
+    "amount": 9400,
+    "reference": "INV-1042",
+    "invoice_id": "INV-1042"
+  },
+  {
+    "id": "PAY-0932",
+    "booked_at": "2026-07-05",
+    "amount": 12500,
+    "reference": "INV-1006",
+    "invoice_id": "INV-1006"
+  },
+  {
+    "id": "PAY-0933",
+    "booked_at": "2026-07-05",
+    "amount": 7900,
+    "reference": "Louise",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0934",
+    "booked_at": "2026-07-06",
+    "amount": 10200,
+    "reference": "INV-0081",
+    "invoice_id": "INV-0081"
+  },
+  {
+    "id": "PAY-0935",
+    "booked_at": "2026-07-07",
+    "amount": 8500,
+    "reference": "Alma",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0936",
+    "booked_at": "2026-07-08",
+    "amount": 8500,
+    "reference": "INV-0658",
+    "invoice_id": "INV-0658"
+  },
+  {
+    "id": "PAY-0937",
+    "booked_at": "2026-07-08",
+    "amount": 9400,
+    "reference": "INV-1187",
+    "invoice_id": "INV-1187"
+  },
+  {
+    "id": "PAY-0938",
+    "booked_at": "2026-07-08",
+    "amount": 4700,
+    "reference": "INV-0537",
+    "invoice_id": "INV-0537"
+  },
+  {
+    "id": "PAY-0939",
+    "booked_at": "2026-07-08",
+    "amount": 3600,
+    "reference": "INV-0730",
+    "invoice_id": "INV-0730"
+  },
+  {
+    "id": "PAY-0940",
+    "booked_at": "2026-07-09",
+    "amount": 8900,
+    "reference": "INV-0525",
+    "invoice_id": "INV-0525"
+  },
+  {
+    "id": "PAY-0941",
+    "booked_at": "2026-07-09",
+    "amount": 10200,
+    "reference": "INV-0310",
+    "invoice_id": "INV-0310"
+  },
+  {
+    "id": "PAY-0942",
+    "booked_at": "2026-07-10",
+    "amount": 8500,
+    "reference": "Noah Nowak",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0943",
+    "booked_at": "2026-07-10",
+    "amount": 8900,
+    "reference": "INV-0694",
+    "invoice_id": "INV-0694"
+  },
+  {
+    "id": "PAY-0944",
+    "booked_at": "2026-07-11",
+    "amount": 3600,
+    "reference": "INV-0946",
+    "invoice_id": "INV-0946"
+  },
+  {
+    "id": "PAY-0945",
+    "booked_at": "2026-07-12",
+    "amount": 11800,
+    "reference": "INV-0454",
+    "invoice_id": "INV-0454"
+  },
+  {
+    "id": "PAY-0946",
+    "booked_at": "2026-07-13",
+    "amount": 3950,
+    "reference": "INV-0982",
+    "invoice_id": "INV-0982"
+  },
+  {
+    "id": "PAY-0947",
+    "booked_at": "2026-07-15",
+    "amount": 11800,
+    "reference": "INV-0682",
+    "invoice_id": "INV-0682"
+  },
+  {
+    "id": "PAY-0948",
+    "booked_at": "2026-07-15",
+    "amount": 8900,
+    "reference": "INV-0647",
+    "invoice_id": "INV-0647"
+  },
+  {
+    "id": "PAY-0949",
+    "booked_at": "2026-07-15",
+    "amount": 7200,
+    "reference": "Lars Schmidt",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0950",
+    "booked_at": "2026-07-15",
+    "amount": 8900,
+    "reference": "INV-0501",
+    "invoice_id": "INV-0501"
+  },
+  {
+    "id": "PAY-0951",
+    "booked_at": "2026-07-16",
+    "amount": 7900,
+    "reference": "INV-0706",
+    "invoice_id": "INV-0706"
+  },
+  {
+    "id": "PAY-0952",
+    "booked_at": "2026-07-16",
+    "amount": 11000,
+    "reference": "INV-0441",
+    "invoice_id": "INV-0441"
+  },
+  {
+    "id": "PAY-0953",
+    "booked_at": "2026-07-16",
+    "amount": 7200,
+    "reference": "INV-0827",
+    "invoice_id": "INV-0827"
+  },
+  {
+    "id": "PAY-0954",
+    "booked_at": "2026-07-18",
+    "amount": 13900,
+    "reference": "INV-1163",
+    "invoice_id": "INV-1163"
+  },
+  {
+    "id": "PAY-0955",
+    "booked_at": "2026-07-18",
+    "amount": 9400,
+    "reference": "INV-0297",
+    "invoice_id": "INV-0297"
+  },
+  {
+    "id": "PAY-0956",
+    "booked_at": "2026-07-18",
+    "amount": 13900,
+    "reference": "INV-0070",
+    "invoice_id": "INV-0070"
+  },
+  {
+    "id": "PAY-0957",
+    "booked_at": "2026-07-19",
+    "amount": 9400,
+    "reference": "INV-0719",
+    "invoice_id": "INV-0719"
+  },
+  {
+    "id": "PAY-0958",
+    "booked_at": "2026-07-19",
+    "amount": 8500,
+    "reference": "INV-0370",
+    "invoice_id": "INV-0370"
+  },
+  {
+    "id": "PAY-0959",
+    "booked_at": "2026-07-20",
+    "amount": 7200,
+    "reference": "INV-0767",
+    "invoice_id": "INV-0767"
+  },
+  {
+    "id": "PAY-0960",
+    "booked_at": "2026-07-23",
+    "amount": 9400,
+    "reference": "INV-1030",
+    "invoice_id": "INV-1030"
+  },
+  {
+    "id": "PAY-0961",
+    "booked_at": "2026-07-26",
+    "amount": 11000,
+    "reference": "Piotr Sørensen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0962",
+    "booked_at": "2026-07-27",
+    "amount": 11000,
+    "reference": "INV-0165",
+    "invoice_id": "INV-0165"
+  },
+  {
+    "id": "PAY-0963",
+    "booked_at": "2026-07-29",
+    "amount": 8900,
+    "reference": "INV-1114",
+    "invoice_id": "INV-1114"
+  },
+  {
+    "id": "PAY-0964",
+    "booked_at": "2026-07-29",
+    "amount": 7900,
+    "reference": "INV-0226",
+    "invoice_id": "INV-0226"
+  },
+  {
+    "id": "PAY-0965",
+    "booked_at": "2026-07-29",
+    "amount": 12500,
+    "reference": "INV-0839",
+    "invoice_id": "INV-0839"
+  },
+  {
+    "id": "PAY-0966",
+    "booked_at": "2026-07-29",
+    "amount": 13900,
+    "reference": "INV-0779",
+    "invoice_id": "INV-0779"
+  },
+  {
+    "id": "PAY-0967",
+    "booked_at": "2026-07-29",
+    "amount": 8500,
+    "reference": "INV-0285",
+    "invoice_id": "INV-0285"
+  },
+  {
+    "id": "PAY-0968",
+    "booked_at": "2026-07-29",
+    "amount": 10200,
+    "reference": "INV-0274",
+    "invoice_id": "INV-0274"
+  },
+  {
+    "id": "PAY-0969",
+    "booked_at": "2026-07-29",
+    "amount": 12500,
+    "reference": "2026-08 rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0970",
+    "booked_at": "2026-07-29",
+    "amount": 8900,
+    "reference": "INV-0322",
+    "invoice_id": "INV-0322"
+  },
+  {
+    "id": "PAY-0971",
+    "booked_at": "2026-07-29",
+    "amount": 11800,
+    "reference": "INV-0190",
+    "invoice_id": "INV-0190"
+  },
+  {
+    "id": "PAY-0972",
+    "booked_at": "2026-07-29",
+    "amount": 7200,
+    "reference": "INV-1091",
+    "invoice_id": "INV-1091"
+  },
+  {
+    "id": "PAY-0973",
+    "booked_at": "2026-07-29",
+    "amount": 10200,
+    "reference": "Karen Nowak",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0974",
+    "booked_at": "2026-07-30",
+    "amount": 10200,
+    "reference": "INV-0574",
+    "invoice_id": "INV-0574"
+  },
+  {
+    "id": "PAY-0975",
+    "booked_at": "2026-07-30",
+    "amount": 13900,
+    "reference": "2026-08 rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-0976",
+    "booked_at": "2026-07-30",
+    "amount": 7900,
+    "reference": "INV-0971",
+    "invoice_id": "INV-0971"
+  },
+  {
+    "id": "PAY-0977",
+    "booked_at": "2026-07-30",
+    "amount": 10200,
+    "reference": "INV-0094",
+    "invoice_id": "INV-0094"
+  },
+  {
+    "id": "PAY-0978",
+    "booked_at": "2026-07-30",
+    "amount": 7200,
+    "reference": "INV-1127",
+    "invoice_id": "INV-1127"
+  },
+  {
+    "id": "PAY-0979",
+    "booked_at": "2026-07-30",
+    "amount": 13900,
+    "reference": "INV-0058",
+    "invoice_id": "INV-0058"
+  },
+  {
+    "id": "PAY-0980",
+    "booked_at": "2026-07-30",
+    "amount": 11000,
+    "reference": "INV-0178",
+    "invoice_id": "INV-0178"
+  },
+  {
+    "id": "PAY-0981",
+    "booked_at": "2026-07-30",
+    "amount": 7200,
+    "reference": "INV-0995",
+    "invoice_id": "INV-0995"
+  },
+  {
+    "id": "PAY-0982",
+    "booked_at": "2026-07-30",
+    "amount": 9400,
+    "reference": "INV-0154",
+    "invoice_id": "INV-0154"
+  },
+  {
+    "id": "PAY-0983",
+    "booked_at": "2026-07-30",
+    "amount": 12500,
+    "reference": "INV-1055",
+    "invoice_id": "INV-1055"
+  },
+  {
+    "id": "PAY-0984",
+    "booked_at": "2026-07-30",
+    "amount": 12500,
+    "reference": "INV-0755",
+    "invoice_id": "INV-0755"
+  },
+  {
+    "id": "PAY-0985",
+    "booked_at": "2026-07-30",
+    "amount": 8900,
+    "reference": "INV-0671",
+    "invoice_id": "INV-0671"
+  },
+  {
+    "id": "PAY-0986",
+    "booked_at": "2026-07-30",
+    "amount": 13900,
+    "reference": "INV-0334",
+    "invoice_id": "INV-0334"
+  },
+  {
+    "id": "PAY-0987",
+    "booked_at": "2026-07-30",
+    "amount": 11000,
+    "reference": "INV-1175",
+    "invoice_id": "INV-1175"
+  },
+  {
+    "id": "PAY-0988",
+    "booked_at": "2026-07-30",
+    "amount": 7200,
+    "reference": "INV-0478",
+    "invoice_id": "INV-0478"
+  },
+  {
+    "id": "PAY-0989",
+    "booked_at": "2026-07-30",
+    "amount": 9400,
+    "reference": "INV-0046",
+    "invoice_id": "INV-0046"
+  },
+  {
+    "id": "PAY-0990",
+    "booked_at": "2026-07-30",
+    "amount": 12500,
+    "reference": "INV-1019",
+    "invoice_id": "INV-1019"
+  },
+  {
+    "id": "PAY-0991",
+    "booked_at": "2026-07-30",
+    "amount": 11000,
+    "reference": "INV-0250",
+    "invoice_id": "INV-0250"
+  },
+  {
+    "id": "PAY-0992",
+    "booked_at": "2026-07-30",
+    "amount": 12500,
+    "reference": "INV-0010",
+    "invoice_id": "INV-0010"
+  },
+  {
+    "id": "PAY-0993",
+    "booked_at": "2026-07-30",
+    "amount": 13900,
+    "reference": "INV-0034",
+    "invoice_id": "INV-0034"
+  },
+  {
+    "id": "PAY-0994",
+    "booked_at": "2026-07-30",
+    "amount": 10200,
+    "reference": "INV-0358",
+    "invoice_id": "INV-0358"
+  },
+  {
+    "id": "PAY-0995",
+    "booked_at": "2026-07-30",
+    "amount": 7900,
+    "reference": "INV-0851",
+    "invoice_id": "INV-0851"
+  },
+  {
+    "id": "PAY-0996",
+    "booked_at": "2026-07-30",
+    "amount": 8500,
+    "reference": "INV-0610",
+    "invoice_id": "INV-0610"
+  },
+  {
+    "id": "PAY-0997",
+    "booked_at": "2026-07-31",
+    "amount": 3600,
+    "reference": "INV-0887",
+    "invoice_id": "INV-0887"
+  },
+  {
+    "id": "PAY-0998",
+    "booked_at": "2026-07-31",
+    "amount": 10200,
+    "reference": "INV-0959",
+    "invoice_id": "INV-0959"
+  },
+  {
+    "id": "PAY-0999",
+    "booked_at": "2026-07-31",
+    "amount": 4700,
+    "reference": "INV-0538",
+    "invoice_id": "INV-0538"
+  },
+  {
+    "id": "PAY-1000",
+    "booked_at": "2026-07-31",
+    "amount": 10200,
+    "reference": "INV-0490",
+    "invoice_id": "INV-0490"
+  },
+  {
+    "id": "PAY-1001",
+    "booked_at": "2026-07-31",
+    "amount": 6250,
+    "reference": "INV-1139",
+    "invoice_id": "INV-1139"
+  },
+  {
+    "id": "PAY-1002",
+    "booked_at": "2026-07-31",
+    "amount": 3600,
+    "reference": "INV-0731",
+    "invoice_id": "INV-0731"
+  },
+  {
+    "id": "PAY-1003",
+    "booked_at": "2026-07-31",
+    "amount": 3600,
+    "reference": "INV-0947",
+    "invoice_id": "INV-0947"
+  },
+  {
+    "id": "PAY-1004",
+    "booked_at": "2026-07-31",
+    "amount": 10200,
+    "reference": "INV-0562",
+    "invoice_id": "INV-0562"
+  },
+  {
+    "id": "PAY-1005",
+    "booked_at": "2026-07-31",
+    "amount": 12500,
+    "reference": "INV-0803",
+    "invoice_id": "INV-0803"
+  },
+  {
+    "id": "PAY-1006",
+    "booked_at": "2026-07-31",
+    "amount": 11800,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1007",
+    "booked_at": "2026-07-31",
+    "amount": 7900,
+    "reference": "INV-0382",
+    "invoice_id": "INV-0382"
+  },
+  {
+    "id": "PAY-1008",
+    "booked_at": "2026-07-31",
+    "amount": 10200,
+    "reference": "INV-1103",
+    "invoice_id": "INV-1103"
+  },
+  {
+    "id": "PAY-1009",
+    "booked_at": "2026-07-31",
+    "amount": 13900,
+    "reference": "INV-0875",
+    "invoice_id": "INV-0875"
+  },
+  {
+    "id": "PAY-1010",
+    "booked_at": "2026-07-31",
+    "amount": 11800,
+    "reference": "INV-0346",
+    "invoice_id": "INV-0346"
+  },
+  {
+    "id": "PAY-1011",
+    "booked_at": "2026-07-31",
+    "amount": 7900,
+    "reference": "INV-0466",
+    "invoice_id": "INV-0466"
+  },
+  {
+    "id": "PAY-1012",
+    "booked_at": "2026-07-31",
+    "amount": 3950,
+    "reference": "INV-0983",
+    "invoice_id": "INV-0983"
+  },
+  {
+    "id": "PAY-1013",
+    "booked_at": "2026-07-31",
+    "amount": 6950,
+    "reference": "INV-0202",
+    "invoice_id": "INV-0202"
+  },
+  {
+    "id": "PAY-1014",
+    "booked_at": "2026-07-31",
+    "amount": 7200,
+    "reference": "INV-0586",
+    "invoice_id": "INV-0586"
+  },
+  {
+    "id": "PAY-1015",
+    "booked_at": "2026-08-01",
+    "amount": 12500,
+    "reference": "INV-0899",
+    "invoice_id": "INV-0899"
+  },
+  {
+    "id": "PAY-1016",
+    "booked_at": "2026-08-01",
+    "amount": 8900,
+    "reference": "INV-1199",
+    "invoice_id": "INV-1199"
+  },
+  {
+    "id": "PAY-1017",
+    "booked_at": "2026-08-01",
+    "amount": 10200,
+    "reference": "INV-0743",
+    "invoice_id": "INV-0743"
+  },
+  {
+    "id": "PAY-1018",
+    "booked_at": "2026-08-01",
+    "amount": 7900,
+    "reference": "INV-0923",
+    "invoice_id": "INV-0923"
+  },
+  {
+    "id": "PAY-1019",
+    "booked_at": "2026-08-01",
+    "amount": 8900,
+    "reference": "INV-0550",
+    "invoice_id": "INV-0550"
+  },
+  {
+    "id": "PAY-1020",
+    "booked_at": "2026-08-01",
+    "amount": 11800,
+    "reference": "INV-0262",
+    "invoice_id": "INV-0262"
+  },
+  {
+    "id": "PAY-1021",
+    "booked_at": "2026-08-01",
+    "amount": 8500,
+    "reference": "INV-0598",
+    "invoice_id": "INV-0598"
+  },
+  {
+    "id": "PAY-1022",
+    "booked_at": "2026-08-01",
+    "amount": 12500,
+    "reference": "INV-0214",
+    "invoice_id": "INV-0214"
+  },
+  {
+    "id": "PAY-1023",
+    "booked_at": "2026-08-01",
+    "amount": 12500,
+    "reference": "INV-1151",
+    "invoice_id": "INV-1151"
+  },
+  {
+    "id": "PAY-1024",
+    "booked_at": "2026-08-01",
+    "amount": 10200,
+    "reference": "INV-0118",
+    "invoice_id": "INV-0118"
+  },
+  {
+    "id": "PAY-1025",
+    "booked_at": "2026-08-01",
+    "amount": 8500,
+    "reference": "INV-0106",
+    "invoice_id": "INV-0106"
+  },
+  {
+    "id": "PAY-1026",
+    "booked_at": "2026-08-01",
+    "amount": 7900,
+    "reference": "INV-0022",
+    "invoice_id": "INV-0022"
+  },
+  {
+    "id": "PAY-1027",
+    "booked_at": "2026-08-01",
+    "amount": 8900,
+    "reference": "INV-1067",
+    "invoice_id": "INV-1067"
+  },
+  {
+    "id": "PAY-1028",
+    "booked_at": "2026-08-01",
+    "amount": 11000,
+    "reference": "INV-0430",
+    "invoice_id": "INV-0430"
+  },
+  {
+    "id": "PAY-1029",
+    "booked_at": "2026-08-01",
+    "amount": 8500,
+    "reference": "INV-0514",
+    "invoice_id": "INV-0514"
+  },
+  {
+    "id": "PAY-1030",
+    "booked_at": "2026-08-01",
+    "amount": 9400,
+    "reference": "INV-0635",
+    "invoice_id": "INV-0635"
+  },
+  {
+    "id": "PAY-1031",
+    "booked_at": "2026-08-01",
+    "amount": 13900,
+    "reference": "INV-0238",
+    "invoice_id": "INV-0238"
+  },
+  {
+    "id": "PAY-1032",
+    "booked_at": "2026-08-01",
+    "amount": 8900,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1033",
+    "booked_at": "2026-08-01",
+    "amount": 7900,
+    "reference": "INV-1079",
+    "invoice_id": "INV-1079"
+  },
+  {
+    "id": "PAY-1034",
+    "booked_at": "2026-08-01",
+    "amount": 8500,
+    "reference": "2026-08 rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1035",
+    "booked_at": "2026-08-03",
+    "amount": 8500,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1036",
+    "booked_at": "2026-08-03",
+    "amount": 9400,
+    "reference": "INV-1043",
+    "invoice_id": "INV-1043"
+  },
+  {
+    "id": "PAY-1037",
+    "booked_at": "2026-08-04",
+    "amount": 10200,
+    "reference": "INV-0082",
+    "invoice_id": "INV-0082"
+  },
+  {
+    "id": "PAY-1038",
+    "booked_at": "2026-08-06",
+    "amount": 7900,
+    "reference": "husleje hansen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1039",
+    "booked_at": "2026-08-06",
+    "amount": 8900,
+    "reference": "INV-0526",
+    "invoice_id": "INV-0526"
+  },
+  {
+    "id": "PAY-1040",
+    "booked_at": "2026-08-06",
+    "amount": 8500,
+    "reference": "INV-0659",
+    "invoice_id": "INV-0659"
+  },
+  {
+    "id": "PAY-1041",
+    "booked_at": "2026-08-07",
+    "amount": 3600,
+    "reference": "INV-0887",
+    "invoice_id": "INV-0887"
+  },
+  {
+    "id": "PAY-1042",
+    "booked_at": "2026-08-08",
+    "amount": 12500,
+    "reference": "INV-1007",
+    "invoice_id": "INV-1007"
+  },
+  {
+    "id": "PAY-1043",
+    "booked_at": "2026-08-08",
+    "amount": 7200,
+    "reference": "Lars",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1044",
+    "booked_at": "2026-08-08",
+    "amount": 9400,
+    "reference": "INV-1188",
+    "invoice_id": "INV-1188"
+  },
+  {
+    "id": "PAY-1045",
+    "booked_at": "2026-08-08",
+    "amount": 8900,
+    "reference": "INV-0695",
+    "invoice_id": "INV-0695"
+  },
+  {
+    "id": "PAY-1046",
+    "booked_at": "2026-08-08",
+    "amount": 8500,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1047",
+    "booked_at": "2026-08-09",
+    "amount": 6950,
+    "reference": "INV-0202",
+    "invoice_id": "INV-0202"
+  },
+  {
+    "id": "PAY-1048",
+    "booked_at": "2026-08-11",
+    "amount": 3600,
+    "reference": "INV-0947",
+    "invoice_id": "INV-0947"
+  },
+  {
+    "id": "PAY-1049",
+    "booked_at": "2026-08-11",
+    "amount": 6250,
+    "reference": "INV-1139",
+    "invoice_id": "INV-1139"
+  },
+  {
+    "id": "PAY-1050",
+    "booked_at": "2026-08-12",
+    "amount": 8900,
+    "reference": "INV-0648",
+    "invoice_id": "INV-0648"
+  },
+  {
+    "id": "PAY-1051",
+    "booked_at": "2026-08-13",
+    "amount": 3950,
+    "reference": "INV-0983",
+    "invoice_id": "INV-0983"
+  },
+  {
+    "id": "PAY-1052",
+    "booked_at": "2026-08-13",
+    "amount": 3600,
+    "reference": "INV-0731",
+    "invoice_id": "INV-0731"
+  },
+  {
+    "id": "PAY-1053",
+    "booked_at": "2026-08-14",
+    "amount": 7200,
+    "reference": "INV-0768",
+    "invoice_id": "INV-0768"
+  },
+  {
+    "id": "PAY-1054",
+    "booked_at": "2026-08-14",
+    "amount": 7200,
+    "reference": "INV-0828",
+    "invoice_id": "INV-0828"
+  },
+  {
+    "id": "PAY-1055",
+    "booked_at": "2026-08-15",
+    "amount": 8500,
+    "reference": "INV-0371",
+    "invoice_id": "INV-0371"
+  },
+  {
+    "id": "PAY-1056",
+    "booked_at": "2026-08-15",
+    "amount": 11000,
+    "reference": "INV-0442",
+    "invoice_id": "INV-0442"
+  },
+  {
+    "id": "PAY-1057",
+    "booked_at": "2026-08-15",
+    "amount": 13900,
+    "reference": "INV-0071",
+    "invoice_id": "INV-0071"
+  },
+  {
+    "id": "PAY-1058",
+    "booked_at": "2026-08-15",
+    "amount": 10200,
+    "reference": "INV-0311",
+    "invoice_id": "INV-0311"
+  },
+  {
+    "id": "PAY-1059",
+    "booked_at": "2026-08-18",
+    "amount": 7900,
+    "reference": "INV-0707",
+    "invoice_id": "INV-0707"
+  },
+  {
+    "id": "PAY-1060",
+    "booked_at": "2026-08-19",
+    "amount": 9400,
+    "reference": "INV-0298",
+    "invoice_id": "INV-0298"
+  },
+  {
+    "id": "PAY-1061",
+    "booked_at": "2026-08-19",
+    "amount": 9400,
+    "reference": "INV-1031",
+    "invoice_id": "INV-1031"
+  },
+  {
+    "id": "PAY-1062",
+    "booked_at": "2026-08-20",
+    "amount": 9400,
+    "reference": "rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1063",
+    "booked_at": "2026-08-21",
+    "amount": 13900,
+    "reference": "INV-1164",
+    "invoice_id": "INV-1164"
+  },
+  {
+    "id": "PAY-1064",
+    "booked_at": "2026-08-21",
+    "amount": 11800,
+    "reference": "INV-0455",
+    "invoice_id": "INV-0455"
+  },
+  {
+    "id": "PAY-1065",
+    "booked_at": "2026-08-23",
+    "amount": 8500,
+    "reference": "INV-0286",
+    "invoice_id": "INV-0286"
+  },
+  {
+    "id": "PAY-1066",
+    "booked_at": "2026-08-23",
+    "amount": 11000,
+    "reference": "INV-0166",
+    "invoice_id": "INV-0166"
+  },
+  {
+    "id": "PAY-1067",
+    "booked_at": "2026-08-23",
+    "amount": 8900,
+    "reference": "INV-1115",
+    "invoice_id": "INV-1115"
+  },
+  {
+    "id": "PAY-1068",
+    "booked_at": "2026-08-23",
+    "amount": 11800,
+    "reference": "",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1069",
+    "booked_at": "2026-08-26",
+    "amount": 8900,
+    "reference": "INV-0502",
+    "invoice_id": "INV-0502"
+  },
+  {
+    "id": "PAY-1070",
+    "booked_at": "2026-08-29",
+    "amount": 13900,
+    "reference": "INV-0780",
+    "invoice_id": "INV-0780"
+  },
+  {
+    "id": "PAY-1071",
+    "booked_at": "2026-08-29",
+    "amount": 11800,
+    "reference": "Yusuf Knudsen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1072",
+    "booked_at": "2026-08-29",
+    "amount": 8900,
+    "reference": "INV-0672",
+    "invoice_id": "INV-0672"
+  },
+  {
+    "id": "PAY-1073",
+    "booked_at": "2026-08-29",
+    "amount": 10200,
+    "reference": "INV-0744",
+    "invoice_id": "INV-0744"
+  },
+  {
+    "id": "PAY-1074",
+    "booked_at": "2026-08-29",
+    "amount": 8900,
+    "reference": "INV-1200",
+    "invoice_id": "INV-1200"
+  },
+  {
+    "id": "PAY-1075",
+    "booked_at": "2026-08-29",
+    "amount": 7200,
+    "reference": "INV-0996",
+    "invoice_id": "INV-0996"
+  },
+  {
+    "id": "PAY-1076",
+    "booked_at": "2026-08-29",
+    "amount": 12500,
+    "reference": "INV-1020",
+    "invoice_id": "INV-1020"
+  },
+  {
+    "id": "PAY-1077",
+    "booked_at": "2026-08-29",
+    "amount": 12500,
+    "reference": "INV-0840",
+    "invoice_id": "INV-0840"
+  },
+  {
+    "id": "PAY-1078",
+    "booked_at": "2026-08-29",
+    "amount": 7200,
+    "reference": "INV-1092",
+    "invoice_id": "INV-1092"
+  },
+  {
+    "id": "PAY-1079",
+    "booked_at": "2026-08-29",
+    "amount": 10200,
+    "reference": "INV-0359",
+    "invoice_id": "INV-0359"
+  },
+  {
+    "id": "PAY-1080",
+    "booked_at": "2026-08-29",
+    "amount": 12500,
+    "reference": "INV-0756",
+    "invoice_id": "INV-0756"
+  },
+  {
+    "id": "PAY-1081",
+    "booked_at": "2026-08-29",
+    "amount": 13900,
+    "reference": "INV-0035",
+    "invoice_id": "INV-0035"
+  },
+  {
+    "id": "PAY-1082",
+    "booked_at": "2026-08-29",
+    "amount": 8900,
+    "reference": "INV-0551",
+    "invoice_id": "INV-0551"
+  },
+  {
+    "id": "PAY-1083",
+    "booked_at": "2026-08-29",
+    "amount": 7900,
+    "reference": "INV-0924",
+    "invoice_id": "INV-0924"
+  },
+  {
+    "id": "PAY-1084",
+    "booked_at": "2026-08-29",
+    "amount": 13900,
+    "reference": "INV-0059",
+    "invoice_id": "INV-0059"
+  },
+  {
+    "id": "PAY-1085",
+    "booked_at": "2026-08-29",
+    "amount": 8500,
+    "reference": "INV-0107",
+    "invoice_id": "INV-0107"
+  },
+  {
+    "id": "PAY-1086",
+    "booked_at": "2026-08-29",
+    "amount": 11800,
+    "reference": "Kasper Frandsen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1087",
+    "booked_at": "2026-08-29",
+    "amount": 7900,
+    "reference": "INV-0023",
+    "invoice_id": "INV-0023"
+  },
+  {
+    "id": "PAY-1088",
+    "booked_at": "2026-08-30",
+    "amount": 10200,
+    "reference": "INV-0095",
+    "invoice_id": "INV-0095"
+  },
+  {
+    "id": "PAY-1089",
+    "booked_at": "2026-08-30",
+    "amount": 7900,
+    "reference": "INV-1080",
+    "invoice_id": "INV-1080"
+  },
+  {
+    "id": "PAY-1090",
+    "booked_at": "2026-08-30",
+    "amount": 10200,
+    "reference": "INV-0119",
+    "invoice_id": "INV-0119"
+  },
+  {
+    "id": "PAY-1091",
+    "booked_at": "2026-08-30",
+    "amount": 10200,
+    "reference": "INV-0575",
+    "invoice_id": "INV-0575"
+  },
+  {
+    "id": "PAY-1092",
+    "booked_at": "2026-08-30",
+    "amount": 11000,
+    "reference": "INV-0251",
+    "invoice_id": "INV-0251"
+  },
+  {
+    "id": "PAY-1093",
+    "booked_at": "2026-08-30",
+    "amount": 7200,
+    "reference": "INV-1128",
+    "invoice_id": "INV-1128"
+  },
+  {
+    "id": "PAY-1094",
+    "booked_at": "2026-08-30",
+    "amount": 12500,
+    "reference": "INV-1152",
+    "invoice_id": "INV-1152"
+  },
+  {
+    "id": "PAY-1095",
+    "booked_at": "2026-08-30",
+    "amount": 9400,
+    "reference": "INV-0636",
+    "invoice_id": "INV-0636"
+  },
+  {
+    "id": "PAY-1096",
+    "booked_at": "2026-08-30",
+    "amount": 11000,
+    "reference": "INV-0179",
+    "invoice_id": "INV-0179"
+  },
+  {
+    "id": "PAY-1097",
+    "booked_at": "2026-08-30",
+    "amount": 13900,
+    "reference": "INV-0335",
+    "invoice_id": "INV-0335"
+  },
+  {
+    "id": "PAY-1098",
+    "booked_at": "2026-08-30",
+    "amount": 9400,
+    "reference": "INV-0155",
+    "invoice_id": "INV-0155"
+  },
+  {
+    "id": "PAY-1099",
+    "booked_at": "2026-08-30",
+    "amount": 12500,
+    "reference": "INV-0215",
+    "invoice_id": "INV-0215"
+  },
+  {
+    "id": "PAY-1100",
+    "booked_at": "2026-08-30",
+    "amount": 10200,
+    "reference": "husleje nowak",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1101",
+    "booked_at": "2026-08-30",
+    "amount": 7900,
+    "reference": "INV-0852",
+    "invoice_id": "INV-0852"
+  },
+  {
+    "id": "PAY-1102",
+    "booked_at": "2026-08-31",
+    "amount": 4700,
+    "reference": "INV-0539",
+    "invoice_id": "INV-0539"
+  },
+  {
+    "id": "PAY-1103",
+    "booked_at": "2026-08-31",
+    "amount": 7900,
+    "reference": "INV-0467",
+    "invoice_id": "INV-0467"
+  },
+  {
+    "id": "PAY-1104",
+    "booked_at": "2026-08-31",
+    "amount": 11000,
+    "reference": "INV-1176",
+    "invoice_id": "INV-1176"
+  },
+  {
+    "id": "PAY-1105",
+    "booked_at": "2026-08-31",
+    "amount": 7200,
+    "reference": "INV-0479",
+    "invoice_id": "INV-0479"
+  },
+  {
+    "id": "PAY-1106",
+    "booked_at": "2026-08-31",
+    "amount": 11800,
+    "reference": "INV-0347",
+    "invoice_id": "INV-0347"
+  },
+  {
+    "id": "PAY-1107",
+    "booked_at": "2026-08-31",
+    "amount": 8900,
+    "reference": "INV-1068",
+    "invoice_id": "INV-1068"
+  },
+  {
+    "id": "PAY-1108",
+    "booked_at": "2026-08-31",
+    "amount": 12500,
+    "reference": "INV-0936",
+    "invoice_id": "INV-0936"
+  },
+  {
+    "id": "PAY-1109",
+    "booked_at": "2026-08-31",
+    "amount": 3600,
+    "reference": "INV-0732",
+    "invoice_id": "INV-0732"
+  },
+  {
+    "id": "PAY-1110",
+    "booked_at": "2026-08-31",
+    "amount": 3950,
+    "reference": "INV-0984",
+    "invoice_id": "INV-0984"
+  },
+  {
+    "id": "PAY-1111",
+    "booked_at": "2026-08-31",
+    "amount": 6950,
+    "reference": "INV-0203",
+    "invoice_id": "INV-0203"
+  },
+  {
+    "id": "PAY-1112",
+    "booked_at": "2026-08-31",
+    "amount": 3600,
+    "reference": "INV-0888",
+    "invoice_id": "INV-0888"
+  },
+  {
+    "id": "PAY-1113",
+    "booked_at": "2026-08-31",
+    "amount": 8500,
+    "reference": "INV-0599",
+    "invoice_id": "INV-0599"
+  },
+  {
+    "id": "PAY-1114",
+    "booked_at": "2026-08-31",
+    "amount": 3600,
+    "reference": "INV-0948",
+    "invoice_id": "INV-0948"
+  },
+  {
+    "id": "PAY-1115",
+    "booked_at": "2026-08-31",
+    "amount": 10200,
+    "reference": "INV-0563",
+    "invoice_id": "INV-0563"
+  },
+  {
+    "id": "PAY-1116",
+    "booked_at": "2026-08-31",
+    "amount": 11000,
+    "reference": "husleje sørensen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1117",
+    "booked_at": "2026-08-31",
+    "amount": 10200,
+    "reference": "INV-1104",
+    "invoice_id": "INV-1104"
+  },
+  {
+    "id": "PAY-1118",
+    "booked_at": "2026-08-31",
+    "amount": 6250,
+    "reference": "INV-1140",
+    "invoice_id": "INV-1140"
+  },
+  {
+    "id": "PAY-1119",
+    "booked_at": "2026-09-01",
+    "amount": 9400,
+    "reference": "INV-0047",
+    "invoice_id": "INV-0047"
+  },
+  {
+    "id": "PAY-1120",
+    "booked_at": "2026-09-01",
+    "amount": 12500,
+    "reference": "INV-1056",
+    "invoice_id": "INV-1056"
+  },
+  {
+    "id": "PAY-1121",
+    "booked_at": "2026-09-01",
+    "amount": 13900,
+    "reference": "INV-0876",
+    "invoice_id": "INV-0876"
+  },
+  {
+    "id": "PAY-1122",
+    "booked_at": "2026-09-01",
+    "amount": 11000,
+    "reference": "INV-0431",
+    "invoice_id": "INV-0431"
+  },
+  {
+    "id": "PAY-1123",
+    "booked_at": "2026-09-01",
+    "amount": 10200,
+    "reference": "INV-0960",
+    "invoice_id": "INV-0960"
+  },
+  {
+    "id": "PAY-1124",
+    "booked_at": "2026-09-01",
+    "amount": 7900,
+    "reference": "INV-0383",
+    "invoice_id": "INV-0383"
+  },
+  {
+    "id": "PAY-1125",
+    "booked_at": "2026-09-01",
+    "amount": 13900,
+    "reference": "INV-0239",
+    "invoice_id": "INV-0239"
+  },
+  {
+    "id": "PAY-1126",
+    "booked_at": "2026-09-01",
+    "amount": 8900,
+    "reference": "husleje johansen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1127",
+    "booked_at": "2026-09-01",
+    "amount": 10200,
+    "reference": "INV-0275",
+    "invoice_id": "INV-0275"
+  },
+  {
+    "id": "PAY-1128",
+    "booked_at": "2026-09-01",
+    "amount": 10200,
+    "reference": "INV-0491",
+    "invoice_id": "INV-0491"
+  },
+  {
+    "id": "PAY-1129",
+    "booked_at": "2026-09-01",
+    "amount": 8500,
+    "reference": "INV-0395",
+    "invoice_id": "INV-0395"
+  },
+  {
+    "id": "PAY-1130",
+    "booked_at": "2026-09-01",
+    "amount": 12500,
+    "reference": "INV-0900",
+    "invoice_id": "INV-0900"
+  },
+  {
+    "id": "PAY-1131",
+    "booked_at": "2026-09-01",
+    "amount": 7900,
+    "reference": "INV-0227",
+    "invoice_id": "INV-0227"
+  },
+  {
+    "id": "PAY-1132",
+    "booked_at": "2026-09-01",
+    "amount": 8500,
+    "reference": "INV-0515",
+    "invoice_id": "INV-0515"
+  },
+  {
+    "id": "PAY-1133",
+    "booked_at": "2026-09-01",
+    "amount": 7900,
+    "reference": "INV-0972",
+    "invoice_id": "INV-0972"
+  },
+  {
+    "id": "PAY-1134",
+    "booked_at": "2026-09-01",
+    "amount": 11800,
+    "reference": "INV-0191",
+    "invoice_id": "INV-0191"
+  },
+  {
+    "id": "PAY-1135",
+    "booked_at": "2026-09-01",
+    "amount": 7200,
+    "reference": "rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1136",
+    "booked_at": "2026-09-01",
+    "amount": 8500,
+    "reference": "INV-0611",
+    "invoice_id": "INV-0611"
+  },
+  {
+    "id": "PAY-1137",
+    "booked_at": "2026-09-01",
+    "amount": 12500,
+    "reference": "INV-0011",
+    "invoice_id": "INV-0011"
+  },
+  {
+    "id": "PAY-1138",
+    "booked_at": "2026-09-01",
+    "amount": 12500,
+    "reference": "INV-0804",
+    "invoice_id": "INV-0804"
+  },
+  {
+    "id": "PAY-1139",
+    "booked_at": "2026-09-01",
+    "amount": 13900,
+    "reference": "INV-0624",
+    "invoice_id": "INV-0624"
+  },
+  {
+    "id": "PAY-1140",
+    "booked_at": "2026-09-01",
+    "amount": 8900,
+    "reference": "INV-0323",
+    "invoice_id": "INV-0323"
+  },
+  {
+    "id": "PAY-1141",
+    "booked_at": "2026-09-03",
+    "amount": 10200,
+    "reference": "INV-0083",
+    "invoice_id": "INV-0083"
+  },
+  {
+    "id": "PAY-1142",
+    "booked_at": "2026-09-03",
+    "amount": 8900,
+    "reference": "INV-0527",
+    "invoice_id": "INV-0527"
+  },
+  {
+    "id": "PAY-1143",
+    "booked_at": "2026-09-04",
+    "amount": 8500,
+    "reference": "Noah Nowak",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1144",
+    "booked_at": "2026-09-04",
+    "amount": 8900,
+    "reference": "INV-0696",
+    "invoice_id": "INV-0696"
+  },
+  {
+    "id": "PAY-1145",
+    "booked_at": "2026-09-05",
+    "amount": 12500,
+    "reference": "INV-1008",
+    "invoice_id": "INV-1008"
+  },
+  {
+    "id": "PAY-1146",
+    "booked_at": "2026-09-05",
+    "amount": 8500,
+    "reference": "Alma",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1147",
+    "booked_at": "2026-09-06",
+    "amount": 9400,
+    "reference": "INV-0721",
+    "invoice_id": "INV-0721"
+  },
+  {
+    "id": "PAY-1148",
+    "booked_at": "2026-09-06",
+    "amount": 7900,
+    "reference": "Louise Hansen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1149",
+    "booked_at": "2026-09-06",
+    "amount": 4700,
+    "reference": "INV-0539",
+    "invoice_id": "INV-0539"
+  },
+  {
+    "id": "PAY-1150",
+    "booked_at": "2026-09-07",
+    "amount": 9400,
+    "reference": "INV-1044",
+    "invoice_id": "INV-1044"
+  },
+  {
+    "id": "PAY-1151",
+    "booked_at": "2026-09-07",
+    "amount": 8500,
+    "reference": "INV-0660",
+    "invoice_id": "INV-0660"
+  },
+  {
+    "id": "PAY-1152",
+    "booked_at": "2026-09-07",
+    "amount": 6250,
+    "reference": "INV-1140",
+    "invoice_id": "INV-1140"
+  },
+  {
+    "id": "PAY-1153",
+    "booked_at": "2026-09-07",
+    "amount": 3600,
+    "reference": "INV-0888",
+    "invoice_id": "INV-0888"
+  },
+  {
+    "id": "PAY-1154",
+    "booked_at": "2026-09-07",
+    "amount": 8500,
+    "reference": "INV-0372",
+    "invoice_id": "INV-0372"
+  },
+  {
+    "id": "PAY-1155",
+    "booked_at": "2026-09-09",
+    "amount": 7200,
+    "reference": "INV-0769",
+    "invoice_id": "INV-0769"
+  },
+  {
+    "id": "PAY-1156",
+    "booked_at": "2026-09-10",
+    "amount": 7200,
+    "reference": "husleje",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1157",
+    "booked_at": "2026-09-11",
+    "amount": 11800,
+    "reference": "INV-0456",
+    "invoice_id": "INV-0456"
+  },
+  {
+    "id": "PAY-1158",
+    "booked_at": "2026-09-11",
+    "amount": 3600,
+    "reference": "INV-0948",
+    "invoice_id": "INV-0948"
+  },
+  {
+    "id": "PAY-1159",
+    "booked_at": "2026-09-12",
+    "amount": 8900,
+    "reference": "INV-0649",
+    "invoice_id": "INV-0649"
+  },
+  {
+    "id": "PAY-1160",
+    "booked_at": "2026-09-13",
+    "amount": 3600,
+    "reference": "INV-0732",
+    "invoice_id": "INV-0732"
+  },
+  {
+    "id": "PAY-1161",
+    "booked_at": "2026-09-15",
+    "amount": 9400,
+    "reference": "INV-1189",
+    "invoice_id": "INV-1189"
+  },
+  {
+    "id": "PAY-1162",
+    "booked_at": "2026-09-16",
+    "amount": 7900,
+    "reference": "INV-0708",
+    "invoice_id": "INV-0708"
+  },
+  {
+    "id": "PAY-1163",
+    "booked_at": "2026-09-17",
+    "amount": 13900,
+    "reference": "INV-1165",
+    "invoice_id": "INV-1165"
+  },
+  {
+    "id": "PAY-1164",
+    "booked_at": "2026-09-17",
+    "amount": 11000,
+    "reference": "Piotr Sørensen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1165",
+    "booked_at": "2026-09-17",
+    "amount": 11000,
+    "reference": "INV-0443",
+    "invoice_id": "INV-0443"
+  },
+  {
+    "id": "PAY-1166",
+    "booked_at": "2026-09-18",
+    "amount": 7200,
+    "reference": "INV-0829",
+    "invoice_id": "INV-0829"
+  },
+  {
+    "id": "PAY-1167",
+    "booked_at": "2026-09-18",
+    "amount": 13900,
+    "reference": "INV-0072",
+    "invoice_id": "INV-0072"
+  },
+  {
+    "id": "PAY-1168",
+    "booked_at": "2026-09-18",
+    "amount": 10200,
+    "reference": "INV-0312",
+    "invoice_id": "INV-0312"
+  },
+  {
+    "id": "PAY-1169",
+    "booked_at": "2026-09-19",
+    "amount": 8500,
+    "reference": "INV-0287",
+    "invoice_id": "INV-0287"
+  },
+  {
+    "id": "PAY-1170",
+    "booked_at": "2026-09-24",
+    "amount": 9400,
+    "reference": "INV-1032",
+    "invoice_id": "INV-1032"
+  },
+  {
+    "id": "PAY-1171",
+    "booked_at": "2026-09-24",
+    "amount": 11800,
+    "reference": "INV-0684",
+    "invoice_id": "INV-0684"
+  },
+  {
+    "id": "PAY-1172",
+    "booked_at": "2026-09-24",
+    "amount": 9400,
+    "reference": "INV-0299",
+    "invoice_id": "INV-0299"
+  },
+  {
+    "id": "PAY-1173",
+    "booked_at": "2026-09-28",
+    "amount": 12500,
+    "reference": "INV-0805",
+    "invoice_id": "INV-0805"
+  },
+  {
+    "id": "PAY-1174",
+    "booked_at": "2026-09-28",
+    "amount": 12500,
+    "reference": "INV-1021",
+    "invoice_id": "INV-1021"
+  },
+  {
+    "id": "PAY-1175",
+    "booked_at": "2026-09-28",
+    "amount": 11000,
+    "reference": "INV-0252",
+    "invoice_id": "INV-0252"
+  },
+  {
+    "id": "PAY-1176",
+    "booked_at": "2026-09-28",
+    "amount": 8900,
+    "reference": "INV-1069",
+    "invoice_id": "INV-1069"
+  },
+  {
+    "id": "PAY-1177",
+    "booked_at": "2026-09-28",
+    "amount": 7900,
+    "reference": "INV-0468",
+    "invoice_id": "INV-0468"
+  },
+  {
+    "id": "PAY-1178",
+    "booked_at": "2026-09-28",
+    "amount": 8500,
+    "reference": "INV-0108",
+    "invoice_id": "INV-0108"
+  },
+  {
+    "id": "PAY-1179",
+    "booked_at": "2026-09-28",
+    "amount": 12500,
+    "reference": "INV-1057",
+    "invoice_id": "INV-1057"
+  },
+  {
+    "id": "PAY-1180",
+    "booked_at": "2026-09-28",
+    "amount": 10200,
+    "reference": "Karen Nowak",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1181",
+    "booked_at": "2026-09-28",
+    "amount": 7900,
+    "reference": "INV-1081",
+    "invoice_id": "INV-1081"
+  },
+  {
+    "id": "PAY-1182",
+    "booked_at": "2026-09-28",
+    "amount": 13900,
+    "reference": "INV-0036",
+    "invoice_id": "INV-0036"
+  },
+  {
+    "id": "PAY-1183",
+    "booked_at": "2026-09-28",
+    "amount": 11800,
+    "reference": "Kasper Frandsen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1184",
+    "booked_at": "2026-09-28",
+    "amount": 8500,
+    "reference": "INV-0396",
+    "invoice_id": "INV-0396"
+  },
+  {
+    "id": "PAY-1185",
+    "booked_at": "2026-09-28",
+    "amount": 13900,
+    "reference": "INV-0336",
+    "invoice_id": "INV-0336"
+  },
+  {
+    "id": "PAY-1186",
+    "booked_at": "2026-09-28",
+    "amount": 12500,
+    "reference": "INV-1153",
+    "invoice_id": "INV-1153"
+  },
+  {
+    "id": "PAY-1187",
+    "booked_at": "2026-09-28",
+    "amount": 7900,
+    "reference": "INV-0228",
+    "invoice_id": "INV-0228"
+  },
+  {
+    "id": "PAY-1188",
+    "booked_at": "2026-09-29",
+    "amount": 10200,
+    "reference": "Hassan Møller",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1189",
+    "booked_at": "2026-09-29",
+    "amount": 8900,
+    "reference": "INV-1201",
+    "invoice_id": "INV-1201"
+  },
+  {
+    "id": "PAY-1190",
+    "booked_at": "2026-09-29",
+    "amount": 8900,
+    "reference": "INV-1116",
+    "invoice_id": "INV-1116"
+  },
+  {
+    "id": "PAY-1191",
+    "booked_at": "2026-09-29",
+    "amount": 10200,
+    "reference": "INV-0745",
+    "invoice_id": "INV-0745"
+  },
+  {
+    "id": "PAY-1192",
+    "booked_at": "2026-09-29",
+    "amount": 7200,
+    "reference": "INV-0997",
+    "invoice_id": "INV-0997"
+  },
+  {
+    "id": "PAY-1193",
+    "booked_at": "2026-09-29",
+    "amount": 7900,
+    "reference": "INV-0853",
+    "invoice_id": "INV-0853"
+  },
+  {
+    "id": "PAY-1194",
+    "booked_at": "2026-09-29",
+    "amount": 12500,
+    "reference": "INV-0216",
+    "invoice_id": "INV-0216"
+  },
+  {
+    "id": "PAY-1195",
+    "booked_at": "2026-09-29",
+    "amount": 13900,
+    "reference": "INV-0240",
+    "invoice_id": "INV-0240"
+  },
+  {
+    "id": "PAY-1196",
+    "booked_at": "2026-09-29",
+    "amount": 10200,
+    "reference": "INV-0961",
+    "invoice_id": "INV-0961"
+  },
+  {
+    "id": "PAY-1197",
+    "booked_at": "2026-09-29",
+    "amount": 7200,
+    "reference": "INV-1129",
+    "invoice_id": "INV-1129"
+  },
+  {
+    "id": "PAY-1198",
+    "booked_at": "2026-09-29",
+    "amount": 7900,
+    "reference": "INV-0024",
+    "invoice_id": "INV-0024"
+  },
+  {
+    "id": "PAY-1199",
+    "booked_at": "2026-09-29",
+    "amount": 7200,
+    "reference": "INV-0480",
+    "invoice_id": "INV-0480"
+  },
+  {
+    "id": "PAY-1200",
+    "booked_at": "2026-09-29",
+    "amount": 11000,
+    "reference": "INV-1177",
+    "invoice_id": "INV-1177"
+  },
+  {
+    "id": "PAY-1201",
+    "booked_at": "2026-09-29",
+    "amount": 9400,
+    "reference": "INV-0048",
+    "invoice_id": "INV-0048"
+  },
+  {
+    "id": "PAY-1202",
+    "booked_at": "2026-09-29",
+    "amount": 9400,
+    "reference": "INV-0156",
+    "invoice_id": "INV-0156"
+  },
+  {
+    "id": "PAY-1203",
+    "booked_at": "2026-09-29",
+    "amount": 8900,
+    "reference": "INV-0503",
+    "invoice_id": "INV-0503"
+  },
+  {
+    "id": "PAY-1204",
+    "booked_at": "2026-09-29",
+    "amount": 13900,
+    "reference": "INV-0625",
+    "invoice_id": "INV-0625"
+  },
+  {
+    "id": "PAY-1205",
+    "booked_at": "2026-09-30",
+    "amount": 12500,
+    "reference": "INV-0757",
+    "invoice_id": "INV-0757"
+  },
+  {
+    "id": "PAY-1206",
+    "booked_at": "2026-09-30",
+    "amount": 10200,
+    "reference": "INV-0120",
+    "invoice_id": "INV-0120"
+  },
+  {
+    "id": "PAY-1207",
+    "booked_at": "2026-09-30",
+    "amount": 6950,
+    "reference": "INV-0204",
+    "invoice_id": "INV-0204"
+  },
+  {
+    "id": "PAY-1208",
+    "booked_at": "2026-09-30",
+    "amount": 3600,
+    "reference": "INV-0889",
+    "invoice_id": "INV-0889"
+  },
+  {
+    "id": "PAY-1209",
+    "booked_at": "2026-09-30",
+    "amount": 3950,
+    "reference": "INV-0985",
+    "invoice_id": "INV-0985"
+  },
+  {
+    "id": "PAY-1210",
+    "booked_at": "2026-09-30",
+    "amount": 12500,
+    "reference": "INV-0012",
+    "invoice_id": "INV-0012"
+  },
+  {
+    "id": "PAY-1211",
+    "booked_at": "2026-09-30",
+    "amount": 9400,
+    "reference": "INV-0637",
+    "invoice_id": "INV-0637"
+  },
+  {
+    "id": "PAY-1212",
+    "booked_at": "2026-09-30",
+    "amount": 13900,
+    "reference": "INV-0781",
+    "invoice_id": "INV-0781"
+  },
+  {
+    "id": "PAY-1213",
+    "booked_at": "2026-09-30",
+    "amount": 7900,
+    "reference": "INV-0925",
+    "invoice_id": "INV-0925"
+  },
+  {
+    "id": "PAY-1214",
+    "booked_at": "2026-09-30",
+    "amount": 7200,
+    "reference": "INV-0588",
+    "invoice_id": "INV-0588"
+  },
+  {
+    "id": "PAY-1215",
+    "booked_at": "2026-09-30",
+    "amount": 4700,
+    "reference": "INV-0540",
+    "invoice_id": "INV-0540"
+  },
+  {
+    "id": "PAY-1216",
+    "booked_at": "2026-09-30",
+    "amount": 3600,
+    "reference": "INV-0949",
+    "invoice_id": "INV-0949"
+  },
+  {
+    "id": "PAY-1217",
+    "booked_at": "2026-09-30",
+    "amount": 8500,
+    "reference": "INV-0612",
+    "invoice_id": "INV-0612"
+  },
+  {
+    "id": "PAY-1218",
+    "booked_at": "2026-09-30",
+    "amount": 8900,
+    "reference": "rent",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1219",
+    "booked_at": "2026-09-30",
+    "amount": 6250,
+    "reference": "INV-1141",
+    "invoice_id": "INV-1141"
+  },
+  {
+    "id": "PAY-1220",
+    "booked_at": "2026-09-30",
+    "amount": 10200,
+    "reference": "INV-1105",
+    "invoice_id": "INV-1105"
+  },
+  {
+    "id": "PAY-1221",
+    "booked_at": "2026-09-30",
+    "amount": 7900,
+    "reference": "INV-0384",
+    "invoice_id": "INV-0384"
+  },
+  {
+    "id": "PAY-1222",
+    "booked_at": "2026-09-30",
+    "amount": 3600,
+    "reference": "INV-0733",
+    "invoice_id": "INV-0733"
+  },
+  {
+    "id": "PAY-1223",
+    "booked_at": "2026-09-30",
+    "amount": 11800,
+    "reference": "INV-0264",
+    "invoice_id": "INV-0264"
+  },
+  {
+    "id": "PAY-1224",
+    "booked_at": "2026-09-30",
+    "amount": 8500,
+    "reference": "INV-0600",
+    "invoice_id": "INV-0600"
+  },
+  {
+    "id": "PAY-1225",
+    "booked_at": "2026-09-30",
+    "amount": 11800,
+    "reference": "INV-0348",
+    "invoice_id": "INV-0348"
+  },
+  {
+    "id": "PAY-1226",
+    "booked_at": "2026-09-30",
+    "amount": 11800,
+    "reference": "INV-0192",
+    "invoice_id": "INV-0192"
+  },
+  {
+    "id": "PAY-1227",
+    "booked_at": "2026-10-01",
+    "amount": 8900,
+    "reference": "Ida Johansen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1228",
+    "booked_at": "2026-10-01",
+    "amount": 13900,
+    "reference": "INV-0060",
+    "invoice_id": "INV-0060"
+  },
+  {
+    "id": "PAY-1229",
+    "booked_at": "2026-10-01",
+    "amount": 10200,
+    "reference": "INV-0276",
+    "invoice_id": "INV-0276"
+  },
+  {
+    "id": "PAY-1230",
+    "booked_at": "2026-10-01",
+    "amount": 7900,
+    "reference": "INV-0973",
+    "invoice_id": "INV-0973"
+  },
+  {
+    "id": "PAY-1231",
+    "booked_at": "2026-10-01",
+    "amount": 10200,
+    "reference": "INV-0564",
+    "invoice_id": "INV-0564"
+  },
+  {
+    "id": "PAY-1232",
+    "booked_at": "2026-10-01",
+    "amount": 10200,
+    "reference": "INV-0360",
+    "invoice_id": "INV-0360"
+  },
+  {
+    "id": "PAY-1233",
+    "booked_at": "2026-10-01",
+    "amount": 10200,
+    "reference": "INV-0096",
+    "invoice_id": "INV-0096"
+  },
+  {
+    "id": "PAY-1234",
+    "booked_at": "2026-10-01",
+    "amount": 8500,
+    "reference": "INV-0516",
+    "invoice_id": "INV-0516"
+  },
+  {
+    "id": "PAY-1235",
+    "booked_at": "2026-10-01",
+    "amount": 12500,
+    "reference": "INV-0937",
+    "invoice_id": "INV-0937"
+  },
+  {
+    "id": "PAY-1236",
+    "booked_at": "2026-10-01",
+    "amount": 8900,
+    "reference": "INV-0552",
+    "invoice_id": "INV-0552"
+  },
+  {
+    "id": "PAY-1237",
+    "booked_at": "2026-10-01",
+    "amount": 12500,
+    "reference": "INV-0901",
+    "invoice_id": "INV-0901"
+  },
+  {
+    "id": "PAY-1238",
+    "booked_at": "2026-10-01",
+    "amount": 11000,
+    "reference": "INV-0167",
+    "invoice_id": "INV-0167"
+  },
+  {
+    "id": "PAY-1239",
+    "booked_at": "2026-10-01",
+    "amount": 11000,
+    "reference": "INV-0432",
+    "invoice_id": "INV-0432"
+  },
+  {
+    "id": "PAY-1240",
+    "booked_at": "2026-10-01",
+    "amount": 11000,
+    "reference": "INV-0180",
+    "invoice_id": "INV-0180"
+  },
+  {
+    "id": "PAY-1241",
+    "booked_at": "2026-10-01",
+    "amount": 8900,
+    "reference": "INV-0673",
+    "invoice_id": "INV-0673"
+  },
+  {
+    "id": "PAY-1242",
+    "booked_at": "2026-10-04",
+    "amount": 8500,
+    "reference": "INV-0661",
+    "invoice_id": "INV-0661"
+  },
+  {
+    "id": "PAY-1243",
+    "booked_at": "2026-10-05",
+    "amount": 12500,
+    "reference": "INV-1009",
+    "invoice_id": "INV-1009"
+  },
+  {
+    "id": "PAY-1244",
+    "booked_at": "2026-10-05",
+    "amount": 7900,
+    "reference": "husleje hansen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1245",
+    "booked_at": "2026-10-06",
+    "amount": 8900,
+    "reference": "INV-0528",
+    "invoice_id": "INV-0528"
+  },
+  {
+    "id": "PAY-1246",
+    "booked_at": "2026-10-07",
+    "amount": 8500,
+    "reference": "husleje andersen",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1247",
+    "booked_at": "2026-10-08",
+    "amount": 9400,
+    "reference": "INV-1045",
+    "invoice_id": "INV-1045"
+  },
+  {
+    "id": "PAY-1248",
+    "booked_at": "2026-10-08",
+    "amount": 8900,
+    "reference": "INV-0697",
+    "invoice_id": "INV-0697"
+  },
+  {
+    "id": "PAY-1249",
+    "booked_at": "2026-10-09",
+    "amount": 8500,
+    "reference": "Noah Nowak",
+    "invoice_id": null
+  },
+  {
+    "id": "PAY-1250",
+    "booked_at": "2026-10-10",
+    "amount": 10200,
+    "reference": "INV-0084",
+    "invoice_id": "INV-0084"
+  },
+  {
+    "id": "PAY-1251",
+    "booked_at": "2026-10-11",
+    "amount": 3950,
+    "reference": "INV-0985",
+    "invoice_id": "INV-0985"
+  },
+  {
+    "id": "PAY-1252",
+    "booked_at": "2026-10-11",
+    "amount": 4700,
+    "reference": "INV-0540",
+    "invoice_id": "INV-0540"
+  },
+  {
+    "id": "PAY-1253",
+    "booked_at": "2026-10-11",
+    "amount": 3600,
+    "reference": "INV-0949",
+    "invoice_id": "INV-0949"
+  },
+  {
+    "id": "PAY-1254",
+    "booked_at": "2026-10-12",
+    "amount": 6950,
+    "reference": "INV-0204",
+    "invoice_id": "INV-0204"
+  },
+  {
+    "id": "PAY-1255",
+    "booked_at": "2026-10-12",
+    "amount": 6250,
+    "reference": "INV-1141",
+    "invoice_id": "INV-1141"
+  },
+  {
+    "id": "PAY-1256",
+    "booked_at": "2026-10-13",
+    "amount": 3600,
+    "reference": "INV-0889",
+    "invoice_id": "INV-0889"
+  }
+]
