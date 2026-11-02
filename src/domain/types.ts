@@ -26,6 +26,13 @@ export type Payment = {
 
 export type InvoiceStatus = "unpaid" | "partial";
 
+/** A bank payment as shown under its invoice. */
+export type InvoicePayment = {
+  paymentId: string;
+  bookedAt: IsoDate;
+  amount: number;
+};
+
 export type OverdueInvoice = {
   invoiceId: string;
   period: Period;
@@ -35,6 +42,21 @@ export type OverdueInvoice = {
   dueAt: IsoDate;
   daysOverdue: number;
   status: InvoiceStatus;
+  /** Oldest first. */
+  payments: InvoicePayment[];
+};
+
+/** An invoice past its due date with money still owed — before the grace period is applied. */
+export type OpenInvoice = OverdueInvoice & {
+  tenantId: string;
+  tenant: string;
+  address: string;
+};
+
+/** What the server hands the page: every open invoice and the date the data is valid for. */
+export type LedgerSnapshot = {
+  asOf: IsoDate;
+  openInvoices: OpenInvoice[];
 };
 
 export type TenantStatus = "late" | "partial";
@@ -48,12 +70,4 @@ export type TenantDebt = {
   maxDaysOverdue: number;
   /** Oldest first. */
   invoices: OverdueInvoice[];
-};
-
-/** What the page needs: the late list and the parameters it was computed with. */
-export type LateTenantsReport = {
-  asOf: IsoDate;
-  graceDays: number;
-  /** Most overdue first. */
-  tenants: TenantDebt[];
 };

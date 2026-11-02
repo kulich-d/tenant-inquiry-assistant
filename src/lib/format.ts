@@ -13,7 +13,7 @@ export const formatKr = (amount: number) => `${krFormat.format(amount)} kr`;
 /** "2026-08" → "Aug 2026" */
 export const formatPeriod = (period: Period) => periodFormat.format(new Date(`${period}-01T00:00:00Z`));
 
-/** ISO timestamp → "5 Aug" */
+/** ISO date or timestamp → "5 Aug" */
 export const formatDayMonth = (iso: string) => dayMonthFormat.format(new Date(iso));
 
 /** "2026-10-13" → "13 Oct 2026" */

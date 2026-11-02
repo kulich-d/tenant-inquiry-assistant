@@ -21,7 +21,20 @@ export function InvoiceRow({ invoice, contact, onToggle }: Props) {
         <span className="ml-2 font-normal text-muted-foreground">{invoice.invoiceId}</span>
       </TableCell>
       <TableCell className="text-muted-foreground">
-        paid {formatKr(invoice.paid)} of {formatKr(invoice.amount)}
+        <div>
+          paid {formatKr(invoice.paid)} of {formatKr(invoice.amount)}
+        </div>
+        <ul aria-label={`Payments for ${formatPeriod(invoice.period)}`} className="mt-0.5">
+          {invoice.payments.length === 0 ? (
+            <li>No payments</li>
+          ) : (
+            invoice.payments.map((p) => (
+              <li key={p.paymentId}>
+                {formatDayMonth(p.bookedAt)} · {formatKr(p.amount)}
+              </li>
+            ))
+          )}
+        </ul>
       </TableCell>
       <TableCell>
         {formatKr(invoice.remaining)} left · {formatDays(invoice.daysOverdue)}
