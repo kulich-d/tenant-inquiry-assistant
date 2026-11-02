@@ -6,7 +6,8 @@
  * - Overpaid → not listed.
  * - Partly paid → listed as partial with the remaining amount and its payments.
  * - Nothing paid → listed as late.
- * - A payment without an invoice number (invoice_id = null) is ignored.
+ * - A payment without an invoice number counts only if its reference is the tenant's full name
+ *   (then it is tagged "name"); any other unlinked payment is ignored.
  * - Not yet due, or due today → not open.
  * - Grace period boundary: 7 days overdue with grace 7 → not late; 8 days → late; grace 0 → late from day 1.
  * - Two invoices for the same month (duplicate) → both counted (documents current behaviour).
@@ -70,7 +71,7 @@ describe("computeOpenInvoices", () => {
         remaining: 3600,
         status: "partial",
         daysOverdue: 12,
-        payments: [{ paymentId: half.id, bookedAt: "2026-09-30", amount: 3600 }],
+        payments: [{ paymentId: half.id, bookedAt: "2026-09-30", amount: 3600, reference: "INV-1", matchedBy: "invoice" }],
       }),
     ]);
   });
@@ -81,10 +82,26 @@ describe("computeOpenInvoices", () => {
     ]);
   });
 
-  it("ignores payments without an invoice number", () => {
+  it("ignores payments without an invoice number that aren't the tenant's full name", () => {
     const [open] = computeOpenInvoices([invoice("INV-1")], [payment(null, 7200)], AS_OF);
 
     expect(open?.status).toBe("unpaid");
+  });
+
+  it("counts a payment whose reference is the tenant's full name, like one with an invoice number", () => {
+    const byName: Payment = { id: "PAY-NAME", bookedAt: "2026-10-01", amount: 7200, reference: "Sara Andersen", invoiceId: null };
+
+    expect(computeOpenInvoices([invoice("INV-1")], [byName], AS_OF)).toEqual([]);
+  });
+
+  it("shows a partial payment matched by name, tagged as such", () => {
+    const byName: Payment = { id: "PAY-NAME", bookedAt: "2026-10-01", amount: 3600, reference: "Sara Andersen", invoiceId: null };
+
+    const [open] = computeOpenInvoices([invoice("INV-1")], [byName], AS_OF);
+
+    expect(open?.payments).toEqual([
+      { paymentId: "PAY-NAME", bookedAt: "2026-10-01", amount: 3600, reference: "Sara Andersen", matchedBy: "name" },
+    ]);
   });
 
   it("lists payments oldest first", () => {

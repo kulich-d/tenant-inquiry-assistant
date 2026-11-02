@@ -31,6 +31,7 @@ export function InvoiceRow({ invoice, contact, onToggle }: Props) {
             invoice.payments.map((p) => (
               <li key={p.paymentId}>
                 {formatDayMonth(p.bookedAt)} · {formatKr(p.amount)}
+                {p.matchedBy === "name" && <span className="italic"> · matched by name “{p.reference}”</span>}
               </li>
             ))
           )}

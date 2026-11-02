@@ -31,6 +31,9 @@ export type InvoicePayment = {
   paymentId: string;
   bookedAt: IsoDate;
   amount: number;
+  reference: string;
+  /** "invoice": the tenant typed the invoice number. "name": the reference was exactly their full name. */
+  matchedBy: "invoice" | "name";
 };
 
 export type OverdueInvoice = {

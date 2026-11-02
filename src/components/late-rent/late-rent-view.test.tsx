@@ -31,7 +31,7 @@ describe("LateRentView", () => {
     renderView();
 
     expect(screen.getByLabelText("Late after")).toHaveValue(7);
-    expect(screen.getByText("3 tenants · 41.550 kr outstanding")).toBeInTheDocument();
+    expect(screen.getByText("3 tenants · 38.075 kr outstanding")).toBeInTheDocument();
     expect(listed("Line Bach")).toBeInTheDocument();
     expect(listed("Sara Andersen")).not.toBeInTheDocument();
   });
@@ -44,7 +44,7 @@ describe("LateRentView", () => {
 
     expect(listed("Line Bach")).not.toBeInTheDocument();
     expect(listed("Rasmus Pedersen")).toBeInTheDocument(); // August is still 73 days late
-    expect(screen.getByText("2 tenants · 18.750 kr outstanding")).toBeInTheDocument();
+    expect(screen.getByText("2 tenants · 15.275 kr outstanding")).toBeInTheDocument();
 
     await user.clear(input);
     await user.type(input, "3");

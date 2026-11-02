@@ -3,7 +3,8 @@
  *
  * Scenarios:
  * - Every late tenant is listed with their contact status (Nobody yet / 1 of 2 invoices).
- * - Expand a tenant → each overdue invoice shows its payments, or "No payments".
+ * - Expand a tenant → each overdue invoice shows its payments, or "No payments"; a payment matched
+ *   by full name is labelled "matched by name".
  * - Tick an invoice → "Sarah · 2 Nov" shows at once, before the server answers; the server is asked to store it.
  * - The save fails → the tick rolls back and an error is shown.
  * - Jonas already marked it (Sarah's page was stale) → his mark is shown and Sarah is told; nothing is overwritten.
@@ -97,6 +98,8 @@ describe("LateRentTable", () => {
 
     const september = screen.getByRole("list", { name: "Payments for Sept 2026" });
     expect(within(september).getByText("31 Aug · 6.950 kr")).toBeInTheDocument();
+    const byName = within(september).getByText("15 Sept · 3.475 kr").closest("li");
+    expect(byName).toHaveTextContent("matched by name “Clara Nielsen”");
     const october = screen.getByRole("list", { name: "Payments for Oct 2026" });
     expect(within(october).getByText("No payments")).toBeInTheDocument();
   });

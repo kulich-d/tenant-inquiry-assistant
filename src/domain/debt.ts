@@ -1,4 +1,5 @@
 import { daysBetween } from "./dates";
+import { matchPaymentsByFullName } from "./matching";
 import type {
   Invoice,
   InvoicePayment,
@@ -26,14 +27,25 @@ export function latestBookingDate(payments: readonly Payment[]): IsoDate {
   return payments.reduce((max, p) => (p.bookedAt > max ? p.bookedAt : max), first.bookedAt);
 }
 
-/** Payments per invoice, oldest first. Unlinked payments (`invoiceId = null`) are out of scope for v1. */
-function paymentsByInvoice(payments: readonly Payment[]): Map<string, InvoicePayment[]> {
+/**
+ * Payments per invoice, oldest first: those with an invoice number, plus those whose reference is
+ * exactly the tenant's full name. Other unlinked payments are guesses and are not counted.
+ */
+function paymentsByInvoice(invoices: readonly Invoice[], payments: readonly Payment[]): Map<string, InvoicePayment[]> {
+  const nameMatches = matchPaymentsByFullName(invoices, payments);
   const byInvoice = new Map<string, InvoicePayment[]>();
   for (const p of payments) {
-    if (p.invoiceId === null) continue;
-    const list = byInvoice.get(p.invoiceId) ?? [];
-    list.push({ paymentId: p.id, bookedAt: p.bookedAt, amount: p.amount });
-    byInvoice.set(p.invoiceId, list);
+    const invoiceId = p.invoiceId ?? nameMatches.get(p.id);
+    if (invoiceId === undefined) continue;
+    const list = byInvoice.get(invoiceId) ?? [];
+    list.push({
+      paymentId: p.id,
+      bookedAt: p.bookedAt,
+      amount: p.amount,
+      reference: p.reference,
+      matchedBy: p.invoiceId === null ? "name" : "invoice",
+    });
+    byInvoice.set(invoiceId, list);
   }
   for (const list of byInvoice.values()) list.sort((a, b) => a.bookedAt.localeCompare(b.bookedAt));
   return byInvoice;
@@ -48,7 +60,7 @@ export function computeOpenInvoices(
   payments: readonly Payment[],
   asOf: IsoDate,
 ): OpenInvoice[] {
-  const byInvoice = paymentsByInvoice(payments);
+  const byInvoice = paymentsByInvoice(invoices, payments);
   const open: OpenInvoice[] = [];
 
   for (const invoice of invoices) {

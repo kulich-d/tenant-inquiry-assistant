@@ -3,7 +3,7 @@ import type { Invoice, LedgerSnapshot, Payment } from "@/domain/types";
 
 // A slice of the real dataset, small enough to reason about in UI tests. As of 2026-10-13:
 // - Rasmus Pedersen: Aug + Oct unpaid (73 and 12 days)
-// - Clara Nielsen: Sep half paid (42 days)
+// - Clara Nielsen: Sep half paid by invoice number, then 3.475 kr by full name (42 days)
 // - Line Bach: Oct unpaid (12 days)
 // - Sara Andersen: Oct paid in full — never listed
 
@@ -28,6 +28,7 @@ const INVOICES: Invoice[] = [
 
 const PAYMENTS: Payment[] = [
   { id: "PAY-1", bookedAt: "2026-08-31", amount: 6950, reference: "INV-0203", invoiceId: "INV-0203" },
+  { id: "PAY-3", bookedAt: "2026-09-15", amount: 3475, reference: "Clara Nielsen", invoiceId: null },
   { id: "PAY-2", bookedAt: AS_OF, amount: 12500, reference: "INV-0012", invoiceId: "INV-0012" },
 ];
 
