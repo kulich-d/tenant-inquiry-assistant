@@ -32,6 +32,12 @@ export function InvoiceRow({ invoice, contact, onToggle }: Props) {
               <li key={p.paymentId}>
                 {formatDayMonth(p.bookedAt)} · {formatKr(p.amount)}
                 {p.matchedBy === "name" && <span className="italic"> · matched by name “{p.reference}”</span>}
+                {p.matchedBy === "confirmed" && (
+                  <span className="italic">
+                    {" "}
+                    · confirmed by {p.confirmedBy} “{p.reference}”
+                  </span>
+                )}
               </li>
             ))
           )}

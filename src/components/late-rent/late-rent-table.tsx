@@ -17,9 +17,11 @@ type Props = {
   debts: TenantDebt[];
   /** Emailed marks as stored on the server. */
   contacts: ContactsByInvoice;
+  /** tenantId → unconfirmed payments they might have sent. */
+  paymentsToReview?: Readonly<Record<string, number>>;
 };
 
-export function LateRentTable({ debts, contacts: serverContacts }: Props) {
+export function LateRentTable({ debts, contacts: serverContacts, paymentsToReview = {} }: Props) {
   const [user] = useCurrentUser();
   const { contacts, setEmailed, notice, dismissNotice } = useEmailedMarks(serverContacts, user);
   const [expanded, setExpanded] = useState<ReadonlySet<string>>(() => new Set());
@@ -77,6 +79,7 @@ export function LateRentTable({ debts, contacts: serverContacts }: Props) {
               onExpandedChange={toggleExpanded}
               onToggleContact={toggleContact}
               onMarkAll={markAll}
+              paymentsToReview={paymentsToReview[debt.tenantId] ?? 0}
             />
           ))}
         </TableBody>

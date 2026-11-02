@@ -54,3 +54,8 @@ export const useCurrentUser = createPersistedValue<TeamMember>("late-rent:user",
 
 /** Days after the due date that don't count as late. Remembered per browser. */
 export const useGraceDays = createPersistedValue<number>("late-rent:grace-days", DEFAULT_GRACE_DAYS, parseGraceDays);
+
+/** Whether "Payments to review" is open or collapsed. Remembered per browser. */
+export const useReviewPanelOpen = createPersistedValue<"open" | "collapsed">("late-rent:review-panel", "open", (raw) =>
+  raw === "open" || raw === "collapsed" ? raw : null,
+);

@@ -8,6 +8,8 @@
  * - The chosen grace period is remembered after a reload.
  * - An invalid value (over 60) shows an error and keeps the current list.
  * - The as-of date of the bank data is shown.
+ * - A payment signed "husleje bach" is up for review: the panel shows it, and Line Bach's row warns
+ *   "Possibly paid · 1 to review" before anyone emails her.
  */
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
@@ -17,7 +19,12 @@ import { TEST_SNAPSHOT } from "@/test/ledgerFixture";
 
 import { LateRentView } from "./late-rent-view";
 
-vi.mock("@/app/actions", () => ({ markEmailedAction: vi.fn(), unmarkEmailedAction: vi.fn() }));
+vi.mock("@/app/actions", () => ({
+  markEmailedAction: vi.fn(),
+  unmarkEmailedAction: vi.fn(),
+  confirmRuleAction: vi.fn(),
+  undoRuleAction: vi.fn(),
+}));
 
 function renderView() {
   const result = render(<LateRentView snapshot={TEST_SNAPSHOT} contacts={{}} />);
@@ -81,5 +88,14 @@ describe("LateRentView", () => {
     renderView();
 
     expect(screen.getByText("Bank data as of 13 Oct 2026")).toBeInTheDocument();
+  });
+
+  it("shows payments to review and warns on the tenant who might have sent them", () => {
+    renderView();
+
+    expect(screen.getByRole("region", { name: /Payments to review/ })).toHaveTextContent("“husleje bach” · 11.000 kr");
+    const row = (name: string) => screen.getByRole("button", { name: `Show invoices for ${name}` }).closest("tr");
+    expect(row("Line Bach")).toHaveTextContent("Possibly paid · 1 to review");
+    expect(row("Rasmus Pedersen")).not.toHaveTextContent("Possibly paid");
   });
 });

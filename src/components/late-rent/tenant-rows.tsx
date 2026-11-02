@@ -20,9 +20,19 @@ type Props = {
   onExpandedChange: (tenantId: string) => void;
   onToggleContact: (invoiceId: string, emailed: boolean) => void;
   onMarkAll: (invoiceIds: string[]) => void;
+  /** Unconfirmed payments this tenant might have sent — a reason to check before emailing. */
+  paymentsToReview: number;
 };
 
-export function TenantRows({ debt, contacts, expanded, onExpandedChange, onToggleContact, onMarkAll }: Props) {
+export function TenantRows({
+  debt,
+  contacts,
+  expanded,
+  onExpandedChange,
+  onToggleContact,
+  onMarkAll,
+  paymentsToReview,
+}: Props) {
   const invoiceIds = debt.invoices.map((i) => i.invoiceId);
   const summary = summarizeContacts(invoiceIds, contacts);
   const notEmailed = invoiceIds.filter((id) => !contacts[id]);
@@ -52,6 +62,11 @@ export function TenantRows({ debt, contacts, expanded, onExpandedChange, onToggl
         <TableCell className="text-muted-foreground">{debt.address}</TableCell>
         <TableCell>
           <StatusBadge status={debt.status} days={debt.maxDaysOverdue} />
+          {paymentsToReview > 0 && (
+            <div className="mt-1 text-xs text-amber-700 dark:text-amber-400">
+              Possibly paid · {paymentsToReview} to review
+            </div>
+          )}
         </TableCell>
         <TableCell>
           <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1">

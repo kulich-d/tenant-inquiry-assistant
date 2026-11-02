@@ -1,10 +1,10 @@
-import { computeOpenInvoices } from "@/domain/debt";
-import type { Invoice, LedgerSnapshot, Payment } from "@/domain/types";
+import { buildLedgerSnapshot } from "@/domain/ledger";
+import type { Invoice, LedgerData, Payment } from "@/domain/types";
 
 // A slice of the real dataset, small enough to reason about in UI tests. As of 2026-10-13:
 // - Rasmus Pedersen: Aug + Oct unpaid (73 and 12 days)
 // - Clara Nielsen: Sep half paid by invoice number, then 3.475 kr by full name (42 days)
-// - Line Bach: Oct unpaid (12 days)
+// - Line Bach: Oct unpaid (12 days); a payment signed "husleje bach" waits for review
 // - Sara Andersen: Oct paid in full — never listed
 
 const AS_OF = "2026-10-13";
@@ -29,11 +29,10 @@ const INVOICES: Invoice[] = [
 const PAYMENTS: Payment[] = [
   { id: "PAY-1", bookedAt: "2026-08-31", amount: 6950, reference: "INV-0203", invoiceId: "INV-0203" },
   { id: "PAY-3", bookedAt: "2026-09-15", amount: 3475, reference: "Clara Nielsen", invoiceId: null },
+  { id: "PAY-4", bookedAt: "2026-10-02", amount: 11000, reference: "husleje bach", invoiceId: null },
   { id: "PAY-2", bookedAt: AS_OF, amount: 12500, reference: "INV-0012", invoiceId: "INV-0012" },
 ];
 
-export const TEST_SNAPSHOT: LedgerSnapshot = {
-  asOf: AS_OF,
-  tenantCount: new Set(INVOICES.map((i) => i.tenantId)).size,
-  openInvoices: computeOpenInvoices(INVOICES, PAYMENTS, AS_OF),
-};
+export const TEST_LEDGER: LedgerData = { invoices: INVOICES, payments: PAYMENTS };
+
+export const TEST_SNAPSHOT = buildLedgerSnapshot(TEST_LEDGER, []);

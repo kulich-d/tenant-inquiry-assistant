@@ -1,5 +1,5 @@
 import { daysBetween } from "./dates";
-import { matchPaymentsByFullName } from "./matching";
+import { matchUnlinkedPayments } from "./matching";
 import type {
   Invoice,
   InvoicePayment,
@@ -7,6 +7,7 @@ import type {
   OpenInvoice,
   OverdueInvoice,
   Payment,
+  PaymentRule,
   TenantDebt,
 } from "./types";
 
@@ -28,14 +29,19 @@ export function latestBookingDate(payments: readonly Payment[]): IsoDate {
 }
 
 /**
- * Payments per invoice, oldest first: those with an invoice number, plus those whose reference is
- * exactly the tenant's full name. Other unlinked payments are guesses and are not counted.
+ * Payments per invoice, oldest first: those with an invoice number, those whose reference is exactly
+ * the tenant's full name, and those covered by a confirmed rule. Other unlinked payments are not counted.
  */
-function paymentsByInvoice(invoices: readonly Invoice[], payments: readonly Payment[]): Map<string, InvoicePayment[]> {
-  const nameMatches = matchPaymentsByFullName(invoices, payments);
+function paymentsByInvoice(
+  invoices: readonly Invoice[],
+  payments: readonly Payment[],
+  rules: readonly PaymentRule[],
+): Map<string, InvoicePayment[]> {
+  const unlinked = matchUnlinkedPayments(invoices, payments, rules);
   const byInvoice = new Map<string, InvoicePayment[]>();
   for (const p of payments) {
-    const invoiceId = p.invoiceId ?? nameMatches.get(p.id);
+    const match = p.invoiceId === null ? unlinked.get(p.id) : undefined;
+    const invoiceId = p.invoiceId ?? match?.invoiceId;
     if (invoiceId === undefined) continue;
     const list = byInvoice.get(invoiceId) ?? [];
     list.push({
@@ -43,7 +49,8 @@ function paymentsByInvoice(invoices: readonly Invoice[], payments: readonly Paym
       bookedAt: p.bookedAt,
       amount: p.amount,
       reference: p.reference,
-      matchedBy: p.invoiceId === null ? "name" : "invoice",
+      matchedBy: match?.matchedBy ?? "invoice",
+      ...(match?.matchedBy === "confirmed" && { confirmedBy: match.confirmedBy }),
     });
     byInvoice.set(invoiceId, list);
   }
@@ -59,8 +66,9 @@ export function computeOpenInvoices(
   invoices: readonly Invoice[],
   payments: readonly Payment[],
   asOf: IsoDate,
+  rules: readonly PaymentRule[] = [],
 ): OpenInvoice[] {
-  const byInvoice = paymentsByInvoice(invoices, payments);
+  const byInvoice = paymentsByInvoice(invoices, payments, rules);
   const open: OpenInvoice[] = [];
 
   for (const invoice of invoices) {

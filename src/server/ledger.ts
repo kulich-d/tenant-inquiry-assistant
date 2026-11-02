@@ -5,8 +5,7 @@ import { z } from "zod";
 
 import invoicesJson from "../../data/invoices.json";
 import paymentsJson from "../../data/payments.json";
-import { computeOpenInvoices, latestBookingDate } from "@/domain/debt";
-import type { Invoice, LedgerSnapshot, Payment } from "@/domain/types";
+import type { Invoice, LedgerData, Payment } from "@/domain/types";
 
 // Parse at the boundary: the raw exports are snake_case and untrusted.
 
@@ -55,20 +54,15 @@ const paymentSchema = z
   );
 
 /**
- * Open invoices as of the latest bank booking. Only this goes to the browser —
- * the grace period is applied there so Sarah can change it instantly.
- * Cached: the exports are static files, so this runs once, not per request.
+ * The parsed exports. Cached: they are static files, so parsing runs once, not per request.
+ * Matching depends on confirmed rules, so it happens per request in `buildLedgerSnapshot`.
  */
-export async function getLedgerSnapshot(): Promise<LedgerSnapshot> {
+export async function getLedgerData(): Promise<LedgerData> {
   "use cache";
   cacheLife("max");
 
-  const invoices = z.array(invoiceSchema).parse(invoicesJson);
-  const payments = z.array(paymentSchema).parse(paymentsJson);
-  const asOf = latestBookingDate(payments);
   return {
-    asOf,
-    tenantCount: new Set(invoices.map((i) => i.tenantId)).size,
-    openInvoices: computeOpenInvoices(invoices, payments, asOf),
+    invoices: z.array(invoiceSchema).parse(invoicesJson),
+    payments: z.array(paymentSchema).parse(paymentsJson),
   };
 }

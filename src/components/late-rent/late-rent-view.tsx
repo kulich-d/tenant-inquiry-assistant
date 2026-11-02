@@ -4,11 +4,12 @@ import { useMemo } from "react";
 
 import type { ContactsByInvoice } from "@/domain/contacts";
 import { groupLateTenants } from "@/domain/debt";
-import type { LedgerSnapshot } from "@/domain/types";
+import type { LedgerSnapshot, PaymentSuggestion } from "@/domain/types";
 import { formatDate, formatKr } from "@/lib/format";
 
 import { GracePeriodInput } from "./grace-period-input";
 import { LateRentTable } from "./late-rent-table";
+import { ReviewPanel } from "./review-panel";
 import { useGraceDays } from "./stores";
 import { UserSwitcher } from "./user-switcher";
 
@@ -24,6 +25,7 @@ export function LateRentView({ snapshot, contacts }: Props) {
     [snapshot.openInvoices, graceDays],
   );
   const totalOwed = tenants.reduce((sum, t) => sum + t.totalRemaining, 0);
+  const paymentsToReview = useMemo(() => countPaymentsToReview(snapshot.suggestions), [snapshot.suggestions]);
 
   return (
     <>
@@ -40,7 +42,17 @@ export function LateRentView({ snapshot, contacts }: Props) {
           <UserSwitcher />
         </div>
       </header>
-      <LateRentTable debts={tenants} contacts={contacts} />
+      <ReviewPanel suggestions={snapshot.suggestions} rules={snapshot.rules} />
+      <LateRentTable debts={tenants} contacts={contacts} paymentsToReview={paymentsToReview} />
     </>
   );
+}
+
+/** tenantId → how many unconfirmed payments they might have sent. */
+function countPaymentsToReview(suggestions: readonly PaymentSuggestion[]): Record<string, number> {
+  const counts: Record<string, number> = {};
+  for (const s of suggestions) {
+    for (const c of s.candidates) counts[c.tenantId] = (counts[c.tenantId] ?? 0) + s.payments.length;
+  }
+  return counts;
 }

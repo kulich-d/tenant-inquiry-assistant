@@ -26,7 +26,12 @@ import { TEST_SNAPSHOT } from "@/test/ledgerFixture";
 
 import { LateRentTable } from "./late-rent-table";
 
-vi.mock("@/app/actions", () => ({ markEmailedAction: vi.fn(), unmarkEmailedAction: vi.fn() }));
+vi.mock("@/app/actions", () => ({
+  markEmailedAction: vi.fn(),
+  unmarkEmailedAction: vi.fn(),
+  confirmRuleAction: vi.fn(),
+  undoRuleAction: vi.fn(),
+}));
 
 const NOW = new Date("2026-11-02T09:30:00.000Z");
 const DEBTS = groupLateTenants(TEST_SNAPSHOT.openInvoices, 7);
