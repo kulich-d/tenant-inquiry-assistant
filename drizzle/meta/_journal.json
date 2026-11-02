@@ -15,6 +15,13 @@
       "when": 1793628627071,
       "tag": "0001_create_payment_rules",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1793630100218,
+      "tag": "0002_rename_contacts_to_emailed_marks",
+      "breakpoints": true
     }
   ]
 }

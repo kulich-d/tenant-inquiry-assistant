@@ -3,12 +3,13 @@
 import { startTransition, useCallback, useOptimistic, useState } from "react";
 
 import { markEmailedAction, unmarkEmailedAction } from "@/app/actions";
-import { applyContactChange, type Contact, type ContactsByInvoice, type TeamMember } from "@/domain/contacts";
+import { applyEmailedMarkChange, type EmailedMark, type EmailedMarksByInvoice } from "@/domain/emailed-marks";
+import type { TeamMember } from "@/domain/team";
 import { formatDayMonth } from "@/lib/format";
 
 export type Notice = { kind: "error" | "info"; message: string };
 
-function describeAlreadyMarked(marks: readonly Contact[]): string {
+function describeAlreadyMarked(marks: readonly EmailedMark[]): string {
   const [first] = marks;
   if (!first) return "";
   const what = marks.length === 1 ? "this invoice" : `${marks.length} of these invoices`;
@@ -17,10 +18,10 @@ function describeAlreadyMarked(marks: readonly Contact[]): string {
 
 /**
  * Emailed marks with optimistic updates: a tick shows at once, the server confirms
- * (and `refresh()` brings the stored state back as `serverContacts`), and a failed save rolls back.
+ * (and `refresh()` brings the stored state back as `serverMarks`), and a failed save rolls back.
  */
-export function useEmailedMarks(serverContacts: ContactsByInvoice, user: TeamMember) {
-  const [contacts, applyOptimistic] = useOptimistic(serverContacts, applyContactChange);
+export function useEmailedMarks(serverMarks: EmailedMarksByInvoice, user: TeamMember) {
+  const [marks, applyOptimistic] = useOptimistic(serverMarks, applyEmailedMarkChange);
   const [notice, setNotice] = useState<Notice | null>(null);
 
   const setEmailed = useCallback(
@@ -47,5 +48,5 @@ export function useEmailedMarks(serverContacts: ContactsByInvoice, user: TeamMem
 
   const dismissNotice = useCallback(() => setNotice(null), []);
 
-  return { contacts, setEmailed, notice, dismissNotice };
+  return { marks, setEmailed, notice, dismissNotice };
 }

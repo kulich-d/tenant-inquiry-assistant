@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 
-import type { ContactsByInvoice } from "@/domain/contacts";
+import type { EmailedMarksByInvoice } from "@/domain/emailed-marks";
 import { groupLateTenants } from "@/domain/debt";
 import type { LedgerSnapshot, PaymentSuggestion } from "@/domain/types";
 import { formatDate, formatKr } from "@/lib/format";
@@ -15,10 +15,10 @@ import { UserSwitcher } from "./user-switcher";
 
 type Props = {
   snapshot: LedgerSnapshot;
-  contacts: ContactsByInvoice;
+  marks: EmailedMarksByInvoice;
 };
 
-export function LateRentView({ snapshot, contacts }: Props) {
+export function LateRentView({ snapshot, marks }: Props) {
   const [graceDays] = useGraceDays();
   const tenants = useMemo(
     () => groupLateTenants(snapshot.openInvoices, graceDays),
@@ -43,7 +43,7 @@ export function LateRentView({ snapshot, contacts }: Props) {
         </div>
       </header>
       <ReviewPanel suggestions={snapshot.suggestions} rules={snapshot.rules} />
-      <LateRentTable debts={tenants} contacts={contacts} paymentsToReview={paymentsToReview} />
+      <LateRentTable debts={tenants} marks={marks} paymentsToReview={paymentsToReview} />
     </>
   );
 }

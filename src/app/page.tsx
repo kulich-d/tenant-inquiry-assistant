@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import { AutoRefresh } from "@/components/late-rent/auto-refresh";
 import { LateRentView } from "@/components/late-rent/late-rent-view";
 import { buildLedgerSnapshot } from "@/domain/ledger";
-import { listContacts } from "@/server/contacts";
+import { listEmailedMarks } from "@/server/emailed-marks";
 import { getDb } from "@/server/db/client";
 import { getLedgerData } from "@/server/ledger";
 import { listRules } from "@/server/rules";
@@ -27,6 +27,6 @@ export default function LateRentPage() {
 async function LateRent() {
   await connection();
   const db = await getDb();
-  const [data, contacts, rules] = await Promise.all([getLedgerData(), listContacts(db), listRules(db)]);
-  return <LateRentView snapshot={buildLedgerSnapshot(data, rules)} contacts={contacts} />;
+  const [data, marks, rules] = await Promise.all([getLedgerData(), listEmailedMarks(db), listRules(db)]);
+  return <LateRentView snapshot={buildLedgerSnapshot(data, rules)} marks={marks} />;
 }

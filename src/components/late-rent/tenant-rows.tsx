@@ -4,21 +4,21 @@ import { ChevronRightIcon } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { TableCell, TableRow } from "@/components/ui/table";
-import { summarizeContacts, type ContactsByInvoice } from "@/domain/contacts";
+import { summarizeEmailedMarks, type EmailedMarksByInvoice } from "@/domain/emailed-marks";
 import type { TenantDebt } from "@/domain/types";
 import { formatKr } from "@/lib/format";
 import { cn } from "@/lib/utils";
 
-import { ContactSummary } from "./contact-summary";
+import { EmailedSummary } from "./emailed-summary";
 import { InvoiceRow } from "./invoice-row";
 import { StatusBadge } from "./status-badge";
 
 type Props = {
   debt: TenantDebt;
-  contacts: ContactsByInvoice;
+  marks: EmailedMarksByInvoice;
   expanded: boolean;
   onExpandedChange: (tenantId: string) => void;
-  onToggleContact: (invoiceId: string, emailed: boolean) => void;
+  onToggleEmailed: (invoiceId: string, emailed: boolean) => void;
   onMarkAll: (invoiceIds: string[]) => void;
   /** Unconfirmed payments this tenant might have sent — a reason to check before emailing. */
   paymentsToReview: number;
@@ -26,16 +26,16 @@ type Props = {
 
 export function TenantRows({
   debt,
-  contacts,
+  marks,
   expanded,
   onExpandedChange,
-  onToggleContact,
+  onToggleEmailed,
   onMarkAll,
   paymentsToReview,
 }: Props) {
   const invoiceIds = debt.invoices.map((i) => i.invoiceId);
-  const summary = summarizeContacts(invoiceIds, contacts);
-  const notEmailed = invoiceIds.filter((id) => !contacts[id]);
+  const summary = summarizeEmailedMarks(invoiceIds, marks);
+  const notEmailed = invoiceIds.filter((id) => !marks[id]);
   const toggle = () => onExpandedChange(debt.tenantId);
 
   return (
@@ -70,7 +70,7 @@ export function TenantRows({
         </TableCell>
         <TableCell>
           <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
-            <ContactSummary summary={summary} />
+            <EmailedSummary summary={summary} />
             {notEmailed.length > 0 && (
               <Button
                 variant="outline"
@@ -92,8 +92,8 @@ export function TenantRows({
           <InvoiceRow
             key={invoice.invoiceId}
             invoice={invoice}
-            contact={contacts[invoice.invoiceId]}
-            onToggle={onToggleContact}
+            mark={marks[invoice.invoiceId]}
+            onToggle={onToggleEmailed}
           />
         ))}
     </>

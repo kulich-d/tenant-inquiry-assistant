@@ -15,7 +15,7 @@
 import { refresh } from "next/cache";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-import { listContacts } from "@/server/contacts";
+import { listEmailedMarks } from "@/server/emailed-marks";
 import { listRules } from "@/server/rules";
 import { createDb, migrateDb, type Db } from "@/server/db";
 import { getDb } from "@/server/db/client";
@@ -63,14 +63,14 @@ describe("markEmailedAction", () => {
 
   it.each([
     ["an unknown team member", { invoiceIds: ["INV-0685"], sentBy: "Eve" }],
-    ["a malformed invoice id", { invoiceIds: ["'; DROP TABLE contacts"], sentBy: "Sarah" }],
+    ["a malformed invoice id", { invoiceIds: ["'; DROP TABLE emailed_marks"], sentBy: "Sarah" }],
     ["no invoices", { invoiceIds: [], sentBy: "Sarah" }],
   ])("rejects %s without writing", async (_, input) => {
     // Simulates a hand-crafted POST: the types don't stop it at runtime.
     const result = await markEmailedAction(input as Parameters<typeof markEmailedAction>[0]);
 
     expect(result).toEqual({ ok: false, error: "Invalid request." });
-    expect(await listContacts(db)).toEqual({});
+    expect(await listEmailedMarks(db)).toEqual({});
     expect(refresh).not.toHaveBeenCalled();
   });
 
@@ -91,7 +91,7 @@ describe("unmarkEmailedAction", () => {
     const result = await unmarkEmailedAction({ invoiceId: "INV-0685" });
 
     expect(result).toEqual({ ok: true });
-    expect(await listContacts(db)).toEqual({});
+    expect(await listEmailedMarks(db)).toEqual({});
     expect(refresh).toHaveBeenCalledOnce();
   });
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { isTeamMember, TEAM } from "@/domain/contacts";
+import { isTeamMember, TEAM } from "@/domain/team";
 
 import { useCurrentUser } from "./stores";
 

@@ -1,6 +1,6 @@
 import { and, eq } from "drizzle-orm";
 
-import type { TeamMember } from "@/domain/contacts";
+import type { TeamMember } from "@/domain/team";
 import type { PaymentRule } from "@/domain/types";
 
 import type { Db } from "./db";

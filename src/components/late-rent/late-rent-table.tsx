@@ -3,7 +3,7 @@
 import { useCallback, useMemo, useState } from "react";
 
 import { Table, TableBody, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import type { ContactsByInvoice } from "@/domain/contacts";
+import type { EmailedMarksByInvoice } from "@/domain/emailed-marks";
 import { sortByDaysOverdue, type SortDirection } from "@/domain/sort";
 import type { TenantDebt } from "@/domain/types";
 
@@ -16,14 +16,14 @@ import { useEmailedMarks } from "./use-emailed-marks";
 type Props = {
   debts: TenantDebt[];
   /** Emailed marks as stored on the server. */
-  contacts: ContactsByInvoice;
+  marks: EmailedMarksByInvoice;
   /** tenantId → unconfirmed payments they might have sent. */
   paymentsToReview?: Readonly<Record<string, number>>;
 };
 
-export function LateRentTable({ debts, contacts: serverContacts, paymentsToReview = {} }: Props) {
+export function LateRentTable({ debts, marks: serverMarks, paymentsToReview = {} }: Props) {
   const [user] = useCurrentUser();
-  const { contacts, setEmailed, notice, dismissNotice } = useEmailedMarks(serverContacts, user);
+  const { marks, setEmailed, notice, dismissNotice } = useEmailedMarks(serverMarks, user);
   const [expanded, setExpanded] = useState<ReadonlySet<string>>(() => new Set());
   const [direction, setDirection] = useState<SortDirection>("desc");
   const sorted = useMemo(() => sortByDaysOverdue(debts, direction), [debts, direction]);
@@ -37,7 +37,7 @@ export function LateRentTable({ debts, contacts: serverContacts, paymentsToRevie
     });
   }, []);
 
-  const toggleContact = useCallback(
+  const toggleEmailed = useCallback(
     (invoiceId: string, emailed: boolean) => setEmailed([invoiceId], emailed),
     [setEmailed],
   );
@@ -74,10 +74,10 @@ export function LateRentTable({ debts, contacts: serverContacts, paymentsToRevie
             <TenantRows
               key={debt.tenantId}
               debt={debt}
-              contacts={contacts}
+              marks={marks}
               expanded={expanded.has(debt.tenantId)}
               onExpandedChange={toggleExpanded}
-              onToggleContact={toggleContact}
+              onToggleEmailed={toggleEmailed}
               onMarkAll={markAll}
               paymentsToReview={paymentsToReview[debt.tenantId] ?? 0}
             />

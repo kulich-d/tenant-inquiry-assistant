@@ -1,14 +1,14 @@
-import type { ContactSummary as Summary } from "@/domain/contacts";
+import type { EmailedSummary as Summary } from "@/domain/emailed-marks";
 import { formatDayMonth } from "@/lib/format";
 
-export function ContactSummary({ summary }: { summary: Summary }) {
+export function EmailedSummary({ summary }: { summary: Summary }) {
   switch (summary.kind) {
     case "none":
       return <span className="font-medium text-destructive">Nobody yet</span>;
     case "some":
       return (
         <span className="text-amber-700 dark:text-amber-400">
-          {summary.contacted} of {summary.total} invoices
+          {summary.emailed} of {summary.total} invoices
         </span>
       );
     case "all": {

@@ -2,7 +2,7 @@
 
 import { useSyncExternalStore } from "react";
 
-import { isTeamMember, TEAM, type TeamMember } from "@/domain/contacts";
+import { isTeamMember, TEAM, type TeamMember } from "@/domain/team";
 import { DEFAULT_GRACE_DAYS, parseGraceDays } from "@/domain/debt";
 
 // Per-browser preferences. Shared data (emailed marks) lives on the server.

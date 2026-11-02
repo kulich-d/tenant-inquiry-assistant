@@ -2,7 +2,7 @@
  * Late rent table — Sarah's flow, driven through the UI like a user, against a fake server.
  *
  * Scenarios:
- * - Every late tenant is listed with their contact status (Nobody yet / 1 of 2 invoices).
+ * - Every late tenant is listed with their emailed status (Nobody yet / 1 of 2 invoices).
  * - Expand a tenant → each overdue invoice shows its payments, or "No payments"; a payment matched
  *   by full name is labelled "matched by name".
  * - Tick an invoice → "Sarah · 2 Nov" shows at once, before the server answers; the server is asked to store it.
@@ -20,7 +20,7 @@ import { useEffect, useState } from "react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import { markEmailedAction, unmarkEmailedAction, type MarkEmailedResult } from "@/app/actions";
-import { applyContactChange, type ContactsByInvoice } from "@/domain/contacts";
+import { applyEmailedMarkChange, type EmailedMarksByInvoice } from "@/domain/emailed-marks";
 import { groupLateTenants } from "@/domain/debt";
 import { TEST_SNAPSHOT } from "@/test/ledgerFixture";
 
@@ -39,18 +39,18 @@ const JONAS_AUG = { invoiceId: "INV-0683", sentBy: "Jonas", sentAt: "2026-08-12T
 
 // --- Fake server: actions write here; the harness re-renders with it, like `refresh()` does. ---
 
-let server: ContactsByInvoice;
+let server: EmailedMarksByInvoice;
 let syncFromServer: () => void = () => {};
 
-function Harness({ initial }: { initial: ContactsByInvoice }) {
-  const [contacts, setContacts] = useState(initial);
+function Harness({ initial }: { initial: EmailedMarksByInvoice }) {
+  const [marks, setMarks] = useState(initial);
   useEffect(() => {
-    syncFromServer = () => setContacts(server);
+    syncFromServer = () => setMarks(server);
   }, []);
-  return <LateRentTable debts={DEBTS} contacts={contacts} />;
+  return <LateRentTable debts={DEBTS} marks={marks} />;
 }
 
-function renderTable({ page = server }: { page?: ContactsByInvoice } = {}) {
+function renderTable({ page = server }: { page?: EmailedMarksByInvoice } = {}) {
   render(<Harness initial={page} />);
   return userEvent.setup();
 }
@@ -62,12 +62,12 @@ beforeEach(() => {
 
   vi.mocked(markEmailedAction).mockImplementation(async ({ invoiceIds, sentBy }) => {
     const alreadyMarked = invoiceIds.flatMap((id) => server[id] ?? []);
-    server = applyContactChange(server, { type: "mark", invoiceIds, sentBy, sentAt: NOW.toISOString() });
+    server = applyEmailedMarkChange(server, { type: "mark", invoiceIds, sentBy, sentAt: NOW.toISOString() });
     syncFromServer();
     return { ok: true, stored: invoiceIds.map((id) => server[id]!), alreadyMarked };
   });
   vi.mocked(unmarkEmailedAction).mockImplementation(async ({ invoiceId }) => {
-    server = applyContactChange(server, { type: "unmark", invoiceIds: [invoiceId] });
+    server = applyEmailedMarkChange(server, { type: "unmark", invoiceIds: [invoiceId] });
     syncFromServer();
     return { ok: true };
   });
@@ -87,7 +87,7 @@ const expand = (user: ReturnType<typeof userEvent.setup>, name: string) =>
   user.click(screen.getByRole("button", { name: `Show invoices for ${name}` }));
 
 describe("LateRentTable", () => {
-  it("lists every late tenant with their contact status", () => {
+  it("lists every late tenant with their emailed status", () => {
     renderTable();
 
     expect(screen.getAllByRole("button", { name: /^Show invoices for/ })).toHaveLength(DEBTS.length);
@@ -216,7 +216,7 @@ describe("LateRentTable", () => {
   });
 
   it("shows an empty state when nobody is late", () => {
-    render(<LateRentTable debts={[]} contacts={{}} />);
+    render(<LateRentTable debts={[]} marks={{}} />);
 
     expect(screen.getByText("Everyone is paid up.")).toBeInTheDocument();
   });

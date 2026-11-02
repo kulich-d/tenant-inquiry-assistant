@@ -1,4 +1,4 @@
-import type { TeamMember } from "./contacts";
+import type { TeamMember } from "./team";
 
 /** Calendar date, `YYYY-MM-DD`. */
 export type IsoDate = string;

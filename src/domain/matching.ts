@@ -1,4 +1,4 @@
-import type { TeamMember } from "./contacts";
+import type { TeamMember } from "./team";
 import { daysBetween } from "./dates";
 import type { Invoice, Payment, PaymentRule, PaymentSuggestion, SuggestionCandidate } from "./types";
 
@@ -38,6 +38,24 @@ export type UnlinkedMatch =
   | { invoiceId: string; matchedBy: "name" }
   | { invoiceId: string; matchedBy: "confirmed"; confirmedBy: TeamMember };
 
+/** The invoice a payment counts towards: the number the tenant typed, or the match found for it. */
+export function invoiceIdOf(payment: Payment, matches: ReadonlyMap<string, UnlinkedMatch>): string | undefined {
+  return payment.invoiceId ?? matches.get(payment.id)?.invoiceId;
+}
+
+/** Total received per invoice: payments with an invoice number, plus the given matches. */
+export function paidByInvoice(
+  payments: readonly Payment[],
+  matches: ReadonlyMap<string, UnlinkedMatch> = new Map(),
+): Map<string, number> {
+  const paid = new Map<string, number>();
+  for (const p of payments) {
+    const invoiceId = invoiceIdOf(p, matches);
+    if (invoiceId !== undefined) paid.set(invoiceId, (paid.get(invoiceId) ?? 0) + p.amount);
+  }
+  return paid;
+}
+
 /**
  * Matches payments without an invoice number whose reference is exactly a tenant's full name,
  * or whose signature + amount has a confirmed rule. Each goes to that tenant's still-owed invoice
@@ -59,10 +77,8 @@ export function matchUnlinkedPayments(
     return null;
   };
 
-  const paid = new Map<string, number>();
-  for (const p of payments) {
-    if (p.invoiceId !== null) paid.set(p.invoiceId, (paid.get(p.invoiceId) ?? 0) + p.amount);
-  }
+  // Starts from payments with an invoice number and grows as matches are made below.
+  const paid = paidByInvoice(payments);
   const owes = (i: Invoice) => (paid.get(i.id) ?? 0) < i.amount;
 
   const resolved = payments
@@ -104,13 +120,7 @@ export function findSuggestions(
   rules: readonly PaymentRule[] = [],
 ): PaymentSuggestion[] {
   const matched = matchUnlinkedPayments(invoices, payments, rules);
-
-  // What each invoice has received so far, to tell who still owes something.
-  const paid = new Map<string, number>();
-  for (const p of payments) {
-    const invoiceId = p.invoiceId ?? matched.get(p.id)?.invoiceId;
-    if (invoiceId) paid.set(invoiceId, (paid.get(invoiceId) ?? 0) + p.amount);
-  }
+  const paid = paidByInvoice(payments, matched); // to tell who still owes something
 
   const tenants = new Map<string, TenantInfo>();
   for (const i of invoices) {

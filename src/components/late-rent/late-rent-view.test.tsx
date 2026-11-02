@@ -27,7 +27,7 @@ vi.mock("@/app/actions", () => ({
 }));
 
 function renderView() {
-  const result = render(<LateRentView snapshot={TEST_SNAPSHOT} contacts={{}} />);
+  const result = render(<LateRentView snapshot={TEST_SNAPSHOT} marks={{}} />);
   return { ...result, user: userEvent.setup(), input: screen.getByLabelText("Late after") };
 }
 

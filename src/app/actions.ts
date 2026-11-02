@@ -3,9 +3,10 @@
 import { refresh } from "next/cache";
 import { z } from "zod";
 
-import { TEAM, type Contact } from "@/domain/contacts";
+import { type EmailedMark } from "@/domain/emailed-marks";
+import { TEAM } from "@/domain/team";
 import { findSuggestions } from "@/domain/matching";
-import { markEmailed, unmarkEmailed } from "@/server/contacts";
+import { markEmailed, unmarkEmailed } from "@/server/emailed-marks";
 import { getDb } from "@/server/db/client";
 import { getLedgerData } from "@/server/ledger";
 import { confirmRule, deleteRule, listRules } from "@/server/rules";
@@ -23,7 +24,7 @@ const markInput = z.object({
 const unmarkInput = z.object({ invoiceId });
 
 export type MarkEmailedResult =
-  | { ok: true; stored: Contact[]; alreadyMarked: Contact[] }
+  | { ok: true; stored: EmailedMark[]; alreadyMarked: EmailedMark[] }
   | { ok: false; error: string };
 
 export type UnmarkEmailedResult = { ok: true } | { ok: false; error: string };

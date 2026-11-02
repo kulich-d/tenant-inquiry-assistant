@@ -1,19 +1,20 @@
 import { eq, inArray } from "drizzle-orm";
 
-import { indexByInvoice, type Contact, type ContactsByInvoice, type TeamMember } from "@/domain/contacts";
+import { indexByInvoice, type EmailedMark, type EmailedMarksByInvoice } from "@/domain/emailed-marks";
+import type { TeamMember } from "@/domain/team";
 
 import type { Db } from "./db";
-import { contacts } from "./db/schema";
+import { emailedMarks } from "./db/schema";
 
-export async function listContacts(db: Db): Promise<ContactsByInvoice> {
-  return indexByInvoice(await db.select().from(contacts));
+export async function listEmailedMarks(db: Db): Promise<EmailedMarksByInvoice> {
+  return indexByInvoice(await db.select().from(emailedMarks));
 }
 
 export type MarkOutcome = {
   /** The marks now stored for the requested invoices. */
-  stored: Contact[];
+  stored: EmailedMark[];
   /** Marks that already existed — someone got there first, so they were kept as they are. */
-  alreadyMarked: Contact[];
+  alreadyMarked: EmailedMark[];
 };
 
 /** Marks invoices as emailed. First mark wins: an existing mark is never overwritten. */
@@ -27,17 +28,17 @@ export async function markEmailed(
   if (ids.length === 0) return { stored: [], alreadyMarked: [] };
 
   return db.transaction(async (tx) => {
-    const existing = await tx.select().from(contacts).where(inArray(contacts.invoiceId, ids));
+    const existing = await tx.select().from(emailedMarks).where(inArray(emailedMarks.invoiceId, ids));
     const sentAt = now.toISOString();
     await tx
-      .insert(contacts)
+      .insert(emailedMarks)
       .values(ids.map((invoiceId) => ({ invoiceId, sentBy, sentAt })))
-      .onConflictDoNothing({ target: contacts.invoiceId });
-    const stored = await tx.select().from(contacts).where(inArray(contacts.invoiceId, ids));
+      .onConflictDoNothing({ target: emailedMarks.invoiceId });
+    const stored = await tx.select().from(emailedMarks).where(inArray(emailedMarks.invoiceId, ids));
     return { stored, alreadyMarked: existing };
   });
 }
 
 export async function unmarkEmailed(db: Db, invoiceId: string): Promise<void> {
-  await db.delete(contacts).where(eq(contacts.invoiceId, invoiceId));
+  await db.delete(emailedMarks).where(eq(emailedMarks.invoiceId, invoiceId));
 }

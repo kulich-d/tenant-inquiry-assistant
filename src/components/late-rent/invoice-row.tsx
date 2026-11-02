@@ -2,17 +2,17 @@
 
 import { Checkbox } from "@/components/ui/checkbox";
 import { TableCell, TableRow } from "@/components/ui/table";
-import type { Contact } from "@/domain/contacts";
+import type { EmailedMark } from "@/domain/emailed-marks";
 import type { OverdueInvoice } from "@/domain/types";
 import { formatDayMonth, formatDays, formatKr, formatPeriod } from "@/lib/format";
 
 type Props = {
   invoice: OverdueInvoice;
-  contact: Contact | undefined;
+  mark: EmailedMark | undefined;
   onToggle: (invoiceId: string, emailed: boolean) => void;
 };
 
-export function InvoiceRow({ invoice, contact, onToggle }: Props) {
+export function InvoiceRow({ invoice, mark, onToggle }: Props) {
   return (
     <TableRow className="bg-muted/40 text-xs hover:bg-muted/40">
       <TableCell />
@@ -50,12 +50,12 @@ export function InvoiceRow({ invoice, contact, onToggle }: Props) {
         <label className="flex cursor-pointer items-center gap-2">
           <Checkbox
             aria-label={`Emailed about ${formatPeriod(invoice.period)}`}
-            checked={contact !== undefined}
+            checked={mark !== undefined}
             onCheckedChange={(checked) => onToggle(invoice.invoiceId, checked)}
           />
-          {contact ? (
+          {mark ? (
             <span>
-              {contact.sentBy} · {formatDayMonth(contact.sentAt)}
+              {mark.sentBy} · {formatDayMonth(mark.sentAt)}
             </span>
           ) : (
             <span className="text-muted-foreground">Not emailed</span>

@@ -1,5 +1,5 @@
 import { daysBetween } from "./dates";
-import { matchUnlinkedPayments } from "./matching";
+import { invoiceIdOf, matchUnlinkedPayments, paidByInvoice, type UnlinkedMatch } from "./matching";
 import type {
   Invoice,
   InvoicePayment,
@@ -28,21 +28,16 @@ export function latestBookingDate(payments: readonly Payment[]): IsoDate {
   return payments.reduce((max, p) => (p.bookedAt > max ? p.bookedAt : max), first.bookedAt);
 }
 
-/**
- * Payments per invoice, oldest first: those with an invoice number, those whose reference is exactly
- * the tenant's full name, and those covered by a confirmed rule. Other unlinked payments are not counted.
- */
+/** Payments per invoice as shown on the page, oldest first, tagged with how each was matched. */
 function paymentsByInvoice(
-  invoices: readonly Invoice[],
   payments: readonly Payment[],
-  rules: readonly PaymentRule[],
+  matches: ReadonlyMap<string, UnlinkedMatch>,
 ): Map<string, InvoicePayment[]> {
-  const unlinked = matchUnlinkedPayments(invoices, payments, rules);
   const byInvoice = new Map<string, InvoicePayment[]>();
   for (const p of payments) {
-    const match = p.invoiceId === null ? unlinked.get(p.id) : undefined;
-    const invoiceId = p.invoiceId ?? match?.invoiceId;
+    const invoiceId = invoiceIdOf(p, matches);
     if (invoiceId === undefined) continue;
+    const match = p.invoiceId === null ? matches.get(p.id) : undefined;
     const list = byInvoice.get(invoiceId) ?? [];
     list.push({
       paymentId: p.id,
@@ -60,6 +55,8 @@ function paymentsByInvoice(
 
 /**
  * Every invoice that is past due on `asOf` and not fully paid, with its payments.
+ * Counts payments with an invoice number, those whose reference is exactly the tenant's full name,
+ * and those covered by a confirmed rule; other unlinked payments are not counted.
  * The grace period is applied later, so it can change without recomputing this.
  */
 export function computeOpenInvoices(
@@ -68,15 +65,16 @@ export function computeOpenInvoices(
   asOf: IsoDate,
   rules: readonly PaymentRule[] = [],
 ): OpenInvoice[] {
-  const byInvoice = paymentsByInvoice(invoices, payments, rules);
+  const matches = matchUnlinkedPayments(invoices, payments, rules);
+  const paidTotals = paidByInvoice(payments, matches);
+  const byInvoice = paymentsByInvoice(payments, matches);
   const open: OpenInvoice[] = [];
 
   for (const invoice of invoices) {
     const daysOverdue = daysBetween(invoice.dueAt, asOf);
     if (daysOverdue <= 0) continue;
 
-    const invoicePayments = byInvoice.get(invoice.id) ?? [];
-    const paid = invoicePayments.reduce((sum, p) => sum + p.amount, 0);
+    const paid = paidTotals.get(invoice.id) ?? 0;
     const remaining = invoice.amount - paid;
     if (remaining <= 0) continue;
 
@@ -92,7 +90,7 @@ export function computeOpenInvoices(
       dueAt: invoice.dueAt,
       daysOverdue,
       status: paid === 0 ? "unpaid" : "partial",
-      payments: invoicePayments,
+      payments: byInvoice.get(invoice.id) ?? [],
     });
   }
   return open;

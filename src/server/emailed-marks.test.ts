@@ -1,6 +1,6 @@
 // @vitest-environment node
 /**
- * Contacts repository — "emailed" marks in SQLite (in-memory, real migrations).
+ * Emailed marks repository — one mark per invoice in SQLite (in-memory, real migrations).
  *
  * Scenarios:
  * - A fresh database has no marks.
@@ -12,7 +12,7 @@
  */
 import { beforeEach, describe, expect, it } from "vitest";
 
-import { listContacts, markEmailed, unmarkEmailed } from "./contacts";
+import { listEmailedMarks, markEmailed, unmarkEmailed } from "./emailed-marks";
 import { createDb, migrateDb, type Db } from "./db";
 
 const MONDAY = new Date("2026-11-02T09:30:00.000Z");
@@ -25,9 +25,9 @@ beforeEach(async () => {
   await migrateDb(db);
 });
 
-describe("contacts repository", () => {
+describe("emailed marks repository", () => {
   it("starts empty", async () => {
-    expect(await listContacts(db)).toEqual({});
+    expect(await listEmailedMarks(db)).toEqual({});
   });
 
   it("stores who marked an invoice and when", async () => {
@@ -35,13 +35,13 @@ describe("contacts repository", () => {
 
     const mark = { invoiceId: "INV-0685", sentBy: "Sarah", sentAt: MONDAY.toISOString() };
     expect(outcome).toEqual({ stored: [mark], alreadyMarked: [] });
-    expect(await listContacts(db)).toEqual({ "INV-0685": mark });
+    expect(await listEmailedMarks(db)).toEqual({ "INV-0685": mark });
   });
 
   it("marks several invoices at once", async () => {
     await markEmailed(db, ["INV-0683", "INV-0685"], "Jonas", MONDAY);
 
-    expect(Object.keys(await listContacts(db)).sort()).toEqual(["INV-0683", "INV-0685"]);
+    expect(Object.keys(await listEmailedMarks(db)).sort()).toEqual(["INV-0683", "INV-0685"]);
   });
 
   it("keeps the first mark when someone else marks the same invoice", async () => {
@@ -52,7 +52,7 @@ describe("contacts repository", () => {
     const sarahs = { invoiceId: "INV-0685", sentBy: "Sarah", sentAt: MONDAY.toISOString() };
     expect(outcome.alreadyMarked).toEqual([sarahs]);
     expect(outcome.stored).toContainEqual(sarahs);
-    expect((await listContacts(db))["INV-0683"]?.sentBy).toBe("Jonas");
+    expect((await listEmailedMarks(db))["INV-0683"]?.sentBy).toBe("Jonas");
   });
 
   it("stores a duplicated invoice id once", async () => {
@@ -67,6 +67,6 @@ describe("contacts repository", () => {
     await unmarkEmailed(db, "INV-0685");
     await unmarkEmailed(db, "INV-9999");
 
-    expect(await listContacts(db)).toEqual({});
+    expect(await listEmailedMarks(db)).toEqual({});
   });
 });
