@@ -2,7 +2,7 @@
  * Late rent page — grace period and summary.
  *
  * Scenarios:
- * - Default grace period is 7 days: tenants 12+ days overdue are listed, the summary counts them.
+ * - Default grace period is 7 days: tenants 12+ days overdue are listed; the summary shows how many of all tenants are late.
  * - Raising the grace period to 12 days drops tenants who are exactly 12 days overdue; the summary follows.
  * - Lowering it brings them back.
  * - The chosen grace period is remembered after a reload.
@@ -31,7 +31,7 @@ describe("LateRentView", () => {
     renderView();
 
     expect(screen.getByLabelText("Late after")).toHaveValue(7);
-    expect(screen.getByText("3 tenants · 38.075 kr outstanding")).toBeInTheDocument();
+    expect(screen.getByText("3 of 4 tenants late · 38.075 kr outstanding")).toBeInTheDocument();
     expect(listed("Line Bach")).toBeInTheDocument();
     expect(listed("Sara Andersen")).not.toBeInTheDocument();
   });
@@ -44,7 +44,7 @@ describe("LateRentView", () => {
 
     expect(listed("Line Bach")).not.toBeInTheDocument();
     expect(listed("Rasmus Pedersen")).toBeInTheDocument(); // August is still 73 days late
-    expect(screen.getByText("2 tenants · 15.275 kr outstanding")).toBeInTheDocument();
+    expect(screen.getByText("2 of 4 tenants late · 15.275 kr outstanding")).toBeInTheDocument();
 
     await user.clear(input);
     await user.type(input, "3");

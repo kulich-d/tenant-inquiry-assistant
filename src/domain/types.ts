@@ -59,6 +59,8 @@ export type OpenInvoice = OverdueInvoice & {
 /** What the server hands the page: every open invoice and the date the data is valid for. */
 export type LedgerSnapshot = {
   asOf: IsoDate;
+  /** All tenants with at least one invoice — late or not. */
+  tenantCount: number;
   openInvoices: OpenInvoice[];
 };
 

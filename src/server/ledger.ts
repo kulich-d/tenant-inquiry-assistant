@@ -66,5 +66,9 @@ export async function getLedgerSnapshot(): Promise<LedgerSnapshot> {
   const invoices = z.array(invoiceSchema).parse(invoicesJson);
   const payments = z.array(paymentSchema).parse(paymentsJson);
   const asOf = latestBookingDate(payments);
-  return { asOf, openInvoices: computeOpenInvoices(invoices, payments, asOf) };
+  return {
+    asOf,
+    tenantCount: new Set(invoices.map((i) => i.tenantId)).size,
+    openInvoices: computeOpenInvoices(invoices, payments, asOf),
+  };
 }

@@ -34,5 +34,6 @@ const PAYMENTS: Payment[] = [
 
 export const TEST_SNAPSHOT: LedgerSnapshot = {
   asOf: AS_OF,
+  tenantCount: new Set(INVOICES.map((i) => i.tenantId)).size,
   openInvoices: computeOpenInvoices(INVOICES, PAYMENTS, AS_OF),
 };

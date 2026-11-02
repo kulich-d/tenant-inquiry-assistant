@@ -32,7 +32,7 @@ export function LateRentView({ snapshot, contacts }: Props) {
           <h1 className="text-2xl font-semibold tracking-tight">Late rent</h1>
           <p className="mt-1 text-sm text-muted-foreground">Bank data as of {formatDate(snapshot.asOf)}</p>
           <p className="mt-1 text-sm" aria-live="polite">
-            {tenants.length} {tenants.length === 1 ? "tenant" : "tenants"} · {formatKr(totalOwed)} outstanding
+            {tenants.length} of {snapshot.tenantCount} tenants late · {formatKr(totalOwed)} outstanding
           </p>
         </div>
         <div className="flex flex-wrap items-start gap-6">
