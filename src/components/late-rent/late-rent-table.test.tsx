@@ -10,6 +10,7 @@
  * - Untick → the mark is removed on the server and the summary goes back.
  * - "Mark all emailed" marks every invoice of the tenant not marked yet, in one request.
  * - The mark is attributed to whoever is selected in the "You:" switcher (Jonas).
+ * - Sorting: opens by days overdue (most first); clicking Status flips to least first.
  * - An expanded tenant can be collapsed again; with nobody late, an empty state is shown.
  */
 import { render, screen, within } from "@testing-library/react";
@@ -71,6 +72,11 @@ afterEach(() => {
 });
 
 const tenantRow = (name: string) => screen.getByText(name).closest("tr")!;
+const tenantOrder = () =>
+  screen
+    .getAllByRole("button", { name: /^Show invoices for/ })
+    .map((b) => b.getAttribute("aria-label")!.replace("Show invoices for ", ""));
+const columnHeader = (name: string) => screen.getByRole("columnheader", { name });
 const expand = (user: ReturnType<typeof userEvent.setup>, name: string) =>
   user.click(screen.getByRole("button", { name: `Show invoices for ${name}` }));
 
@@ -174,6 +180,22 @@ describe("LateRentTable", () => {
 
     expect(markEmailedAction).toHaveBeenCalledWith({ invoiceIds: ["INV-0168"], sentBy: "Jonas" });
     expect(await within(tenantRow("Line Bach")).findByText("Jonas · 2 Nov")).toBeInTheDocument();
+  });
+
+  it("opens sorted by days overdue, most overdue first", () => {
+    renderTable();
+
+    expect(tenantOrder()).toEqual(["Rasmus Pedersen", "Clara Nielsen", "Line Bach"]);
+    expect(columnHeader("Status")).toHaveAttribute("aria-sort", "descending");
+  });
+
+  it("flips the Status sort to least overdue first", async () => {
+    const user = renderTable();
+
+    await user.click(screen.getByRole("button", { name: "Status" }));
+
+    expect(tenantOrder()).toEqual(["Line Bach", "Clara Nielsen", "Rasmus Pedersen"]);
+    expect(columnHeader("Status")).toHaveAttribute("aria-sort", "ascending");
   });
 
   it("collapses a tenant's invoices again", async () => {

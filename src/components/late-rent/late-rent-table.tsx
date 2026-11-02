@@ -1,12 +1,14 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 
 import { Table, TableBody, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import type { ContactsByInvoice } from "@/domain/contacts";
+import { sortByDaysOverdue, type SortDirection } from "@/domain/sort";
 import type { TenantDebt } from "@/domain/types";
 
 import { NoticeBanner } from "./notice-banner";
+import { SortableHead } from "./sortable-head";
 import { useCurrentUser } from "./stores";
 import { TenantRows } from "./tenant-rows";
 import { useEmailedMarks } from "./use-emailed-marks";
@@ -21,6 +23,9 @@ export function LateRentTable({ debts, contacts: serverContacts }: Props) {
   const [user] = useCurrentUser();
   const { contacts, setEmailed, notice, dismissNotice } = useEmailedMarks(serverContacts, user);
   const [expanded, setExpanded] = useState<ReadonlySet<string>>(() => new Set());
+  const [direction, setDirection] = useState<SortDirection>("desc");
+  const sorted = useMemo(() => sortByDaysOverdue(debts, direction), [debts, direction]);
+  const toggleDirection = useCallback(() => setDirection((d) => (d === "desc" ? "asc" : "desc")), []);
 
   const toggleExpanded = useCallback((tenantId: string) => {
     setExpanded((prev) => {
@@ -56,12 +61,14 @@ export function LateRentTable({ debts, contacts: serverContacts }: Props) {
             <TableHead />
             <TableHead>Tenant</TableHead>
             <TableHead>Property</TableHead>
-            <TableHead>Status</TableHead>
+            <SortableHead direction={direction} onToggle={toggleDirection}>
+              Status
+            </SortableHead>
             <TableHead>Emailed</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
-          {debts.map((debt) => (
+          {sorted.map((debt) => (
             <TenantRows
               key={debt.tenantId}
               debt={debt}
