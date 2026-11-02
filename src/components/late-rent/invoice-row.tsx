@@ -29,6 +29,7 @@ export function InvoiceRow({ invoice, contact, onToggle }: Props) {
       <TableCell>
         <label className="flex cursor-pointer items-center gap-2">
           <Checkbox
+            aria-label={`Emailed about ${formatPeriod(invoice.period)}`}
             checked={contact !== undefined}
             onCheckedChange={(checked) => onToggle(invoice.invoiceId, checked)}
           />
