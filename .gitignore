@@ -46,3 +46,7 @@ out/
 next-env.d.ts
 *.tsbuildinfo
 .vercel
+
+# Local SQLite database
+data/*.db
+data/*.db-*

@@ -1,5 +1,6 @@
 import "server-only";
 
+import { cacheLife } from "next/cache";
 import { z } from "zod";
 
 import invoicesJson from "../../data/invoices.json";
@@ -56,8 +57,12 @@ const paymentSchema = z
 /**
  * Open invoices as of the latest bank booking. Only this goes to the browser —
  * the grace period is applied there so Sarah can change it instantly.
+ * Cached: the exports are static files, so this runs once, not per request.
  */
-export function getLedgerSnapshot(): LedgerSnapshot {
+export async function getLedgerSnapshot(): Promise<LedgerSnapshot> {
+  "use cache";
+  cacheLife("max");
+
   const invoices = z.array(invoiceSchema).parse(invoicesJson);
   const payments = z.array(paymentSchema).parse(paymentsJson);
   const asOf = latestBookingDate(payments);

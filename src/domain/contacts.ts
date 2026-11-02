@@ -15,6 +15,24 @@ export type Contact = {
 
 export type ContactsByInvoice = Readonly<Record<string, Contact>>;
 
+export function indexByInvoice(contacts: readonly Contact[]): ContactsByInvoice {
+  return Object.fromEntries(contacts.map((c) => [c.invoiceId, c]));
+}
+
+export type ContactChange =
+  | { type: "mark"; invoiceIds: readonly string[]; sentBy: TeamMember; sentAt: string }
+  | { type: "unmark"; invoiceIds: readonly string[] };
+
+/** Applies a tick/untick locally, with the same rule as the server: an existing mark is never overwritten. */
+export function applyContactChange(contacts: ContactsByInvoice, change: ContactChange): ContactsByInvoice {
+  const next = { ...contacts };
+  for (const invoiceId of change.invoiceIds) {
+    if (change.type === "unmark") delete next[invoiceId];
+    else next[invoiceId] ??= { invoiceId, sentBy: change.sentBy, sentAt: change.sentAt };
+  }
+  return next;
+}
+
 export type ContactSummary =
   | { kind: "none" }
   | { kind: "some"; contacted: number; total: number }

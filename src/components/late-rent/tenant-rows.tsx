@@ -2,6 +2,7 @@
 
 import { ChevronRightIcon } from "lucide-react";
 
+import { Button } from "@/components/ui/button";
 import { TableCell, TableRow } from "@/components/ui/table";
 import { summarizeContacts, type ContactsByInvoice } from "@/domain/contacts";
 import type { TenantDebt } from "@/domain/types";
@@ -18,13 +19,13 @@ type Props = {
   expanded: boolean;
   onExpandedChange: (tenantId: string) => void;
   onToggleContact: (invoiceId: string, emailed: boolean) => void;
+  onMarkAll: (invoiceIds: string[]) => void;
 };
 
-export function TenantRows({ debt, contacts, expanded, onExpandedChange, onToggleContact }: Props) {
-  const summary = summarizeContacts(
-    debt.invoices.map((i) => i.invoiceId),
-    contacts,
-  );
+export function TenantRows({ debt, contacts, expanded, onExpandedChange, onToggleContact, onMarkAll }: Props) {
+  const invoiceIds = debt.invoices.map((i) => i.invoiceId);
+  const summary = summarizeContacts(invoiceIds, contacts);
+  const notEmailed = invoiceIds.filter((id) => !contacts[id]);
   const toggle = () => onExpandedChange(debt.tenantId);
 
   return (
@@ -53,7 +54,22 @@ export function TenantRows({ debt, contacts, expanded, onExpandedChange, onToggl
           <StatusBadge status={debt.status} days={debt.maxDaysOverdue} />
         </TableCell>
         <TableCell>
-          <ContactSummary summary={summary} />
+          <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
+            <ContactSummary summary={summary} />
+            {notEmailed.length > 0 && (
+              <Button
+                variant="outline"
+                size="xs"
+                aria-label={`Mark ${debt.tenant} as emailed`}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onMarkAll(notEmailed);
+                }}
+              >
+                {invoiceIds.length === 1 ? "Mark emailed" : "Mark all emailed"}
+              </Button>
+            )}
+          </div>
         </TableCell>
       </TableRow>
       {expanded &&

@@ -2,6 +2,7 @@
 
 import { useMemo } from "react";
 
+import type { ContactsByInvoice } from "@/domain/contacts";
 import { groupLateTenants } from "@/domain/debt";
 import type { LedgerSnapshot } from "@/domain/types";
 import { formatDate, formatKr } from "@/lib/format";
@@ -11,7 +12,12 @@ import { LateRentTable } from "./late-rent-table";
 import { useGraceDays } from "./stores";
 import { UserSwitcher } from "./user-switcher";
 
-export function LateRentView({ snapshot }: { snapshot: LedgerSnapshot }) {
+type Props = {
+  snapshot: LedgerSnapshot;
+  contacts: ContactsByInvoice;
+};
+
+export function LateRentView({ snapshot, contacts }: Props) {
   const [graceDays] = useGraceDays();
   const tenants = useMemo(
     () => groupLateTenants(snapshot.openInvoices, graceDays),
@@ -34,7 +40,7 @@ export function LateRentView({ snapshot }: { snapshot: LedgerSnapshot }) {
           <UserSwitcher />
         </div>
       </header>
-      <LateRentTable debts={tenants} />
+      <LateRentTable debts={tenants} contacts={contacts} />
     </>
   );
 }

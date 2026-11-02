@@ -6,11 +6,12 @@
  * - Some invoices emailed about → "some" with the count (e.g. 1 of 3).
  * - Every invoice emailed about → "all" with the most recent contact.
  * - Marks on other tenants' invoices don't count.
+ * - Local tick/untick (used for optimistic UI): adds marks, never overwrites an existing one, removes without mutating.
  * - Only known team members (Sarah, Jonas) are accepted as authors.
  */
 import { describe, expect, it } from "vitest";
 
-import { isTeamMember, summarizeContacts, type Contact } from "./contacts";
+import { applyContactChange, isTeamMember, summarizeContacts, type Contact } from "./contacts";
 
 const contact = (invoiceId: string, sentBy: Contact["sentBy"], sentAt: string): Contact => ({
   invoiceId,
@@ -48,6 +49,29 @@ describe("summarizeContacts", () => {
     const contacts = { "INV-OTHER": contact("INV-OTHER", "Sarah", "2026-10-01T10:00:00.000Z") };
 
     expect(summarizeContacts(["INV-1"], contacts)).toEqual({ kind: "none" });
+  });
+});
+
+describe("applyContactChange", () => {
+  const sarahs = contact("INV-1", "Sarah", "2026-10-01T10:00:00.000Z");
+
+  it("adds marks for the given invoices", () => {
+    const next = applyContactChange({}, { type: "mark", invoiceIds: ["INV-1", "INV-2"], sentBy: "Jonas", sentAt: "t" });
+
+    expect(Object.keys(next)).toEqual(["INV-1", "INV-2"]);
+  });
+
+  it("never overwrites an existing mark", () => {
+    const next = applyContactChange({ "INV-1": sarahs }, { type: "mark", invoiceIds: ["INV-1"], sentBy: "Jonas", sentAt: "t" });
+
+    expect(next["INV-1"]).toBe(sarahs);
+  });
+
+  it("removes marks and leaves the original untouched", () => {
+    const before = { "INV-1": sarahs };
+
+    expect(applyContactChange(before, { type: "unmark", invoiceIds: ["INV-1"] })).toEqual({});
+    expect(before).toEqual({ "INV-1": sarahs });
   });
 });
 

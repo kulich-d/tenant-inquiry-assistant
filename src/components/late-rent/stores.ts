@@ -1,26 +1,11 @@
 "use client";
 
-import { createContext, useContext, useSyncExternalStore } from "react";
+import { useSyncExternalStore } from "react";
 
-import { isTeamMember, TEAM, type ContactsByInvoice, type TeamMember } from "@/domain/contacts";
+import { isTeamMember, TEAM, type TeamMember } from "@/domain/contacts";
 import { DEFAULT_GRACE_DAYS, parseGraceDays } from "@/domain/debt";
-import { createLocalStorageContactsStore, type ContactsStore } from "@/mocks/contactsStore";
-import { SEED_CONTACTS } from "@/mocks/seedContacts";
 
-// --- Contacts ---------------------------------------------------------------
-
-const defaultContactsStore = createLocalStorageContactsStore("late-rent:contacts:v1", SEED_CONTACTS);
-
-/** Inject a different store (tests, real API) by wrapping the tree in this provider. */
-export const ContactsStoreContext = createContext<ContactsStore>(defaultContactsStore);
-
-export function useContacts(): [ContactsByInvoice, ContactsStore] {
-  const store = useContext(ContactsStoreContext);
-  const contacts = useSyncExternalStore(store.subscribe, store.getSnapshot, store.getServerSnapshot);
-  return [contacts, store];
-}
-
-// --- Per-browser preferences ------------------------------------------------
+// Per-browser preferences. Shared data (emailed marks) lives on the server.
 
 /** A small value remembered in localStorage, readable with `useSyncExternalStore`. */
 function createPersistedValue<T extends string | number>(key: string, fallback: T, parse: (raw: string | null) => T | null) {

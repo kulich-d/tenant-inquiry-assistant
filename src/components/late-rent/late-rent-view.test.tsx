@@ -11,14 +11,16 @@
  */
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 
 import { TEST_SNAPSHOT } from "@/test/ledgerFixture";
 
 import { LateRentView } from "./late-rent-view";
 
+vi.mock("@/app/actions", () => ({ markEmailedAction: vi.fn(), unmarkEmailedAction: vi.fn() }));
+
 function renderView() {
-  const result = render(<LateRentView snapshot={TEST_SNAPSHOT} />);
+  const result = render(<LateRentView snapshot={TEST_SNAPSHOT} contacts={{}} />);
   return { ...result, user: userEvent.setup(), input: screen.getByLabelText("Late after") };
 }
 
